@@ -10,12 +10,13 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'All your data in one place',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A real-time, high performance, transactional database that is the customer 
+        system of record for all your applications. Any because we’re open source, 
+        you can self-host, giving you complete control of your data.
       </>
     ),
   },
