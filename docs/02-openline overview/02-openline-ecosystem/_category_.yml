@@ -1,0 +1,10 @@
+position: 2
+label: 'Openline ecosystem'
+collapsible: true
+collapsed: true 
+className: guides
+link:
+  type: generated-index
+  title: The Openline Ecosystem
+customProps:
+  description: Overview of the Openline ecosystem
