@@ -39,7 +39,11 @@ const config = {
           editUrl:
             'https://github.com/openline-ai/docs-site/issues/new',
         },
-        blog: false,
+        blog: {
+          showReadingTime: true,
+          editUrl:
+            'https://github.com/openline-ai/docs-site/issues/new',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
