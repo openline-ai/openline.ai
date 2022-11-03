@@ -33,6 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./nav/_referenceSidebars.js'),
           breadcrumbs: false,
           //sidebarPath: require.resolve('./sidebars.js'),
@@ -65,10 +66,9 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'getting-started',
-            position: 'left',
+            to: 'getting-started',
             label: 'Guides',
+            position: 'left',
           },
           {
             type: 'doc',
