@@ -1,10 +1,15 @@
 const sidebars = {
     guides: [
       {
+        type: 'doc',
+        id: 'getting-started',
+        label: 'Getting started'
+      },
+      {
         type: 'category',
         label: 'Overview',
         collapsed: true,
-        items: ['getting-started', 'guides/why-openline', 'guides/architecture'],
+        items: ['guides/why-openline', 'guides/architecture'],
       },
       {
         type: 'category',
