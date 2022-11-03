@@ -1,5 +1,4 @@
-const sidebars = {
-    guides: [
+const guides = [
       {
         type: 'link',
         label: 'Home',
@@ -25,7 +24,23 @@ const sidebars = {
           'guides/customer-os-self-hosted'
         ],
       },
-    ],
-  }
+    ]
+
+  const reference = [
+      {
+        type: 'link',
+        label: 'Home',
+        href: '/'
+      },
+      {
+        type: 'doc',
+        id: 'reference/intro',
+        label: 'Getting started'
+      },
+    ]
+
   
-  module.exports = sidebars
+  module.exports = {
+    guides,
+    reference
+  }
