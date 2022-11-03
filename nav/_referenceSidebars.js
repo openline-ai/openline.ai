@@ -1,6 +1,11 @@
 const sidebars = {
     guides: [
       {
+        type: 'link',
+        label: 'Home',
+        href: '/'
+      },
+      {
         type: 'doc',
         id: 'getting-started',
         label: 'Getting started'
