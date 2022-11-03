@@ -34,9 +34,9 @@ const config = {
       ({
         docs: {
           routeBasePath: '/',
-          sidebarPath: require.resolve('./nav/_referenceSidebars.js'),
+          sidebarPath: require.resolve('./nav/_sidebars.js'),
           breadcrumbs: false,
-          //sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: true,
           editUrl:
             'https://github.com/openline-ai/docs-site/issues/new',
         },
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/getting-started',
+                to: '/getting-started',
               },
             ],
           },
@@ -117,17 +117,13 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
                 href: 'https://github.com/openline-ai',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Openline Technologies, Inc. Built with ❤️ by the Openline community.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Openline Technologies, Inc.   Built with ❤️ by the Openline community.`,
       },
       prism: {
         theme: lightCodeTheme,

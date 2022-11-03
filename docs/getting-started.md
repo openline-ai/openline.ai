@@ -1,6 +1,7 @@
 ---
 id: getting-started
 title: Getting started
+displayed_sidebar: guides
 ---
 
 # Getting started
