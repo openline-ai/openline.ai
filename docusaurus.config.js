@@ -61,7 +61,7 @@ const config = {
           href: 'https://openline.ai',
           target: '_self',
           src: 'img/teamLogo.png',
-          srcDark: 'img/OpenlineLogo.png'
+          srcDark: 'img/OpenlineLogo.svg'
         },
         items: [
           {
@@ -92,7 +92,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/docs/getting-started',
               },
             ],
           },
