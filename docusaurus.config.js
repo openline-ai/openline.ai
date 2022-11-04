@@ -33,7 +33,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: '/docs',
           sidebarPath: require.resolve('./nav/_sidebars.js'),
           breadcrumbs: false,
           sidebarCollapsible: true,
@@ -66,30 +66,39 @@ const config = {
         },
         items: [
           {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Developers',
+            items: [
+              {
+                to: 'docs',
+                label: 'Guides',
+              },
+              {
+                to: 'docs/reference',
+                label: 'API Reference',
+              },
+            ]
+          },
+          {
             to: 'pricing',
             label: 'Pricing',
             position: 'left',
           },
           {
-            type: 'dropdown',
-            position: 'left',
-            label: 'Community',
-            items: [
-              {
-                to: 'blog',
-                label: 'Blog',
-              },
-              {
-                href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
-                title: 'Slack',
-                label: 'Join our Slack',
-              },
-            ]
+            to: 'blog',
+            label: 'Blog',
           },
           {
             to: 'team',
-            label: 'Team',
-            position: 'left',
+            label: 'About Us',
+            position: 'right',
+          },
+          {
+            href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
+            title: 'Slack',
+            label: 'Join our Slack',
+            position: 'right',
           },
           {
             href: 'https://github.com/openline-ai',
@@ -107,7 +116,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/getting-started',
+                to: 'docs/getting-started',
               },
             ],
           },

@@ -1,8 +1,7 @@
 const guides = [
       {
-        type: 'link',
-        label: 'Home',
-        href: '/'
+        type: 'doc',
+        id: 'index'
       },
       {
         type: 'doc',
@@ -28,9 +27,9 @@ const guides = [
 
   const reference = [
       {
-        type: 'link',
-        label: 'Home',
-        href: '/'
+        type: 'doc',
+        label: 'Introduction',
+        id: 'reference/index'
       },
       {
         type: 'doc',
