@@ -6,25 +6,112 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #7626fa;
+  --ifm-color-primary-dark: #640af9;
+  --ifm-color-primary-darker: #5e06ef;
+  --ifm-color-primary-darkest: #4d05c5;
+  --ifm-color-primary-light: #7f34fa;
+  --ifm-color-primary-lighter: #8842fb;
+  --ifm-color-primary-lightest: #8f4dfb;
   --ifm-code-font-size: 95%;
+
+  --ifm-heading-font-family: SohneBreit-Buch, sans-serif;
+  --ifm-font-family-base: Matter, sans-serif;
+
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #b6d6f0;
+  --ifm-color-primary-dark: #93c2e9;
+  --ifm-color-primary-darker: #81b9e5;
+  --ifm-color-primary-darkest: #69abe0;
+  --ifm-color-primary-light: #d9eaf7;
+  --ifm-color-primary-lighter: #ebf3fb;
+  --ifm-color-primary-lightest: #ffffff;
+  --ifm-navbar-background-color: #100024;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: Matter;
+  src: url("../fonts/Matter-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: Matter;
+  src: url("../fonts/Matter-Light.woff") format("woff");
+  font-weight: light;
+}
+@font-face {
+  font-family: SohneBreit-Buch;
+  src: url("../fonts/SohneBreit-Buch.woff2") format("woff2");
+  font-weight: 700;
+}
+
+/* Navbar */
+
+.navbar__title {
+  font-size: 26px;
+}
+
+/* Homepage */
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+}
+
+.heroBanner_src-pages-index-module {
+  padding: 0rem;
+}
+
+.hero__subtitle, .hero__title {
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.hero__subtitle {
+  font-size: 1rem;
+  padding-bottom: 2rem;
+}
+
+.hero__image {
+  background: #C2ACFF;
+  background-image: url('@site/static/img//HeroBackground.svg');
+  background-size: cover;
+  background-origin: content-box;
+  width: 100%;
+  background-position: 0% 50%;
+}
+
+.hero__image img {
+  float: right;
+  max-width: 90%;
+  padding: 4rem 0rem 4rem 0rem;
+}
+
+.waitlist-form {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media screen and (max-width: 996px) {
+  .hero {
+    padding-top: 4rem;
+    grid-template-columns: 1fr;
+  }
+  .hero__subtitle, .hero__title {
+    text-align: center;
+  }
+  .hero .container {
+    max-width: 600px;
+  }
+  .waitlist-form {
+    padding-bottom: 5rem;
+  }
 }

@@ -59,22 +59,37 @@ const config = {
         title: 'Openline',
         logo: {
           alt: 'Openline Logo',
-          href: 'https://openline.ai',
+          href: '/',
           target: '_self',
-          src: 'img/teamLogo.png',
-          srcDark: 'img/OpenlineLogo.svg'
+          src: 'img/OpenlineLogoLightMode.svg',
+          srcDark: 'img/OpenlineLogoDarkMode.svg'
         },
         items: [
           {
-            to: 'getting-started',
-            label: 'Guides',
+            to: 'pricing',
+            label: 'Pricing',
             position: 'left',
           },
           {
-            type: 'doc',
-            docId: 'reference/intro',
+            type: 'dropdown',
             position: 'left',
-            label: 'Reference',
+            label: 'Community',
+            items: [
+              {
+                to: 'blog',
+                label: 'Blog',
+              },
+              {
+                href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
+                title: 'Slack',
+                label: 'Join our Slack',
+              },
+            ]
+          },
+          {
+            to: 'team',
+            label: 'Team',
+            position: 'left',
           },
           {
             href: 'https://github.com/openline-ai',
