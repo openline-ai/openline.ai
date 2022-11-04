@@ -105,9 +105,19 @@ const config = {
             label: 'Blog',
           },
           {
-            to: 'team',
-            label: 'About Us',
+            type: 'dropdown',
             position: 'right',
+            label: 'About Us',
+            items: [
+              {
+                to: 'team',
+                label: 'Team',
+              },
+              {
+                to: 'handbook',
+                label: 'Handbook',
+              },
+            ]
           },
           {
             href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
