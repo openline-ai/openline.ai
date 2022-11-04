@@ -68,6 +68,21 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
+            label: 'Products',
+            items: [
+              {
+                to: 'products/customer-os',
+                label: 'customerOS',
+              },
+              {
+                to: 'products/contacts',
+                label: 'Contacts',
+              },
+            ]
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
             label: 'Developers',
             items: [
               {
