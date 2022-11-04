@@ -23,6 +23,38 @@ const guides = [
           'guides/customer-os-self-hosted'
         ],
       },
+      {
+        type: 'category',
+        label: 'Data pipelines',
+        collapsed: true,
+        items: [
+          'guides/data-pipelines-overview',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Components',
+        collapsed: true,
+        items: [
+          'guides/components-overview',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Contacts',
+        collapsed: true,
+        items: [
+          'guides/contacts-overview',
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Oasis',
+        collapsed: true,
+        items: [
+          'guides/oasis-overview',
+        ],
+      },
     ]
 
   const reference = [
