@@ -6,7 +6,6 @@ const guides = [
       {
         type: 'doc',
         id: 'getting-started',
-        label: 'Getting started'
       },
       {
         type: 'category',
@@ -60,18 +59,28 @@ const guides = [
   const reference = [
       {
         type: 'doc',
-        label: 'Introduction',
         id: 'reference/index'
       },
       {
         type: 'doc',
         id: 'reference/intro',
-        label: 'Getting started'
+      },
+    ]
+
+    const contribute = [
+      {
+        type: 'doc',
+        id: 'contribute/index'
+      },
+      {
+        type: 'doc',
+        id: 'contribute/how-to-contribute',
       },
     ]
 
   
   module.exports = {
     guides,
-    reference
+    reference,
+    contribute
   }

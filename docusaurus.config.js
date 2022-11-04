@@ -91,8 +91,12 @@ const config = {
               },
               {
                 to: 'docs/reference',
-                label: 'API Reference',
+                label: 'API reference',
               },
+              {
+                to: 'docs/contribute',
+                label: 'Community contributions'
+              }
             ]
           },
           {
