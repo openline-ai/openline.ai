@@ -74,8 +74,33 @@ const guides = [
       },
       {
         type: 'doc',
-        id: 'contribute/how-to-contribute',
+        id: 'contribute/how-to-contribute'
       },
+      {
+        type: 'category',
+        label: 'Community guidelines',
+        collapsed: true,
+        items: [
+          'contribute/code-of-conduct',
+          'contribute/engage'
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Contribute code',
+        collapsed: true,
+        items: [
+          'contribute/github-workflow'
+        ],
+      },
+      {
+        type: 'category',
+        label: 'Contribute docs',
+        collapsed: true,
+        items: [
+          'contribute/test'
+        ],
+      }
     ]
 
   
