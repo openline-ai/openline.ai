@@ -52,6 +52,8 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 
 For answers to common questions about this code of conduct, see the [FAQ](https://www.contributor-covenant.org/faq)
 
+<!--- References -->
+
 [homepage]: <https://www.contributor-covenant.org>
 [license]: https://choosealicense.com/licenses/mit/
 [repo]: https://github.com/openline-ai/community/

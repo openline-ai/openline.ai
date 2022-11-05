@@ -14,7 +14,7 @@ Follow the [getting started guide][getting_started] to install, setup and get go
 
 ## Community Expectations
 
-Openline is a community project. Please review the [Community Expectations](expectations.md) for an understanding of code and review expectations.
+Openline is a community project. Please review the [Community Expectations][expectations] for an understanding of code and review expectations.
 
 ## Your First Contribution
 
@@ -22,17 +22,17 @@ We will help you understand the organization of the Openline project and direct 
 
 You'll be able to pick up issues, write code to fix them, and get your work reviewed and merged.
 
-If you have questions about the development process, join our [community chat][community].  The Openline team responds regularly and will usually answer quickly.
+If you have questions about the development process, join our [community slack][slack].  The Openline team responds regularly and will usually answer quickly.
 
 ## Find Something to Work On
 
-Help is always welcome! For example, [documentation][docs] can always use improvement.
+Help is always welcome! For example, [documentation] can always use improvement.
 
-If you do not know what to start on, look at the [open issues](https://github.com/openline-ai) or ask in our [community chat][community] to see who is looking for help or what's being worked on.
+If you do not know what to start on, look at the [open issues][open_issues] or ask in our [community slack][slack] to see who is looking for help or what's being worked on.
 
 ### Non-Code Contributions
 
-Those interested in contributing without writing code may also find ideas in the [Non-Code Contributions Guide](non-code-contributions.md).
+Those interested in contributing without writing code may also find ideas in the Non-Code Contributions Guide.
 
 ### Code Contributions
 
@@ -42,7 +42,7 @@ You get the idea * if you ever see something you fix or improve, own it. The com
 
 ### Find a Good First Topic
 
-There are [multiple repositories](https://github.com/openline-ai/) in the Openline organization.
+There are [multiple repositories][repos] in the Openline organization.
 
 Taking [openline/openline-customer-os](https://github.com/openline-ai/openline-customer-os) as an example, you can head to the [good first issue](https://github.com/openline-ai/openline-customer-os/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) labels for issues that should not need in-depth knowledge of the system.
 
@@ -52,7 +52,7 @@ Please note that while several of the repositories in the Openline community hav
 
 Another good approach is to find a documentation improvement, such as a missing/broken link, which will give you exposure to the code submission/review process without the added complication of technical depth.
 
-Please see [Contributing](#contributing) for the workflow. When you take on an issue, you can assign it to yourself.
+Please see Contributing for the workflow. When you take on an issue, you can assign it to yourself.
 
 ### It's Easy to File an Issue
 
@@ -70,11 +70,11 @@ Openline is an open source project, but many of the people working on it do so a
 
 As a potential contributor, your changes and ideas are welcome at any hour of the day or night, weekdays, weekends, and holidays. Please never hesitate to ask a question or send a pull request.
 
-Beginners can find focused information below in [Open a Pull Request](#open-a-pull-request) and [Code Review](#code-review).
+Beginners can find focused information below in Open a Pull Request and Code Review.
 
 ## GitHub workflow
 
-To check out the code to work on, please refer to [the GitHub Workflow Guide](./github-workflow.md).
+To check out the code to work on, please refer to the GitHub Workflow Guide.
 
 ## Open a Pull Request
 
@@ -82,16 +82,16 @@ Pull requests (PR) follow the standard [Github pull request](https://help.github
 
 ## Code Review
 
-For a brief description of the importance of code review, please read [Code Review](/contributions/expectations.md#code-review).  
+For a brief description of the importance of code review, please read Code Review.  
 
 There are two aspects of code review: giving and receiving.
 To make it easier for your PR to receive reviews, consider the reviewers will need you to:
 
-* follow the project [coding conventions](./coding-conventions.md)
+* follow the project coding conventions
 * write [good commit messages](https://chris.beams.io/posts/git-commit/)
 * break large changes into a logical series of smaller patches which individually make easily understandable changes, and in aggregate solve a broader issue
 
-Reviewers are highly encouraged the people giving the review to revisit the [Code of Conduct](/code-of-conduct.md) and [community expectations](./expectations.md) and must go above and beyond to promote a collaborative, respectful community.
+Reviewers are highly encouraged the people giving the review to revisit the [Code of Conduct][code_of_conduct] and community expectations and must go above and beyond to promote a collaborative, respectful community.
 
 When reviewing a pull request from others [The Gentle Art of Patch Review](http://sage.thesharps.us/2014/09/01/the-gentle-art-of-patch-review/) suggests an iterative series of focuses which leads new contributors to positive collaboration without inundating them initially with nuances:
 
@@ -99,7 +99,7 @@ When reviewing a pull request from others [The Gentle Art of Patch Review](http:
 * Is the contribution architected correctly?
 * Is the contribution polished?
 
-Note: if your pull request isn't getting enough attention, you can use the [community chat](community) to get help to find reviewers.
+Note: if your pull request isn't getting enough attention, you can use the [community slack][slack] to get help to find reviewers.
 
 ## Testing
 
@@ -107,15 +107,20 @@ Testing is the responsibility of all contributors, run unit tests before opening
 
 ## Documentation
 
-If you pull request requires and changes to the documentation open a [pull request for the docs][docs].
+If you pull request requires and changes to the documentation open a pull request for the docs.
 
 ## Community
 
 If you haven't noticed by now, we are building a lively, and friendly open-source community.
 
-We depend on new people becoming members and regular code contributors, so we would like you to [come join us][community]]!
+We depend on new people becoming members and regular code contributors, so we would like you to come join us!
 
-[code_of_conduct]: </code-of-conduct.md>
-[communication_discord]: 
-[getting_started]: 
-[open_issues]: 
+<!--- References -->
+
+[code_of_conduct]: <code-of-conduct>
+[communication_discord]: <./>
+[expectations]: <./>
+[getting_started]: <./>
+[open_issues]: https://github.com/openline-ai/openline-customer-os/issues
+[slack]: https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ
+[repos]: https://github.com/openline-ai/

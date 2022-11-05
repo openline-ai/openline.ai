@@ -41,9 +41,10 @@ Contributing to documentation is a great way to get familiar with the Openline d
 
 Thank you for joining us! :hugs:
 
+<!--- References -->
 
-[code_of_conduct]: </community-guidelines/code-of-conduct.md>
-[engage]: </community-guidelines/engage-openline-community.md>
+[code_of_conduct]: <code-of-conduct>
+[engage]: <engage>
 [license]: https://choosealicense.com/licenses/mit/
 [markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [repo]: https://github.com/openline-ai/community/
