@@ -194,7 +194,7 @@ const SignUpFormReact = () => {
         );
     }
 
-    //const isInline = formStyles.formStyle === "inline";
+    // const isInline = formStyles.formStyle === "inline";
 
     switch (formState) {
         case SUCCESS:
@@ -252,7 +252,7 @@ const SignUpFormReact = () => {
                                 color: formStyles.formFontColor,
                                 fontFamily: `'${formStyles.formFont}', sans-serif`,
                                 fontSize: `${formStyles.formFontSizePx}px`,
-                                //margin: isInline ? "0px 10px 0px 0px" : "0px 0px 10px",
+                                // margin: isInline ? "0px 10px 0px 0px" : "0px 0px 10px",
                                 width: "100%",
                                 maxWidth: "300px",
                                 minWidth: "120px",

@@ -34,17 +34,27 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+html[data-theme='dark'] {
+  --ifm-background-color: #100024;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #100024;
+}
+
 /* Fonts */
 
 @font-face {
   font-family: Matter;
   src: url("../fonts/Matter-Regular.woff") format("woff");
 }
+
 @font-face {
   font-family: Matter;
   src: url("../fonts/Matter-Light.woff") format("woff");
   font-weight: light;
 }
+
 @font-face {
   font-family: SohneBreit-Buch;
   src: url("../fonts/SohneBreit-Buch.woff2") format("woff2");
@@ -57,27 +67,38 @@
   font-size: 26px;
 }
 
+/* Footer */
+
+.footer__col {
+  text-align: center;
+}
+
 /* Homepage */
 
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0;
+  --ifm-hero-background-color: var(--ifm-navbar-background-color);
+  --ifm-hero-text-color: var(--ifm-font-color-base);
 }
 
 .heroBanner_src-pages-index-module {
   padding: 0rem;
 }
 
-.hero__subtitle, .hero__title {
+.hero__subtitle,
+.hero__title {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
+  max-width: 600px;
 }
 
 .hero__subtitle {
   font-size: 1rem;
   padding-bottom: 2rem;
+  max-width: 500px;
 }
 
 .hero__image {
@@ -96,8 +117,17 @@
 }
 
 .waitlist-form {
+  flex-direction: row;
+  align-items: left;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.waitlist-button {
+  width: 250px;
+  white-space: nowrap;
+  width: min-content;
+  margin-left: 1rem;
 }
 
 @media screen and (max-width: 996px) {
@@ -105,13 +135,53 @@
     padding-top: 4rem;
     grid-template-columns: 1fr;
   }
-  .hero__subtitle, .hero__title {
+
+  .hero__subtitle,
+  .hero__title {
     text-align: center;
   }
+
   .hero .container {
     max-width: 600px;
   }
+
+  .waitlist-button {
+    white-space: nowrap;
+    width: min-content;
+    max-width: 300px;
+    min-width: 120px;
+    margin-top: 1rem;
+  }
+
   .waitlist-form {
-    padding-bottom: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+}
+
+.features-carousel-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.features-carousel .features-carousel-text .features-carousel-image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 997px) {
+  .features-carousel .features-carousel-container .features-carousel-text {
+      padding:20px;
+  }
+  
+}
+
+@media screen and (max-width: 996px) {
+  .features-carousel .features-carousel-container .features-carousel-text {
+      padding:5px;
   }
 }
