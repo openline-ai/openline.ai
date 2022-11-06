@@ -185,3 +185,114 @@ html[data-theme='dark'] {
       padding:5px;
   }
 }
+
+
+/* Team */
+
+.team-title {
+  color: #100024;
+  padding-bottom: 15px;
+}
+
+.team-subtitle {
+  color: #100024;
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+
+.team-book-demo {
+  padding: 5px 15px 5px 15px;
+  width: min-content;
+  white-space: nowrap;
+}
+
+.team-row {
+  color: white;
+  display: flex;
+}
+
+.team-profile-titles {
+  padding-left: 30px;
+  text-align: left;
+  color: #100024;
+}
+
+.team-profile {
+  border-bottom: 1px solid #E8E8E8;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+.profile-photos {
+  display: flex;
+  justify-content: center;
+}
+
+.team-profile:hover .profile-photo {
+  background-color: #FFE3AE;
+}
+
+.profile-photo {
+  min-width: 10vw;
+  min-height: 10vh;   
+}
+
+.social-media-logo {
+  padding: 5px;
+}
+
+.social-media-logos {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 997px) {
+  .team-hero-background {
+      background-position: right center;
+      background-size: contain;
+      background-origin: content-box;
+      background-repeat: no-repeat;
+      min-height: 500px;
+      height: 500px;
+  }
+  .team-background {
+      display: flex;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      background: #F6F5F9;
+      min-height: 500px;
+      height: 500px;
+  }
+  .team-hero {
+      padding-left: 3rem;
+      top: 50%;
+      transform: translate(0, 15%);
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .team-background {
+      box-sizing: border-box;
+      display: flex;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      background: #F6F5F9;
+      min-height: 550px;
+      height: 550px;
+      padding: 6rem;
+      text-align: center;
+  }
+  .team-book-demo {
+      margin: auto;
+  }
+}

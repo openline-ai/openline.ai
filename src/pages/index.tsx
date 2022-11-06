@@ -110,30 +110,30 @@ function HomepageCarousel() {
       "subtextContent": "A real-time, high performance, transactional database that is the customer system of record for all your applications. Any because we’re open source, you can self-host, giving you complete control of your data."
     }
   ]);
-  
+
   const productTemplate = (product) => {
     return (
       <div className="features-carousel-container">
-          <div className="column col--6">
-            <div className="features-carousel-image">
-              <img src={useBaseUrl(product.image)} style={{ maxWidth: '100%' }} />
-            </div>
+        <div className="column col--6">
+          <div className="features-carousel-image">
+            <img src={useBaseUrl(product.image)} style={{ maxWidth: '100%' }} />
           </div>
-            <div className="features-carousel-text">
-              <div style={{ padding: '0 30px 30px 30px' }}>
-                {product.text}
-              </div>
-              <div style={{ padding: '30px' }}>
-                <h3>{product.subtextTitle}</h3>
-                <p>{product.subtextContent}</p>
-              </div>
-            </div>
         </div>
+        <div className="features-carousel-text">
+          <div style={{ padding: '0 30px 30px 30px' }}>
+            {product.text}
+          </div>
+          <div style={{ padding: '30px' }}>
+            <h3>{product.subtextTitle}</h3>
+            <p>{product.subtextContent}</p>
+          </div>
+        </div>
+      </div>
     );
   }
   return (
     <>
-      <div className="container justify-content-center" style={{ paddingTop: '5rem' }}>
+      <div className="container justify-content-center" style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
         <div className={styles.titlepill}>
           customerOS
         </div>
@@ -150,7 +150,7 @@ function HomepageBetterData() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <>
-      <div className={styles.betterdatacontainer} style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
+      <div className={styles.betterdatacontainer} style={{ paddingTop: '3rem', paddingBottom: '3rem' }}>
         <div className="container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
           <div>
             <h1 className={styles.title}>Better experiences start with better data.</h1>
