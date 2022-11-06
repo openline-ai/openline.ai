@@ -52,6 +52,19 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'handbook',
+        path: 'handbook',
+        routeBasePath: 'handbook',
+        sidebarPath: require.resolve('./nav/_sidebarsHandbook.js'),
+        // ... other options
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
