@@ -38,12 +38,12 @@ const config = {
           breadcrumbs: false,
           sidebarCollapsible: true,
           editUrl:
-            'https://github.com/openline-ai/docs-site/issues/new',
+            'https://github.com/openline-ai/openline.ai/blob/otter',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/openline-ai/docs-site/issues/new',
+            'https://github.com/openline-ai/openline.ai/blob/otter',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,12 @@ const config = {
         id: 'handbook',
         path: 'handbook',
         routeBasePath: 'handbook',
+        sidebarCollapsible: true,
         sidebarPath: require.resolve('./nav/_sidebarsHandbook.js'),
+        editUrl:
+            'https://github.com/openline-ai/openline.ai/blob/otter',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
         // ... other options
       },
     ],
