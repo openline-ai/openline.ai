@@ -68,6 +68,17 @@ const config = {
         // ... other options
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'legal',
+        path: 'legal',
+        routeBasePath: 'legal',
+        sidebarCollapsible: true,
+        sidebarPath: require.resolve('./nav/_sidebarsLegal.js'),
+        // ... other options
+      },
+    ],
   ],
 
   themeConfig:
