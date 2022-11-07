@@ -202,6 +202,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/openline-ai',
               },
+              {
+                label: 'Legal',
+                href: '/legal',
+              },
             ],
           },
         ],
