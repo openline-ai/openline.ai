@@ -3,9 +3,9 @@ id: index
 title: Introduction
 ---
 
-# The Openline Team Handbook
+# The Openline team playbook
 
-The Openline handbook is a public artifact that defines why we exist and how we work.  Born out of the open source community, open source principles influence how we build consensus and document our outcomes.  Open is a principle that extends far beyond our name.
+The Openline playbook is a public artifact that defines why we exist and how we work.  Born out of the open source community, open source principles influence how we build consensus and document our outcomes.  Open is a principle that extends far beyond our name.
 
 With the handbook, we attempt to:
 - recruit people who share our values and goals

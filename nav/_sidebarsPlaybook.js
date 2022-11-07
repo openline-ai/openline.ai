@@ -1,4 +1,4 @@
-const handbook = [
+const playbook = [
   {
     type: 'doc',
     id: 'index'
@@ -64,5 +64,5 @@ const handbook = [
 ]
 
 module.exports = {
-  handbook
+  playbook
 }
