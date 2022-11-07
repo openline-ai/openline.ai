@@ -21,49 +21,31 @@ import Outline from '@site/static/img/team/outline.png';
 function TeamHero() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary')}>
+    <header className={clsx('team__hero hero--primary')}>
       <div className="container">
-        <h1 className="hero__title">Meet the Openline CX Crusaders</h1>
-        <p className="hero__subtitle">The team making sure every communication experience you and your customers have is perfect.</p>
-        <div className='border-button team-book-demo'><a href="mailto:careers@openline.ai" style={{ color: '#100024' }}>Become a CX Crusader</a></div>
-        <SignUpFormReact />
+        <h1 className="team__title">Meet the Openline CX Crusaders</h1>
+        <p className="team__subtitle">The team making sure every communication experience you and your customers have is perfect.</p>
+        <div style={{ paddingLeft: '30px' }}>
+          <div className='border-button team-book-demo'><a href="mailto:careers@openline.ai" style={{ color: 'var(--ifm-hero-text-color)' }}>Become a CX Crusader</a></div>
+        </div>
       </div>
-      <div className="">
+      <div className="team__image">
         <TeamHeroImage />
       </div>
     </header>
   );
 }
 
-function TeamTitle() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <>
-      <div className='container'>
-        <div className="div className='row' justify-content-center">
-          <div className='col col--4'>
-            <div className="title text-center">
-              <h3 className="gradient-text mission-control">Meet the Openline CX Crusaders</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
-
 function Team() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <section className="section" style={{ paddingTop: '0px', paddingBottom: '50px' }}>
-      <div className='container'>
-        <div className='row'>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+    <section className="section" style={{ paddingTop: '100px', paddingBottom: '50px', maxWidth: '1100px', margin: 'auto' }}>
+      <div className="container">
+        <div className='row' style={{ justifyContent: 'center' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Matt} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Matt}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -83,12 +65,10 @@ function Team() {
               <h4 className='team-profile-titles' >Founder & CEO</h4>
             </div>
           </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Jonty} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Jonty}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -108,12 +88,10 @@ function Team() {
               <h4 className='team-profile-titles' >Founder & CPO</h4>
             </div>
           </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Vasi} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Vasi}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -130,12 +108,10 @@ function Team() {
               <h4 className='team-profile-titles' >Founder & CTO</h4>
             </div>
           </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Edi} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Edi}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -152,12 +128,10 @@ function Team() {
               <h4 className='team-profile-titles' >Founding Engineer</h4>
             </div>
           </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Fabio} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Fabio}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -177,12 +151,10 @@ function Team() {
               <h4 className='team-profile-titles' >Design Master</h4>
             </div>
           </div >
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Alex} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Alex}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -199,12 +171,10 @@ function Team() {
               <h4 className='team-profile-titles' >Founding Engineer</h4>
             </div>
           </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Gabi} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Gabi}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -221,12 +191,10 @@ function Team() {
               <h4 className='team-profile-titles' >Founding Engineer</h4>
             </div>
           </div >
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Torrey} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Torrey}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -246,12 +214,10 @@ function Team() {
               <h4 className='team-profile-titles' >Senior Engineer</h4>
             </div>
           </div >
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px' }}>
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
-              <div className='container profile-photos'>
-                <a className='profile-photo'>
-                  <img src={Outline} width='284px' height='251px' ></img>
-                </a>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Outline}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -275,7 +241,6 @@ export default function Home(): JSX.Element {
       description="Openline makes it easy to get a complete 360-degree view of your customers. We bring together behavioral, demographic, transactional, conversational, and social data to give you the most comprehensive view of your customer relationship.">
       <main>
         <TeamHero />
-        <TeamTitle />
         <Team />
       </main>
     </Layout>
