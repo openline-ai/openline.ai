@@ -1,7 +1,7 @@
 ---
 id: structure
-sidebar_position: 4
-title: Team Structure
+sidebar_position: 3
+title: Team structure
 ---
 
 # Team Structure
