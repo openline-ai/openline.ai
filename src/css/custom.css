@@ -76,6 +76,12 @@ html[data-theme='dark'] {
   font-size: 26px;
 }
 
+.github-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Footer */
 
 .footer__col {

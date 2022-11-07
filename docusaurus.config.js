@@ -27,6 +27,15 @@ const config = {
     locales: ['en'],
   },
 
+
+  scripts: [
+    {
+      src: 'https://buttons.github.io/buttons.js',
+      async: true,
+      defer: true,
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -62,7 +71,7 @@ const config = {
         sidebarCollapsible: true,
         sidebarPath: require.resolve('./nav/_sidebarsHandbook.js'),
         editUrl:
-            'https://github.com/openline-ai/openline.ai/blob/otter',
+          'https://github.com/openline-ai/openline.ai/blob/otter',
         showLastUpdateAuthor: true,
         showLastUpdateTime: true,
         // ... other options
@@ -159,10 +168,9 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/openline-ai',
-            title: 'GitHub',
+            type: 'html',
             position: 'right',
-            label: 'GitHub',
+            value: '<div class="github-container"><iframe src="https://ghbtns.com/github-btn.html?user=openline-ai&repo=openline-customer-os&type=star&count=true&size=small" width="100" height="20" title="GitHub"></iframe></div>',
           },
         ],
       },
