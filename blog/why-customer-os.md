@@ -3,7 +3,7 @@ slug: why-customer-os
 title: Why we're building customerOS
 description: With every phase transition, enterprise software architecture fundamentally changes.
 date: 2022-07-05
-image: static/img/AgentScreen.png
+image: ./images/hero/pink-hero.png
 authors: [matt]
 tags: [customerOS]
 ---
@@ -40,6 +40,8 @@ The goal was to digitize every aspect of the business as fast as possible.  Thos
 **And it's had some nasty unintended consequences.**
  
 It all started in 1999 when Salesforce launched the worlds first software-as-a-service (SaaS) company.  Before Salesforce, people  had to walk into a store to buy software on molded plastic discs called CDs. These CDs were unwrapped and inserted into a little tray on your computer (that conveniently doubled as a drink holder). Once retracted, the computer would beam a laser at the disc, initiating the installation sequence.  That is, assuming you had space on your local hard drive to accept the files.  And enough RAM to run it.
+
+![Coffee cup in CDROM tray](./images/cdrom-cup-holder.jpeg)
  
 It was an epic time to be alive.
  

@@ -3,14 +3,23 @@ slug: pre-seed-round
 title: Openline raises $2.1m pre-seed for open source customer data platform
 description: Openline customerOS eliminates customer data sprawl
 date: 2022-06-10
-image: static/img/AgentScreen.png
+image: ./images/AgentScreen.png
 authors: [matt]
 tags: [funding]
 ---
 
-**June 10th, 2022** - [Openline](/), the open source customer data platform company, today announced $2.1m in funding to eliminate customer data sprawl. 
+**June 10th, 2022** - [Openline][openline], the open source customer data platform company, today announced $2.1m in funding to eliminate customer data sprawl. 
 
-The company's pre-seed round saw institutional participation from [Seedcamp](https://seedcamp.com/), [Y Combinator](https://www.ycombinator.com/), [Cocoa](https://www.cocoa.vc/), and [Crane](https://crane.vc/).  38 prominent angel investors and startup founders also contributed to the round.  The funding will be used to continue product build-out and community development around the [Openline open source project](https://github.com/openline-ai).
+The company's pre-seed round saw institutional participation from [Seedcamp][seedcamp], [Y Combinator][yc], [Cocoa][cocoa], and [Crane][crane].  38 prominent angel investors and startup founders also contributed to the round.  The funding will be used to continue product build-out and community development around the [Openline open source project][github].
+
+<!--References-->
+
+[cocoa]: https://www.cocoa.vc/
+[crane]: https://crane.vc/
+[github]: https://github.com/openline-ai
+[openline]: </>
+[seedcamp]: https://seedcamp.com/
+[yc]: https://www.ycombinator.com/
 
 <!--truncate-->
 
@@ -24,4 +33,4 @@ Vasi Coscotin, co-founder and CTO at Openline said, "if you think about the hist
 
 We believe that if you look 10 years out, the future of Enterprise SaaS is going to look more like the architecture of web3--centralized data layer with standardized frameworks that allow for decentralized apps to be built on top.  The Openline customerOS is that centralized, transactional data layer, and it's open source to give businesses complete control over their data."
 
-Openline is currently in private Beta through the end of 2022\.  You can request early access by [joining their wait list](/).
+Openline is currently in private Beta through the end of 2022\.  You can request early access by [joining their wait list][openline].
