@@ -65,11 +65,11 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'handbook',
-        path: 'handbook',
-        routeBasePath: 'handbook',
+        id: 'playbook',
+        path: 'playbook',
+        routeBasePath: 'playbook',
         sidebarCollapsible: true,
-        sidebarPath: require.resolve('./nav/_sidebarsHandbook.js'),
+        sidebarPath: require.resolve('./nav/_sidebarsPlaybook.js'),
         editUrl:
           'https://github.com/openline-ai/openline.ai/blob/otter',
         showLastUpdateAuthor: true,
@@ -156,8 +156,8 @@ const config = {
                 label: 'Team',
               },
               {
-                to: 'handbook',
-                label: 'Handbook',
+                to: 'playbook',
+                label: 'Playbook',
               },
             ]
           },
