@@ -4,8 +4,6 @@ sidebar_position: 1
 title: Core values
 ---
 
-# Openline Core Values
-
 Our seven core values are the only non-negotiables at Openline.  We strive to live these values in everything we do.  They inform not only how we work, but the people we choose to work with.  
 
 
@@ -63,4 +61,17 @@ Every single day we strive to get a little bit better. We don't have all the ans
 It's ok to fail.  Failure is part of pushing ourselves to get better.  We're going to fail.  A lot. Those learnings power us forward.
 
 Try new things. Ship fast.  Measure feedback.  Iterate.
+
+## Examples of failures
+
+A few examples of behavior that violate our core values are are subject to our zero-tolerance policy.
+
+- If someone has to ask you for an update on what you're doing.
+- If you're not actively working in public, amonst the community.
+- If you say "it's not my problem."
+- If you don't use Openline tools in your everyday work.
+- If you're aware of things to be improved, and stay silent.
+- If you're not improving in objective, measurable ways on a monthly basis.
+
+And while not explicitly a core value, you should geniunely enjoy coming to work every day.  Building Openline should be fun.
 
