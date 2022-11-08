@@ -30,7 +30,7 @@ jobs:
 
             - name: Configure Git
               run: |
-                  git fetch origin master:master
+                  git fetch origin otter
                   git config user.name openline-bot
                   git config user.email hello@openline.ai
             - name: Fix typos
@@ -59,7 +59,7 @@ jobs:
               run: yarn test-redirects
             - name: Configure Git
               run: |
-                  git fetch origin master:master
+                  git fetch origin otter
                   git config user.name openline-bot
                   git config user.email hello@openline.ai
             - name: Add safe redirects
