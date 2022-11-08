@@ -12,7 +12,7 @@ If you are exploring a role at Openline, this guide will walk you though what to
 3. Video interview with Team lead and 2-3 other team members
 4. Final decision
 
-## Feeback
+## Feedback
 
 We always do our best to provide feedback to all candidates who make it past the initial application stage.  You can always request feedback from us, and we'll do our best to accomodate. 
 
