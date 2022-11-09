@@ -27,6 +27,15 @@ const config = {
     locales: ['en'],
   },
 
+
+  scripts: [
+    {
+      src: 'https://buttons.github.io/buttons.js',
+      async: true,
+      defer: true,
+    },
+  ],
+
   presets: [
     [
       'classic',
@@ -79,9 +88,6 @@ const config = {
         // ... other options
       },
     ],
-    ['@docusaurus/plugin-ideal-image',
-      {}  
-    ],
   ],
 
   themeConfig:
@@ -97,6 +103,21 @@ const config = {
           srcDark: 'img/OpenlineLogoDarkMode.svg'
         },
         items: [
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Products',
+            items: [
+              {
+                to: 'products/customer-os',
+                label: 'customerOS',
+              },
+              {
+                to: 'products/contacts',
+                label: 'Contacts',
+              },
+            ]
+          },
           {
             type: 'dropdown',
             position: 'left',

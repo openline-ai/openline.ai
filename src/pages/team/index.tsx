@@ -1,8 +1,9 @@
 import React from 'react';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
-import Image from '@theme/IdealImage';
+import SignUpFormReact from '@site/src/components/Signup';
 
 import TeamHeroImage from '@site/static/img/TeamHero.svg';
 import LinkedInIcon from "@site/static/img/icons/linkedin.svg";
@@ -44,7 +45,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Matt} />
+                <img className='profile-photo' src={Matt}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -67,7 +68,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Jonty} />
+                <img className='profile-photo' src={Jonty}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -90,7 +91,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Vasi} />
+                <img className='profile-photo' src={Vasi}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -110,7 +111,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Edi} />
+                <img className='profile-photo' src={Edi}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -130,7 +131,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Fabio} />
+                <img className='profile-photo' src={Fabio}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -153,7 +154,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Alex} />
+                <img className='profile-photo' src={Alex}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -173,7 +174,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Gabi} />
+                <img className='profile-photo' src={Gabi}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -193,7 +194,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Torrey} />
+                <img className='profile-photo' src={Torrey}></img>
               </div>
               <div className='row'>
                 <div className='col'>
@@ -216,7 +217,7 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <Image className='profile-photo' img={Outline} />
+                <img className='profile-photo' src={Outline}></img>
               </div>
               <div className='row'>
                 <div className='col'>
