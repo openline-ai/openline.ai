@@ -3,6 +3,12 @@ sidebar_position: 1
 displayed_sidebar: reference
 ---
 
+:::caution work in progress
+
+We're busy building, and this is one of those things that is a work in progress!
+
+:::
+
 # Tutorial Intro
 
 Let's discover **Docusaurus in less than 5 minutes**.
