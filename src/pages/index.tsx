@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
+import Image from '@theme/IdealImage';
 
 import AgentScreen from '@site/static/img/AgentScreen.png';
 import GithubButton from '@site/static/img/GithubButton.png';
@@ -35,7 +36,7 @@ function HomepageHeader() {
         <SignUpFormReact />
       </div>
       <div className="hero__image">
-        <img src={AgentScreen} />
+        <Image img={AgentScreen} />
       </div>
     </header>
   );
@@ -116,7 +117,7 @@ function HomepageCarousel() {
       <div className="features-carousel-container">
         <div className="column col--6">
           <div className="features-carousel-image">
-            <img src={useBaseUrl(product.image)} style={{ maxWidth: '100%' }} />
+            <Image img={useBaseUrl(product.image)} style={{ maxWidth: '100%' }} />
           </div>
         </div>
         <div className="features-carousel-text">
@@ -158,7 +159,7 @@ function HomepageBetterData() {
           </div>
         </div>
         <div>
-          <img src={CustomerWindow} className={styles.window} />
+          <Image img={CustomerWindow} className={styles.window} />
         </div>
       </div>
     </>
@@ -174,7 +175,7 @@ function HomepageGithub() {
         <h2 className={styles.subtitle}>Browse on GitHub</h2>
         <div className={styles.centeredtext}>
           <a href="https://github.com/openline-ai" rel="noreferrer" target="_blank">
-            <img src={GithubButton} width={101} height={101} alt="Github Logo" />
+            <Image img={GithubButton} width={101} height={101} alt="Github Logo" />
           </a>
         </div>
       </div>
