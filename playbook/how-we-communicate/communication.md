@@ -6,6 +6,12 @@ title: Communication
 
 # Communication
 
+:::caution work in progress
+
+We're busy building, and this is one of those things that is a work in progress!
+
+:::
+
 The team at Openline believes that talent is equally distributed across the globe, and as such, in order to attract the best talent we need to be remote. That's why even in the first few months of work, Openline was already spread across 4 countries.
 
 However remote working isn't all rainbows, it requires a specific style of working - *asynchronous* to be exact - in order to be successful. This means that we have to communicate through written methods as much as possible, and kill as many meetings as humanly possible without materially slowing us down from acheiving our goals.
