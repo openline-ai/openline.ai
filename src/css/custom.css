@@ -118,7 +118,7 @@ html[data-theme='dark'] {
 
 .hero__image {
   background: #C2ACFF;
-  background-image: url('@site/static/img//HeroBackground.svg');
+  background-image: url('@site/static/img/HeroBackground.svg');
   background-size: cover;
   background-origin: content-box;
   width: 100%;
