@@ -17,8 +17,11 @@ displayed_sidebar: contribute
 
 If you have a question about Openline or have identfied a bug, please open an issue against the appropriate repo:
 
-* [community][community]
-* [openline-customer-OS][customerOS]
+* [openline-ai/openline-customer-os][customerOS]
+* [openline-ai/openline-oasis][oasis]
+* [openline-ai/openline-contacts][contacts]
+* [openline-ai/openline-cli][cli]
+* [openline-ai/openline.ai][website]
 
 ## Features and Improvements
 
@@ -26,8 +29,11 @@ Have you ever thought, "damn I wish it did x"?  Tell us!  We ❤️ feature requ
 
 You can open a feature request against the appropriate repo below: 
 
-* [community][community]
-* [openline-customer-OS][customerOS]
+* [openline-ai/openline-customer-os][customerOS]
+* [openline-ai/openline-oasis][oasis]
+* [openline-ai/openline-contacts][contacts]
+* [openline-ai/openline-cli][cli]
+* [openline-ai/openline.ai][website]
 
 ## Contribute
 
@@ -43,3 +49,7 @@ We love pull requests!  And you don't have to be technical to contribute!  Check
 [repo]: https://github.com/openline-ai/community/
 [slack]: https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ
 [twitter]: https://twitter.com/OpenlineAI
+[oasis]: https://github.com/openline-ai/openline-oasis/issues/new/choose
+[contacts]: https://github.com/openline-ai/openline-contacts/issues/new/choose
+[cli]: https://github.com/openline-ai/openline-cli/issues/new/choose
+[website]: https://github.com/openline-ai/openline.ai/issues/new/choose
