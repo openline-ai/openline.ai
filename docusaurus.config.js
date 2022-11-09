@@ -3,7 +3,6 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/vsDark');
 const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
-const Dotenv = require('dotenv-webpack')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -54,17 +53,6 @@ const config = {
   ],
 
   plugins: [
-    ['docusaurus-plugin-dotenv',
-      {
-        path: "./.env", // The path to your environment variables.
-        safe: false, // If false ignore safe-mode, if true load './.env.example', if a string load that file as the sample
-        systemvars: false, // Set to true if you would rather load all system variables as well (useful for CI purposes)
-        silent: false, //  If true, all warnings will be suppressed
-        expand: false, // Allows your variables to be "expanded" for reusability within your .env file
-        defaults: true, //  Adds support for dotenv-defaults. If set to true, uses ./.env.defaults
-        ignoreStub: true
-      }
-    ],
     [
       '@docusaurus/plugin-content-docs',
       {
