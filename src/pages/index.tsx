@@ -175,7 +175,7 @@ function HomepageGithub() {
         <h2 className={styles.subtitle}>Browse on GitHub</h2>
         <div className={styles.centeredtext}>
           <a href="https://github.com/openline-ai" rel="noreferrer" target="_blank">
-            <Image img={GithubButton} className={styles.githubbutton} alt="Github Logo" />
+            <Image img={GithubButton} width={101} height={101} alt="Github Logo" />
           </a>
         </div>
       </div>
