@@ -81,6 +81,12 @@
     width: 100%;
 }
 
+.githubbutton {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
 .centeredtext {
     text-align: center;
 }
