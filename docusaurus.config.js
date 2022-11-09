@@ -29,11 +29,6 @@ const config = {
 
 
   scripts: [
-    {
-      src: 'https://buttons.github.io/buttons.js',
-      async: true,
-      defer: true,
-    },
   ],
 
   presets: [
@@ -103,21 +98,21 @@ const config = {
           srcDark: 'img/OpenlineLogoDarkMode.svg'
         },
         items: [
-          {
-            type: 'dropdown',
-            position: 'left',
-            label: 'Products',
-            items: [
-              {
-                to: 'products/customer-os',
-                label: 'customerOS',
-              },
-              {
-                to: 'products/contacts',
-                label: 'Contacts',
-              },
-            ]
-          },
+          // {
+          //   type: 'dropdown',
+          //   position: 'left',
+          //   label: 'Products',
+          //   items: [
+          //     {
+          //       to: 'products/customer-os',
+          //       label: 'customerOS',
+          //     },
+          //     {
+          //       to: 'products/contacts',
+          //       label: 'Contacts',
+          //     },
+          //   ]
+          // },
           {
             type: 'dropdown',
             position: 'left',
