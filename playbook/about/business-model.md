@@ -6,12 +6,6 @@ sidebar_position: 6
 
 # Business Model
 
-:::caution work in progress
-
-We're busy building, and this is one of those things that is a work in progress!
-
-:::
-
 While Openline is responsible for running and improving the open source Openline project, Openline is still a for profit company, and as such balances the needs of the company to be profitable (and therefore keep existing to improve the Openline project). To do this Openline has to balance the needs of the community using the Openline ecosystem with building paid features and supporting our paying customers, in order to generate income to keep the business running.
 
 ## Why is Openline an Open Source company?

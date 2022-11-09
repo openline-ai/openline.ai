@@ -4,12 +4,6 @@ title: Getting started
 displayed_sidebar: guides
 ---
 
-:::caution work in progress
-
-We're busy building, and this is one of those things that is a work in progress!
-
-:::
-
 # Getting started
 
 Let's discover **Openline in less than 5 minutes**.
