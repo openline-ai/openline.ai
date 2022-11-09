@@ -10,7 +10,7 @@ export default function FooterWrapper(props: Props): JSX.Element {
   return (
     <>
       <Footer {...props} />
-      {/* <SupportEngine /> */}
+      <SupportEngine />
     </>
   );
 }
