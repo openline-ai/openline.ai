@@ -199,3 +199,5 @@ Sourcegraph
 th
 md
 mdx
+AgentScreen
+png
