@@ -3,7 +3,7 @@ id: thanks
 title: Thanks
 ---
 
-This public facing employee playbook is not the first, and hopefully will be one of many soon, as companies realise that in order to attract and maintain the best possible talent they need to operate with an open door policy in almost all things that they do.
+This public facing employee playbook is not the first, and hopefully will be one of many soon, as companies realize that in order to attract and maintain the best possible talent they need to operate with an open door policy in almost all things that they do.
 
 We'd like to list out some of our inspiration for this handbook, which also will hopefully help you and your company take steps to do the same to improve accountability and equality for you and your fellow employees.
 
