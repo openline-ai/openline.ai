@@ -25,5 +25,6 @@ matrix:
   - 'README.md'
   - 'blog/*.md'
   - 'docs/*.md'
-  - 'legal/*.md'
   - 'playbook/*.md'
+  # - 'legal/*.md'
+

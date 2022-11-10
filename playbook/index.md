@@ -15,11 +15,11 @@ As a distributed organization, the better our communication, the better our even
 
 Anyone can submit a pull request to suggest updates or [improvements to the playbook][contribute].  
 
-## Guiding priciples
+## Guiding principles
 
 - **The playbook can be viewed by anyone**. Transparent communication is at the core of everything we do.  We build in public, and as such, how we build is also a public artifact.  Everything in the playbook is searchable and easy to navigate.
 - **The playbook is the source of truth for how we work**.  All information in the playbook is to be kept accurate and up-to-date.
-- **The playbook can be edited by anyone**.  All teammates and community members can submit updates or imporvement to the playbook.  No matter your technical backgound, it's easy to learn how to [improve the playbook][contribute].
+- **The playbook can be edited by anyone**.  All teammates and community members can submit updates or improvement to the playbook.  No matter your technical background, it's easy to learn how to [improve the playbook][contribute].
 - **The playbook is maintained by all Openline team members**.  We work as a team.  We all share the responsibility for ensuring everything in the playbook is current and up-to-date.  If you see something that requires an edit, make the change then and there.
 
 ## How to use the playbook
@@ -31,7 +31,7 @@ Anyone can submit a pull request to suggest updates or [improvements to the play
 - If someone sends you a link to the playbook, they are doing so because it has the best answer to your question.
 - If what you're looking for isn't answered in the playbook, find the answer and document it in the playbook.  It's highly likely that someone else will have the same question, and by taking the time to share your knowledge, you'll save everyone time and effort.
   - If you're not the right person to document the answer, clearly pass along the responsibility to the appropriate person and ensure the document is created in a timely manner.
-- Resist the temptation to improve a playbook article at the same time you create it.  Always write out things as you know them to be today and submit it first, then you can come back and improve the document as you learn more.  By seperating these two steps, we always share as much information as we have at the present moment.
+- Resist the temptation to improve a playbook article at the same time you create it.  Always write out things as you know them to be today and submit it first, then you can come back and improve the document as you learn more.  By separating these two steps, we always share as much information as we have at the present moment.
 - Announce important changes in the appropriate slack channel(s).  Ensure everyone who needs to be made aware of the change is made aware.
 
 ## Why do we use Github and not {my favorite wiki} or {my favorite docs tool}
