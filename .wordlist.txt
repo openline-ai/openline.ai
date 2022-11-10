@@ -196,3 +196,6 @@ Juro
 Meltano
 Posthog
 Sourcegraph
+th
+md
+mdx
