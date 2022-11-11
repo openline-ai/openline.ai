@@ -14,8 +14,9 @@ jobs:
         with:
           fetch-depth: 0
       #  your build commands
-      # - run: |
-      #    ng build --prod
+      - name: Build
+        run: |
+          yarn run build
       - uses: amondnet/vercel-action@v20 #deploy
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
