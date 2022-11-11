@@ -131,6 +131,11 @@ html[data-theme='dark'] {
   padding: 4rem 0rem 4rem 0rem;
 }
 
+[data-theme='dark'] .hero__image {
+  background-image: inherit;
+  background: inherit;
+}
+
 .waitlist-form {
   flex-direction: row;
   align-items: left;
