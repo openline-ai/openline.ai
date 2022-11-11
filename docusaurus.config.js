@@ -88,6 +88,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/OpenlineSocialShare.png',
       navbar: {
         title: 'Openline',
         logo: {
