@@ -22,8 +22,9 @@ jobs:
       - name: Install dependencies
         run: yarn install
       - name: Build
-        run: |
-          yarn build
+        run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
+        # run: |
+        #   yarn build
       - name: Vercel Deploy
         uses: amondnet/vercel-action@v20 #deploy
         id: vercel
