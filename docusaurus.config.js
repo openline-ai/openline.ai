@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 const config = {
   title: 'Openline',
   tagline: 'Eliminate customer data sprawl',
-  url: 'https://openline.ai',
+  url: 'https://docs.openline.ai',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -88,6 +88,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/OpenlineSocialShare.png',
       navbar: {
         title: 'Openline',
         logo: {
