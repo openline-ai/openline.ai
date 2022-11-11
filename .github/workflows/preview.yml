@@ -21,19 +21,24 @@ jobs:
       #     cache: yarn
       # - name: Install dependencies
       #   run: yarn install
-      - run: npm install --global vercel@latest
-      - run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
-      - name: Build
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+      - name: Pull Vercel Environment Information
+        run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
+      - name: Build Project Artifacts
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
         # run: |
         #   yarn build
-      - name: Vercel Deploy
-        uses: amondnet/vercel-action@v20 #deploy
-        id: vercel
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
-          github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}  #Required
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required
-          scope: openline
-          vercel-args: '--prebuilt' #Optional
+      - name: Deploy Project Artifacts to Vercel
+        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+
+      # - name: Deploy Project Artifacts to Vercel
+      #   uses: amondnet/vercel-action@v20 #deploy
+      #   id: vercel
+      #   with:
+      #     vercel-token: ${{ secrets.VERCEL_TOKEN }} # Required
+      #     github-token: ${{ secrets.GITHUB_TOKEN }} #Optional
+      #     vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}  #Required
+      #     vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required
+      #     scope: openline
+      #     vercel-args: '--prebuilt' #Optional
