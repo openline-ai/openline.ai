@@ -10,12 +10,14 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      - uses: actions/setup-node@v3
+      - name: Install Node
+        uses: actions/setup-node@v3
         with:
-          node-version: 18
+          node-version: 16
           cache: yarn
       - name: Install dependencies
         run: yarn install
