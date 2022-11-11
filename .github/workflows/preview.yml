@@ -33,4 +33,4 @@ jobs:
           vercel-org-id: ${{ secrets.VERCEL_ORG_ID}}  #Required
           vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID}} #Required
           scope: openline
-          vercel-args: '--prebuilt]' #Optional
+          vercel-args: '--prebuilt' #Optional
