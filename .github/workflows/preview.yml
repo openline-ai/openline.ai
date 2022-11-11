@@ -22,7 +22,7 @@ jobs:
       # - name: Install dependencies
       #   run: yarn install
       - run: npm install --global vercel@latest
-      - run: vercel pull --yes
+      - run: vercel pull --yes --environment=preview --token=${{ secrets.VERCEL_TOKEN }}
       - name: Build
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
         # run: |
