@@ -1,0 +1,74 @@
+---
+id: getting-started
+title: Getting started
+displayed_sidebar: guides
+---
+
+:::caution work in progress
+
+We're busy building, and this is one of those things that is a work in progress!
+
+:::
+
+This guide will get you up and running with Openline in **less than 5 minutes**.  
+
+## The Openline CLI
+
+The easiest way to get started with Openline is by downloading and installing the Openline Command Line Interface (CLI).  The Openline CLI is a NodeJS app that makes it easy to setup and manage Openline apps directly from the terminal.  It's an essential part of using Openline.
+
+### What you'll need
+
+- [Node.js][node] version 16.14 or above:
+  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+
+- [Git CLI][git]
+  - [First time Git setup][git-setup]
+
+### Install the Openline CLI
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="macos" label="macOS" default>
+    
+    ```sh_session
+    $ brew install openline-ai/openline
+    ```
+  </TabItem>
+  <TabItem value="linux" label="linux" default>
+    
+    ```sh_session
+    $ curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
+    ```
+  </TabItem>
+</Tabs>
+
+## Starting up Openline customerOS on your local machine
+
+Open your terminal and enter:
+
+```sh_session
+$ openline dev start
+```
+
+This will spin up customerOS locally via Docker and Minikube.  The customerOS server will be available on port `8081`.
+
+### Health check
+
+To verify that everything has been installed correctly and customerOS is ready to accept requests, enter the command:
+
+```sh_session
+$ openline ping
+```
+
+### Start building!
+
+That's it, you are ready to start building with Openline!
+
+
+<!---References---->
+
+[git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+[git-setup]: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+[node]: https://nodejs.org/en/download/
