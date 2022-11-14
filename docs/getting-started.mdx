@@ -4,8 +4,6 @@ title: Getting started
 displayed_sidebar: guides
 ---
 
-import OpenlineCli from "../includes/_openline_cli.mdx";
-
 :::caution work in progress
 
 We're busy building, and this is one of those things that is a work in progress!
@@ -24,9 +22,36 @@ The easiest way to get started with Openline is by downloading and installing th
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
 - [Git CLI][git]
-  - [First time Git setup][git-setup]
+- [First time Git setup][git-setup]
 
-<OpenlineCli />
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+### Install the Openline CLI
+
+<Tabs>
+<TabItem value="macos" label="macOS" default>
+
+```shell
+$ brew install openline-ai/openline
+```
+  
+</TabItem>
+<TabItem value="linux" label="linux" default>
+    
+
+```shell
+$ curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
+```
+ 
+</TabItem>
+</Tabs>
+
+You can check that the Openline CLI is installed by running:
+
+```shell
+$ openline --version
+```
 
 ## Starting up Openline customerOS on your local machine
 
