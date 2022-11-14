@@ -1,0 +1,60 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.pricingrow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pricingtable {
+    background: #F6F5F9;
+    color: #100024;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+}
+
+.pricingtable ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.pricingtable li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.pricingtable li:before {
+    content: "✓";
+    padding-right: 8px;
+}
+
+.pricingtitle {
+    font-family: SohneBreit-Buch;
+    text-align: center;
+    font-size: 38px;
+}
+
+.pricingtext {
+    font-size: 18px;
+}
+
+.pricingfreemiumprice {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.pricingprice {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.pricingsubtext {
+    font-size: 16px;
+}

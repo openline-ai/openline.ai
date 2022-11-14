@@ -351,7 +351,7 @@ html[data-theme='dark'] {
 }
 
 @media screen and (max-width: 400px) {
-  .pricing-table {
+  .pricingtable {
       width: 905 !important;
       margin-left: auto !important;
       margin-right: auto !important;
@@ -375,18 +375,8 @@ html[data-theme='dark'] {
       margin: auto;
       padding-top: 20px;
   }
-  .pricing-table {
-      background: #F6F5F9;
-      color: #100024;
-      margin: 20px;
-      display: grid;
-      align-content: space-evenly;
-      place-items: center;
-      border-radius: 8px;
-      padding: 20px;
-      width: 300px;
+
   }
-}
 
 @media screen and (max-width: 997px) {
   .pricing-container {
@@ -399,64 +389,11 @@ html[data-theme='dark'] {
       flex-wrap: wrap;
       flex-direction: column;
   }
-  .pricing-table {
-      margin-left: auto;
-      margin-right: auto;
-      background: #F6F5F9;
-      color: #100024;
-      margin: 50px;
-      display: grid;
-      align-content: space-evenly;
-      place-items: center;
-      min-height: 20vh;
-      border-radius: 8px;
-      padding: 30px;
-      width: 300px;
-  }
   .pricing-title {
       font-size: 42px;
+      word-wrap: normal;
   }
   .pricing-subtitle {
       font-size: 18px;
   }
-}
-
-.pricing-table ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-.pricing-table li {
-  padding-left: 1em;
-  text-indent: -1em;
-}
-
-.pricing-table li:before {
-  content: "✓";
-  padding-right: 8px;
-}
-
-.pricing-table-title {
-  font-family: SohneBreit-Buch;
-  text-align: center;
-  font-size: 38px;
-}
-
-.pricing-table-freemium-price {
-  font-size: 36px;
-  font-weight: bold;
-}
-
-.pricing-table-price {
-  font-size: 26px;
-  font-weight: 500;
-}
-
-.pricing-table-text {
-  font-size: 18px;
-}
-
-.pricing-table-subtext {
-  font-size: 16px;
 }

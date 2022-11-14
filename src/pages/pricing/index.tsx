@@ -2,6 +2,7 @@ import React from 'react';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
+import styles from './index.module.css'
 
 
 function PricingHero() {
@@ -25,44 +26,43 @@ function Pricing() {
     <>
       <section style={{ marginTop: '-30px', paddingBottom: '30px' }}>
         <div className="pricing-container">
-          <div className="row">
-            <div className="col flex">
-              <div className="pricing-table">
-                <h3 className="pricing-table-title">customerOS</h3>
+          <div className={styles.pricingrow}>
+            <div className={styles.pricingtable}>
+              <h3 className={styles.pricingtitle}>customerOS<br></br><br></br></h3> {/* fix this hack */}
+              <br></br>
+              <ul className={styles.pricingtext}>
+                <li>Unlimited events pipelines</li>
+                <li>Unlimited contacts</li>
+                <li>Unlimited API queries</li>
+                <li>Dedicated support</li>
+                <br></br> {/* fix this hack */}
                 <br></br>
-                <ul className='pricing-table-text'>
-                  <li>Unlimited events pipelines</li>
-                  <li>Unlimited contacts</li>
-                  <li>Unlimited API queries</li>
-                  <li>Dedicated support</li>
-                </ul>
-                <div style={{ textAlign: 'center' }}>
-                  <h5 className='pricing-table-freemium-price'>$0 / month</h5>
-                  <p className='pricing-table-subtext'>for 1,000 contacts</p>
-                  <h5 className='pricing-table-price'>Extra contacts</h5>
-                  <p className='pricing-table-subtext'>$0.05 / month</p>
-                </div>
+                <br></br>
+              </ul>
+              <div style={{ textAlign: 'center' }}>
+                <h5 className={styles.pricingfreemiumprice}>$0 / month</h5>
+                <p className={styles.pricingsubtext}>for 1,000 contacts</p>
+                <h5 className={styles.pricingprice}>Extra contacts</h5>
+                <p className={styles.pricingsubtext}>$0.05 / contact</p>
               </div>
             </div>
-            <div className="col flex">
-              <div className="pricing-table">
-                <h3 className="pricing-table-title">Openline App Suite</h3>
-                <br></br>
-                <ul className='pricing-table-text'>
-                  <li>Contact management</li>
-                  <li>Chat</li>
-                  <li>Messaging</li>
-                  <li>Email</li>
-                  <li>Voice</li>
-                  <li>Web analytics</li>
-                  <li>Dedicated support</li>
-                </ul>
-                <div style={{ textAlign: 'center' }}>
-                  <h5 className='pricing-table-freemium-price'>$0 / month</h5>
-                  <p className='pricing-table-subtext'>for 1,000 contacts</p>
-                  <h5 className='pricing-table-price'>Extra contacts</h5>
-                  <p className='pricing-table-subtext'>$0.02 / contact</p>
-                </div>
+            <div className={styles.pricingtable}>
+              <h3 className={styles.pricingtitle}>Openline App Suite</h3>
+              <br></br>
+              <ul className={styles.pricingtext}>
+                <li>Contact management</li>
+                <li>Chat</li>
+                <li>Messaging</li>
+                <li>Email</li>
+                <li>Voice</li>
+                <li>Web analytics</li>
+                <li>Dedicated support</li>
+              </ul>
+              <div style={{ textAlign: 'center' }}>
+                <h5 className={styles.pricingfreemiumprice}>$0 / month</h5>
+                <p className={styles.pricingsubtext}>for 1,000 contacts</p>
+                <h5 className={styles.pricingprice}>Extra contacts</h5>
+                <p className={styles.pricingsubtext}>$0.02 / contact</p>
               </div>
             </div>
           </div>
