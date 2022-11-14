@@ -4,6 +4,8 @@ title: Getting started
 displayed_sidebar: guides
 ---
 
+import OpenlineCli from "../includes/_openline_cli.mdx";
+
 :::caution work in progress
 
 We're busy building, and this is one of those things that is a work in progress!
@@ -24,31 +26,13 @@ The easiest way to get started with Openline is by downloading and installing th
 - [Git CLI][git]
   - [First time Git setup][git-setup]
 
-### Install the Openline CLI
-
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
-<Tabs>
-  <TabItem value="macos" label="macOS" default>
-    
-    ```sh_session
-    $ brew install openline-ai/openline
-    ```
-  </TabItem>
-  <TabItem value="linux" label="linux" default>
-    
-    ```sh_session
-    $ curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
-    ```
-  </TabItem>
-</Tabs>
+<OpenlineCli />
 
 ## Starting up Openline customerOS on your local machine
 
 Open your terminal and enter:
 
-```sh_session
+```shell
 $ openline dev start
 ```
 
@@ -58,7 +42,7 @@ This will spin up customerOS locally via Docker and Minikube.  The customerOS se
 
 To verify that everything has been installed correctly and customerOS is ready to accept requests, enter the command:
 
-```sh_session
+```shell
 $ openline ping
 ```
 
