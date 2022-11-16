@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #8f4dfb;
   --ifm-code-font-size: 95%;
 
-  --ifm-heading-font-family: SohneBreit-Buch, sans-serif;
+  --ifm-heading-font-family: 'Mona Sans', sans-serif;
   --ifm-font-family-base: Matter, sans-serif;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -59,6 +59,15 @@ html[data-theme='dark'] {
   font-family: SohneBreit-Buch;
   src: url("../fonts/SohneBreit-Buch.woff2") format("woff2");
   font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src:
+    url('../fonts/Mona-Sans.woff2') format('woff2 supports variations'),
+    url('../fonts/Mona-Sans.woff2') format('woff2-variations');
+  font-weight: 200 900;
+  font-stretch: 75% 125%;
 }
 
 /* Buttons */
