@@ -33,7 +33,7 @@ import TabItem from '@theme/TabItem';
 <TabItem value="macos" label="macOS" default>
 
 ```shell
-$ brew install openline-ai/openline
+brew install openline-ai/openline
 ```
   
 </TabItem>
@@ -41,7 +41,7 @@ $ brew install openline-ai/openline
     
 
 ```shell
-$ curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
+curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
 ```
  
 </TabItem>
@@ -50,7 +50,7 @@ $ curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
 You can check that the Openline CLI is installed by running:
 
 ```shell
-$ openline --version
+openline --version
 ```
 
 ## Starting up Openline customerOS on your local machine
@@ -58,7 +58,7 @@ $ openline --version
 Open your terminal and enter:
 
 ```shell
-$ openline dev start
+openline dev start
 ```
 
 This will spin up customerOS locally via Docker and Minikube.  The customerOS server will be available on port `8081`.
@@ -68,7 +68,7 @@ This will spin up customerOS locally via Docker and Minikube.  The customerOS se
 To verify that everything has been installed correctly and customerOS is ready to accept requests, enter the command:
 
 ```shell
-$ openline ping
+openline ping
 ```
 
 ### Start building!

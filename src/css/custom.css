@@ -88,6 +88,12 @@ html[data-theme='dark'] {
   text-align: center;
 }
 
+/* Codeblocks */
+
+.language-shell .token-line::before {
+  content: "$ ";
+}
+
 /* Homepage */
 
 .hero {
