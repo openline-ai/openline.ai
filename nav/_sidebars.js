@@ -4,10 +4,6 @@ const guides = [
     id: 'index'
   },
   {
-    type: 'doc',
-    id: 'getting-started',
-  },
-  {
     type: 'category',
     label: 'Overview',
     collapsed: true,
