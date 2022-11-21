@@ -20,14 +20,6 @@ const guides = [
   },
   {
     type: 'category',
-    label: 'Data pipelines',
-    collapsed: true,
-    items: [
-      'guides/data-pipelines-overview',
-    ],
-  },
-  {
-    type: 'category',
     label: 'Components',
     collapsed: true,
     items: [
@@ -48,6 +40,15 @@ const guides = [
     collapsed: true,
     items: [
       'guides/oasis-overview',
+    ],
+  },
+  {
+    type: 'category',
+    label: 'Openline CLI',
+    collapsed: true,
+    items: [
+      'guides/cli-overview',
+      'guides/cli-openline-dev'
     ],
   },
 ]

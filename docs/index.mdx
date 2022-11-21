@@ -4,12 +4,6 @@ title: Getting started
 displayed_sidebar: guides
 ---
 
-:::caution work in progress
-
-We're busy building, and this is one of those things that is a work in progress!
-
-:::
-
 This guide will get you up and running with Openline in **less than 5 minutes**.  
 
 ## The Openline CLI
@@ -18,11 +12,7 @@ The easiest way to get started with Openline is by downloading and installing th
 
 ### What you'll need
 
-- [Node.js][node] version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-- [Git CLI][git]
-- [First time Git setup][git-setup]
+- [Node.js][node] version 16.14 or above
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -33,17 +23,9 @@ import TabItem from '@theme/TabItem';
 <TabItem value="macos" label="macOS" default>
 
 ```shell
-brew install openline-ai/openline
+npm i openline -g
 ```
   
-</TabItem>
-<TabItem value="linux" label="linux" default>
-    
-
-```shell
-curl -sSL https://openline.dev/cli-linux | sudo tar -xz -C /usr/local/bin
-```
- 
 </TabItem>
 </Tabs>
 
@@ -52,6 +34,7 @@ You can check that the Openline CLI is installed by running:
 ```shell
 openline --version
 ```
+If everything has been installed correctly, you'll see an output that looks like `openline/x.y.z`
 
 ## Starting up Openline customerOS on your local machine
 
@@ -61,23 +44,29 @@ Open your terminal and enter:
 openline dev start
 ```
 
-This will spin up customerOS locally via Docker and Minikube.  The customerOS server will be available on port `8081`.
+This will spin up the customerOS dev server locally.
 
 ### Health check
 
 To verify that everything has been installed correctly and customerOS is ready to accept requests, enter the command:
 
 ```shell
-openline ping
+openline dev ping
 ```
 
 ### Start building!
 
 That's it, you are ready to start building with Openline!
 
+Next checkout
+
+- the [CLI guide][cli-guide] to check out all the commands
+- the [API reference][api-reference] docs to learn what you can do with customerOS
+
+
 
 <!---References---->
 
-[git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-[git-setup]: https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+[api-reference]: <docs/reference>
+[cli-guide]: <guides/cli-overview>
 [node]: https://nodejs.org/en/download/
