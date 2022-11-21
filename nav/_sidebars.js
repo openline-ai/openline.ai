@@ -4,10 +4,6 @@ const guides = [
     id: 'index'
   },
   {
-    type: 'doc',
-    id: 'getting-started',
-  },
-  {
     type: 'category',
     label: 'Overview',
     collapsed: true,
@@ -20,14 +16,6 @@ const guides = [
     items: [
       'guides/customer-os-overview',
       'guides/customer-os-self-hosted'
-    ],
-  },
-  {
-    type: 'category',
-    label: 'Data pipelines',
-    collapsed: true,
-    items: [
-      'guides/data-pipelines-overview',
     ],
   },
   {
@@ -52,6 +40,15 @@ const guides = [
     collapsed: true,
     items: [
       'guides/oasis-overview',
+    ],
+  },
+  {
+    type: 'category',
+    label: 'Openline CLI',
+    collapsed: true,
+    items: [
+      'guides/cli-overview',
+      'guides/cli-openline-dev'
     ],
   },
 ]
