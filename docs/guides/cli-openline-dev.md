@@ -51,8 +51,17 @@ ARGUMENTS:
 
 FLAGS
     -a, --all       Start all Openline applications
+    -t, --tag       Version tag of the customerOS images to deploy.
+                    Default: latest
     -v, --verbose   Show all output of the command in the terminal
 ```
+
+Release tag options:
+
+- Default is to deploy the latest release build using `--tag latest`
+- If you'd like the bleeding edge, you can run `--tag otter` which includes all the latest pull requests
+- If you'd like to run a previous release version, check out all [release tags][release]
+
 
 ## `openline dev status`
 
@@ -83,3 +92,6 @@ FLAGS
     -a, --all       Stop all Openline applications
     -v, --verbose   Show all output of the command in the terminal
 ```
+
+<!--- References ---->
+[release]: https://github.com/openline-ai/openline-customer-os/tags
