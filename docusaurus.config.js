@@ -27,9 +27,7 @@ const config = {
     locales: ['en'],
   },
 
-
-  scripts: [
-  ],
+  scripts: [{src: '/stats/js/script.js', defer: true, 'data-api': '/stats/api/event', 'data-domain': 'openline.ai'}],
 
   presets: [
     [
