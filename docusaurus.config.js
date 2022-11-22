@@ -27,9 +27,7 @@ const config = {
     locales: ['en'],
   },
 
-
-  scripts: [
-  ],
+  scripts: [{src: 'https://plausible.io/js/script.js', defer: true, 'data-domain': 'openline.ai'}],
 
   presets: [
     [
