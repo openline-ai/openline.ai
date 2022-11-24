@@ -81,6 +81,9 @@ const config = {
         // ... other options
       },
     ],
+    [
+      'docusaurus2-dotenv', {}
+    ],
   ],
 
   themeConfig:
