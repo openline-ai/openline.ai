@@ -16,7 +16,7 @@ export default function OpenlineTracker(props) {
 
     useEffect(() => {
         if(props.enabled !== false) {
-            newTracker(props.trackerId, siteConfig.baseUrl, {
+            newTracker(props.trackerId, siteConfig.url, {
                 appId: props.appId,
                 discoverRootDomain: true,
                 cookieSecure: true,
