@@ -48,15 +48,77 @@ newTracker(openline-help-widget-dev, https://lzdyxrxc-uat-ninja.openline.ai, {
     eventMethod: "post",
     postPath: "/ai.openline.sp/tp2",
     platform: "web",
-    bufferSize: parseInt(propertyOrDefault(1, 1)),
+    bufferSize: 1,
     contexts: {
         webPage: true
     },
 });
 ```
 
+<!--- TODO Update here with code for inserting on React App ---->
 
+## Cloud Deployment
 
+Of the fields above, the following settings should be created by Openline (this will be self-managed soon via Openline Settings).
+
+- trackerId
+  - e.g. openline-website-tracker-production-9h8yztcjr4kvitsu
+- appId
+  - e.g. openline-website-f6k4o8zqz7b1lpas
+- Url
+  - https://events.openline.ai
+
+### Proxying
+
+:::caution proxying
+
+We recommend using a proxy to prevent events getting blocked by ad-blockers and browsers.
+
+:::
+
+<!--- TODO Update here with proxy info (Vercel proxying) ---->
+
+## Self-hosted
+
+If you are self-hosting customerOS, the following should be updated specfically to your deployment:
+
+- trackerId
+  - Name of the tracker
+- appId
+  - Name of the application you are tracking users on
+- Url
+  - The root URL to send your user events to
+- postPath
+  - The path of the URL to send your user events to
+
+<!--- TODO Update here with info on words not to include in Url or postPath ---->
+
+# Now we're collecting, now what?
+
+What are we collecting by default
+
+- page views
+- clicks
+
+What else can we collect?
+
+- custom events
+
+What happens to this data?
+
+- Atomic events
+  - Sessions, pages, visitors(?)
+- Modelled tables
+  - We process this high fidelity data and collate it into more usable tables that are queryable via customerOS's GraphQL
+
+What can I do with this data?
+
+- GraphQL
+- Openline Contacts
+  - Enriched application user data visible alongside your contact data
+- Openline Oasis
+  - Enriched application user data visible alongside your conversations
+- Openline Analytics (soon)
 
 
 <!--- References ---->
