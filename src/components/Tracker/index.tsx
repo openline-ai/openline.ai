@@ -1,8 +1,11 @@
 import React, {useEffect} from 'react';
 import {newTracker, enableActivityTracking, trackPageView} from '@snowplow/browser-tracker';
 import {LinkClickTrackingPlugin, enableLinkClickTracking} from '@snowplow/browser-plugin-link-click-tracking';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 export default function OpenlineTracker(props) {
+
+    const { siteConfig } = useDocusaurusContext();
 
     function propertyOrDefault(propertyValue, defaultValue) {
         if (propertyValue !== undefined) {
@@ -13,7 +16,7 @@ export default function OpenlineTracker(props) {
 
     useEffect(() => {
         if(props.enabled !== false) {
-            newTracker(props.trackerId, '/', {
+            newTracker(props.trackerId, siteConfig.baseUrl, {
                 appId: props.appId,
                 discoverRootDomain: true,
                 cookieSecure: true,
