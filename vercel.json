@@ -9,8 +9,8 @@
         "destination": "https://plausible.io/api/event"
       },
       {
-        "source": "analytics.openline.ai",
-        "destination": "lzdyxrxc-uat-ninja.openline.ai"
+        "source": "/ai.openline.sp/tp2",
+        "destination": "https://lzdyxrxc-uat-ninja.openline.ai/ai.openline.sp/tp2"
       }
     ]
   }

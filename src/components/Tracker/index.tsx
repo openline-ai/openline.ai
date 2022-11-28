@@ -13,7 +13,7 @@ export default function OpenlineTracker(props) {
 
     useEffect(() => {
         if(props.enabled !== false) {
-            newTracker(props.trackerId, 'analytics.openline.ai', {
+            newTracker(props.trackerId, '/', {
                 appId: props.appId,
                 discoverRootDomain: true,
                 cookieSecure: true,
