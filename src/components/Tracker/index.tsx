@@ -19,6 +19,7 @@ export default function OpenlineTracker(props) {
                 cookieSecure: true,
                 cookieSameSite: "None",
                 eventMethod: "post",
+                postPath: "/ai.openline.sp/tp2",
                 platform: "web",
                 bufferSize: parseInt(propertyOrDefault(props.bufferSize, 1)),
                 contexts: {
