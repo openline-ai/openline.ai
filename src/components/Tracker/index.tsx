@@ -13,7 +13,7 @@ export default function OpenlineTracker(props) {
 
     useEffect(() => {
         if(props.enabled !== false) {
-            newTracker(props.trackerId, props.collectorUrl, {
+            newTracker(props.trackerId, '/stats/api/tracker', {
                 appId: props.appId,
                 discoverRootDomain: true,
                 cookieSecure: true,
@@ -35,7 +35,7 @@ export default function OpenlineTracker(props) {
 
             enableLinkClickTracking({
                 pseudoClicks: true,
-                denylist: ['untracked'],
+                // denylist: ['untracked'], TODO investigate and replace this
                 trackContent: true
             });
 

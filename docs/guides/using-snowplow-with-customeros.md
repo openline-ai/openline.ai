@@ -101,7 +101,26 @@ newTracker(openline-help-widget-dev, https://events.openline.ai, {
 });
 ```
 
+<!--- TODO Update here with code for inserting on React App ---->
 
+## Cloud Deployment
+
+Of the fields above, the following settings should be created by Openline (this will be self-managed soon via Openline Settings).
+
+- trackerId
+  - e.g. openline-website-tracker-production-9h8yztcjr4kvitsu
+- appId
+  - e.g. openline-website-f6k4o8zqz7b1lpas
+- Url
+  - https://events.openline.ai
+
+### Proxying
+
+:::caution proxying
+
+We recommend using a proxy to prevent events getting blocked by ad-blockers and browsers.
+
+:::
 
 - Openline collects this as atomic events, providing raw data to manipulate into useful aggregations and views
   - This data includes sessions, page views, clicks, visitors and metadata attached to these
