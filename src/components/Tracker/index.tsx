@@ -13,13 +13,12 @@ export default function OpenlineTracker(props) {
 
     useEffect(() => {
         if(props.enabled !== false) {
-            newTracker(props.trackerId, '/stats/api/tracker', {
+            newTracker(props.trackerId, 'analytics.openline.ai', {
                 appId: props.appId,
                 discoverRootDomain: true,
                 cookieSecure: true,
                 cookieSameSite: "None",
                 eventMethod: "post",
-                postPath: "/ai.openline.sp/tp2",
                 platform: "web",
                 bufferSize: parseInt(propertyOrDefault(props.bufferSize, 1)),
                 contexts: {
