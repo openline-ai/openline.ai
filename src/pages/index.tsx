@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 
+
 import AgentScreen from '@site/static/img/AgentScreen.png';
 import GithubButton from '@site/static/img/GithubButton.png';
 import InvestorLogos from '@site/static/img/InvestorLogos.svg';

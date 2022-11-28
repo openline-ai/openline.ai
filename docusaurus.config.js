@@ -81,6 +81,7 @@ const config = {
         // ... other options
       },
     ],
+    'docusaurus-node-polyfills',
   ],
 
   themeConfig:
@@ -218,6 +219,18 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  customFields: {
+    'REACT_APP_SP_API_KEY': process.env.REACT_APP_SP_API_KEY,
+    'REACT_APP_SP_HTTP_PATH': process.env.REACT_APP_SP_HTTP_PATH,
+    'REACT_APP_SP_WS_PATH': process.env.REACT_APP_SP_WS_PATH,
+    'REACT_APP_SP_TRACKER_ENABLED': process.env.REACT_APP_SP_TRACKER_ENABLED,
+    'REACT_APP_SP_TRACKER_COLLECTOR_URL': process.env.REACT_APP_SP_TRACKER_COLLECTOR_URL,
+    'REACT_APP_SP_TRACKER_APP_ID': process.env.REACT_APP_SP_TRACKER_APP_ID,
+    'REACT_APP_SP_TRACKER_TRACKER_ID': process.env.REACT_APP_SP_TRACKER_TRACKER_ID,
+    'REACT_APP_SP_TRACKER_BUFFER_SIZE': process.env.REACT_APP_SP_TRACKER_BUFFER_SIZE,
+    'REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS': process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS,
+    'REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS': process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS,
+  },
 };
 
 module.exports = config;
