@@ -50,10 +50,12 @@ ARGUMENTS:
                     Options: [customer-os]
 
 FLAGS
-    -a, --all       Start all Openline applications
-    -t, --tag       Version tag of the customerOS images to deploy.
-                    Default: latest
-    -v, --verbose   Show all output of the command in the terminal
+  -a, --all               start all Openline apps & services
+  -l, --location=<value>  location for the source code to be used in the
+                          installation
+  -t, --tag=<value>       [default: latest] version tag of the image you would
+                          like to deploy
+  -v, --verbose
 ```
 
 Release tag options:
