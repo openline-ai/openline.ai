@@ -24,6 +24,7 @@ const guides = [
     collapsed: true,
     items: [
       'guides/components-overview',
+      'guides/using-snowplow-with-customeros',
     ],
   },
   {
