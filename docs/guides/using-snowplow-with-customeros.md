@@ -101,11 +101,9 @@ newTracker(openline-help-widget-dev, https://events.openline.ai, {
 });
 ```
 
-<!--- TODO Update here with code for inserting on React App ---->
+#### Openline Cloud parameters
 
-## Cloud Deployment
-
-Of the fields above, the following settings should be created by Openline (this will be self-managed soon via Openline Settings).
+Of the fields above, the following settings should be created by Openline (this will be self-managed soon via Openline Settings). Reach out to us to get these setup for you!
 
 - trackerId
   - e.g. openline-website-tracker-production-9h8yztcjr4kvitsu
@@ -114,13 +112,84 @@ Of the fields above, the following settings should be created by Openline (this 
 - Url
   - https://events.openline.ai
 
-### Proxying
+#### Self-hosted parameters
 
-:::caution proxying
+If you are self-hosting customerOS, the following should be updated specfically to your deployment:
 
-We recommend using a proxy to prevent events getting blocked by ad-blockers and browsers.
+- trackerId
+  - Name of the tracker
+- appId
+  - Name of the application you are tracking users on
+- Url
+  - The root URL to send your user events to
+- postPath
+  - The path of the URL to send your user events to
+
+:::info
+
+It's highly recommended not to use words such as tracker or collector as this can get automatically blocked by browsers and ad-blockers.
 
 :::
+
+### Embedding on your site
+
+Now we have created the tracker function, this should be added and loaded on every page in your application in order to capture all user events.
+
+With React this is done using the `useEffect` function, we are also tracking link clicks and sending a heartbeat in order to measure time spent on page:
+
+```javascript
+import React, {useEffect} from 'react';
+import {newTracker, enableActivityTracking, trackPageView} from '@snowplow/browser-tracker';
+import {LinkClickTrackingPlugin, enableLinkClickTracking} from '@snowplow/browser-plugin-link-click-tracking';
+
+export default function OpenlineTracker(props) {
+    useEffect(() => {
+        newTracker(openline-help-widget-dev, https://events.openline.ai, {
+            appId: openline-help-widget,
+            discoverRootDomain: true,
+            cookieSecure: true,
+            cookieSameSite: "None",
+            eventMethod: "post",
+            postPath: "/ai.openline.sp/tp2",
+            platform: "web",
+            bufferSize: 1,
+            contexts: {
+                webPage: true
+            },
+            plugins: [LinkClickTrackingPlugin()],
+        });
+
+        enableActivityTracking({
+            minimumVisitLength: 30,
+            heartbeatDelay: 30
+        });
+
+        enableLinkClickTracking({
+            pseudoClicks: true,
+            trackContent: true
+        });
+
+        trackPageView({}, openline-help-widget-dev);
+
+    }, []);
+    return (
+        <></>
+    )
+}
+```
+
+## What can we collect?
+
+By default with the above settings, Openline will collect the following:
+
+- Page views
+- Clicks
+
+With additional configuration, the following can be collected:
+
+- Custom events
+
+## What happens to this data?
 
 - Openline collects this as atomic events, providing raw data to manipulate into useful aggregations and views
   - This data includes sessions, page views, clicks, visitors and metadata attached to these
