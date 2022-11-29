@@ -178,6 +178,12 @@ export default function OpenlineTracker(props) {
 }
 ```
 
+Finally we add the tracker component to every page using the following code:
+
+```javascript
+<OpenlineTracker/>
+```
+
 ## What can we collect?
 
 By default with the above settings, Openline will collect the following:
