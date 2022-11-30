@@ -7,10 +7,6 @@
     {
       "source": "/stats/api/event",
       "destination": "https://plausible.io/api/event"
-    },
-    {
-      "source": "/ai.openline.sp/tp2",
-      "destination": "https://lzdyxrxc-uat-ninja.openline.ai/ai.openline.sp/tp2"
     }
   ]
 }
