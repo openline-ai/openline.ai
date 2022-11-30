@@ -44,6 +44,15 @@ export default function FooterWrapper(props: Props): JSX.Element {
             minimumVisitLength={process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS}
             heartbeatDelay={process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS}
         />
+        <OpenlineTracker
+            enabled={true}
+            appId="openline.ai"
+            trackerId="tracker-3"
+            collectorUrl={process.env.REACT_APP_SP_TRACKER_COLLECTOR_URL}
+            bufferSize={process.env.REACT_APP_SP_TRACKER_BUFFER_SIZE}
+            minimumVisitLength={process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS}
+            heartbeatDelay={process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS}
+        />
     </>
   );
 }
