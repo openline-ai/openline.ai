@@ -28,13 +28,22 @@ export default function FooterWrapper(props: Props): JSX.Element {
       <Footer {...props} />
       <OpenlineTracker
                 enabled={true}
-                appId={process.env.REACT_APP_SP_TRACKER_APP_ID}
-                trackerId={process.env.REACT_APP_SP_TRACKER_TRACKER_ID}
+                appId="openline.ai"
+                trackerId="tracker-1"
                 collectorUrl={process.env.REACT_APP_SP_TRACKER_COLLECTOR_URL}
                 bufferSize={process.env.REACT_APP_SP_TRACKER_BUFFER_SIZE}
                 minimumVisitLength={process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS}
                 heartbeatDelay={process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS}
             />
+        <OpenlineTracker
+            enabled={true}
+            appId="openline.ai"
+            trackerId="tracker-2"
+            collectorUrl={process.env.REACT_APP_SP_TRACKER_COLLECTOR_URL}
+            bufferSize={process.env.REACT_APP_SP_TRACKER_BUFFER_SIZE}
+            minimumVisitLength={process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS}
+            heartbeatDelay={process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS}
+        />
     </>
   );
 }
