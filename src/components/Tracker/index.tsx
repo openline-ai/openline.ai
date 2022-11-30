@@ -16,8 +16,22 @@ export default function OpenlineTracker(props) {
 
     useEffect(() => {
         if(props.enabled !== false) {
-            newTracker(props.trackerId, siteConfig.url, {
-                appId: props.appId,
+            newTracker("tracker-1", siteConfig.url, {
+                appId: "openline.ai",
+                discoverRootDomain: true,
+                cookieSecure: true,
+                cookieSameSite: "None",
+                eventMethod: "post",
+                postPath: "/ai.openline.sp/tp2",
+                platform: "web",
+                bufferSize: parseInt(propertyOrDefault(props.bufferSize, 1)),
+                contexts: {
+                    webPage: true
+                },
+                plugins: [LinkClickTrackingPlugin()],
+            });
+            newTracker("tracker-2", siteConfig.url, {
+                appId: "openline.ai",
                 discoverRootDomain: true,
                 cookieSecure: true,
                 cookieSameSite: "None",
@@ -42,7 +56,7 @@ export default function OpenlineTracker(props) {
                 trackContent: true
             });
 
-            trackPageView({}, [props.trackerId]);
+            trackPageView({}, ["tracker-1","tracker-2"]);
         }
     }, []);
 
