@@ -69,27 +69,27 @@ USAGE:
     openline dev start [APP] [flag(s)]
 
 ARGUMENTS:
-    APP             The application you would like to start. 
-                    Default: customer-os
-                    Options: 
-                        customer-os 
-                        contacts 
-                        oasis 
-                        auth 
-                        db
-                        customer-os-api 
-                        message-store
-                        channels-api
-                        oasis-api
-                        oasis-gui
-                        contacts-gui
+    APP                     The application you would like to start. 
+                             Default: customer-os
+                             Options: 
+                                customer-os 
+                                contacts 
+                                oasis 
+                                auth 
+                                db
+                                customer-os-api 
+                                message-store
+                                channels-api
+                                oasis-api
+                                oasis-gui
+                                contacts-gui
 
 FLAGS
-  -a, --all               Start all Openline apps & services
-  -l, --location=<value>  Path to the local cloned repo you would like to 
-                          build an image from.
-  -t, --tag=<value>       Version tag of the image you would like to deploy.
-                          Default: latest
+  -a, --all                 Start all Openline apps & services
+  -l, --location=<value>    Path to the local cloned repo you would like to 
+                            build an image from.
+  -t, --tag=<value>         Version tag of the image you would like to deploy.
+                            Default: latest
   -v, --verbose
 ```
 
