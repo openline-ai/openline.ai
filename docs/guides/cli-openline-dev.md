@@ -13,7 +13,8 @@ USAGE:
     openline dev [COMMAND]
 
 COMMANDS:
-    ping            Health check to determine if an openline service is reachable
+    ping            Health check on all Openline services
+    rm              Remove openline app or service
     start           Start the openline development server
     status          View the current status of all services deployed on development server
     stop            Stop and tear down the Openline development server
@@ -21,19 +22,42 @@ COMMANDS:
 
 ## `openline dev ping`
 
-Health check command to determine if an openline service is reachable.  You must have started a local dev server instance via the `openline dev start` command for ping to work.
+Health check across all Openline services.  You must have started a local dev server instance via the `openline dev start` command for ping to work.
 
 ```terminal
 USAGE:
-    openline dev ping [APP] [flag(s)]
-
-ARGUMENTS:
-    APP             The application you would like to ping. 
-                    Default: customer-os
-                    Options: [customer-os]
+    openline dev ping [flag(s)]
 
 FLAGS
     -v, --verbose   Show all output of the command in the terminal
+```
+
+## `openline dev rm`
+
+Remove an Openline app or service from the dev server.
+
+```terminal
+USAGE:
+    openline dev rm [APP] [flag(s)]
+
+ARGUMENTS:
+    APP             The application you would like to remove. 
+                    Options: 
+                        customer-os 
+                        contacts 
+                        oasis 
+                        auth 
+                        db
+                        customer-os-api 
+                        message-store
+                        channels-api
+                        oasis-api
+                        oasis-gui
+                        contacts-gui
+
+FLAGS
+  --all             Remove all Openline apps & services
+  -v, --verbose
 ```
 
 ## `openline dev start`
@@ -47,14 +71,25 @@ USAGE:
 ARGUMENTS:
     APP             The application you would like to start. 
                     Default: customer-os
-                    Options: [customer-os]
+                    Options: 
+                        customer-os 
+                        contacts 
+                        oasis 
+                        auth 
+                        db
+                        customer-os-api 
+                        message-store
+                        channels-api
+                        oasis-api
+                        oasis-gui
+                        contacts-gui
 
 FLAGS
-  -a, --all               start all Openline apps & services
-  -l, --location=<value>  location for the source code to be used in the
-                          installation
-  -t, --tag=<value>       [default: latest] version tag of the image you would
-                          like to deploy
+  -a, --all               Start all Openline apps & services
+  -l, --location=<value>  Path to the local cloned repo you would like to 
+                          build an image from.
+  -t, --tag=<value>       Version tag of the image you would like to deploy.
+                          Default: latest
   -v, --verbose
 ```
 
@@ -79,19 +114,13 @@ FLAGS
 
 ## `openline dev stop`
 
-Stop the Openline development server and tear down the local instance.
+Save current dev server config and spin down all services.
 
 ```terminal
 USAGE:
     openline dev stop [APP] [flag(s)]
 
-ARGUMENTS:
-    APP             The application you would like to stop. 
-                    Default: customer-os
-                    Options: [customer-os]
-
 FLAGS
-    -a, --all       Stop all Openline applications
     -v, --verbose   Show all output of the command in the terminal
 ```
 
