@@ -41,12 +41,9 @@ We love pull requests!  And you don't have to be technical to contribute!  Check
 
 <!--- References -->
 
-[community]: https://github.com/openline-ai/community/issues
-[contribute]: https://github.com/openline-ai/community/blob/main/contribute-code/README.md
+[contribute]: https://www.openline.ai/docs/contribute/how-to-contribute
 [customerOS]: https://github.com/openline-ai/openline-customer-os/issues/new/choose
-[license]: https://choosealicense.com/licenses/mit/
 [linkedin]: https://www.linkedin.com/company/openline-ai/
-[repo]: https://github.com/openline-ai/community/
 [slack]: https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ
 [twitter]: https://twitter.com/OpenlineAI
 [oasis]: https://github.com/openline-ai/openline-oasis/issues/new/choose

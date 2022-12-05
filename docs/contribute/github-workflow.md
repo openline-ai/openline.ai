@@ -4,16 +4,26 @@ title: Github workflow
 displayed_sidebar: contribute
 ---
 
-:::caution work in progress
+## Clone the repo
 
-We're busy building, and this is one of those things that is a work in progress!
+First, create a local copy (i.e. clone) of the source code that you'd like to work on.  The Openline CLI makes this super easy.  In your terminal, simply enter
 
-:::
+```shell
+openline dev clone <openline-app>
+```
 
-## 1. Fork in the cloud
+where "openline-app" is the name of the application you'd like to work on.  Examples include customer-os, contacts, or oasis.
 
-1. Visit <https://github.com/mailchain/mailchain>
-2. Click `Fork` button (top right) to establish a cloud-based fork.
+You can enter `openline dev clone --help` to see all available applications open to community pull requests.
+
+## Fork the repo on GitHub to your personal account
+
+After you've successfully cloned an Openline application to your local machine, you'll see an output message that looks like this:
+
+```terminal
+🦦  a local copy of the codebase has been created.  Enjoy!
+[URL] https://github.com/openline-ai/openline.ai
+```
 
 ## 2. Clone fork to local storage
 
