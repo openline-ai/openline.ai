@@ -62,6 +62,6 @@ Next checkout
 <!---References---->
 
 [api-reference]: <docs/reference>
-[cli-guide]: <guides/cli-overview>
+[cli-guide]: <docs/guides/cli-overview>
 [github]: <github-workflow>
 [node]: https://nodejs.org/en/download/
