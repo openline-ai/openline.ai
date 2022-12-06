@@ -88,7 +88,7 @@ const contribute = [
     label: 'Contribute code',
     collapsed: true,
     items: [
-      'contribute/getting-started',
+      'contribute/getting-started-code',
       'contribute/github-workflow'
     ],
   },
