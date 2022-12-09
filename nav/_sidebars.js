@@ -25,6 +25,7 @@ const guides = [
     items: [
       'guides/components-overview',
       'guides/using-snowplow-with-customeros',
+      'guides/adding-chat-widget',
     ],
   },
   {
