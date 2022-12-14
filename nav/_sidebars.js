@@ -17,7 +17,7 @@ const guides = [
     label: 'Connectors',
     collapsed: true,
     items: [
-      'guides/components-overview',
+      'guides/connectors-catelog',
       'guides/using-snowplow-with-customer-os',
     ],
   },
