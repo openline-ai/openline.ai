@@ -6,7 +6,7 @@ displayed_sidebar: guides
 
 # Openline Connectors Catelog
 
-We use [Airbyte][airbyte] to pull data from third party plaforms into customerOS.  
+We currently support integrations with over 100 leading applications, with new connectors coming on line all the time.  If you don't see something you need, let us know!  We'd be happy to add it.
 
 ## Accounting
 
