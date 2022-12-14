@@ -10,17 +10,30 @@ This guide will get you up and running with a local Openline development environ
 
 The easiest way to get started is by downloading and installing the Openline Command Line Interface (CLI).  The Openline CLI is an open source NodeJS app that makes it easy to setup and manage your development environment directly from the terminal.  It's an essential part of developing on Openline.
 
-### What you'll need
+### Standalone Installation with a Tarball
 
-- [Node.js][node] version 16.14 or above
+The standalone install is a simple tarball with a binary.  It contains its own node.js binary and autoupdates.
 
-Note:  The Openline CLI is currently supports macOS and Debian/Ubuntu distros.
+Running the following script will install the CLI in `/usr/local/lib/openline` and `/usr/local/bin/openline`.
 
-### Install the Openline CLI
+:::info
+
+This script requires sudo and isn't supported on Windows
+
+:::
 
 ```shell
-npm i openline -g
+curl http://openline.sh/install.sh | sh
 ```
+
+If you prefer, you can download one of the following tarballs and extract it yourself.
+
+- [macOS (apple silicon)][mac-arm]
+- [macOS (intel)][mac-x64]
+- [linux (x64)][linux-x64]
+- [linux (arm)][linux-arm]
+
+### Verify Installation
 
 You can check that the Openline CLI is installed by running:
 
@@ -30,23 +43,6 @@ openline --version
 
 If everything has been installed correctly, you'll see an output that looks like `openline/x.y.z`
 
-## Starting up Openline customerOS on your local machine
-
-Open your terminal and enter:
-
-```shell
-openline dev start
-```
-
-This will spin up the customerOS dev server locally.
-
-### Health check
-
-To verify that everything has been installed correctly and customerOS is ready to accept requests, enter the command:
-
-```shell
-openline dev ping
-```
 
 ### Start building!
 
@@ -61,7 +57,9 @@ Next checkout
 
 <!---References---->
 
-[api-reference]: <docs/reference>
 [cli-guide]: <docs/guides/cli-overview>
 [github]: <github-workflow>
-[node]: https://nodejs.org/en/download/
+[linux-arm]: http://openline.sh/openline-linux-arm.tar.gz
+[linux-x64]: http://openline.sh/openline-linux-x64.tar.gz
+[mac-arm]: http://openline.sh/openline-darwin-arm.tar.gz
+[mac-x64]: http://openline.sh/openline-darwin-x64.tar.gz
