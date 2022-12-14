@@ -5,26 +5,21 @@ const guides = [
   },
   {
     type: 'category',
-    label: 'Overview',
-    collapsed: true,
-    items: ['guides/why-openline', 'guides/architecture'],
-  },
-  {
-    type: 'category',
     label: 'customerOS',
     collapsed: true,
     items: [
-      'guides/customer-os-overview',
-      'guides/customer-os-self-hosted'
+      'guides/installing-customer-os',
+      'guides/running-customer-os',
+      'guides/uninstalling-customer-os'
     ],
   },
   {
     type: 'category',
-    label: 'Components',
+    label: 'Connectors',
     collapsed: true,
     items: [
       'guides/components-overview',
-      'guides/using-snowplow-with-customeros',
+      'guides/using-snowplow-with-customer-os',
     ],
   },
   {

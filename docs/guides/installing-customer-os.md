@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-sidebar_label: Overview
+sidebar_label: Installing
 displayed_sidebar: guides
 ---
 
-# Customer OS overview
+# Installing customerOS
 
 :::caution work in progress
 

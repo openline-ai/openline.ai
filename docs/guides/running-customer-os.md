@@ -1,10 +1,10 @@
 ---
 sidebar_position: 2
-sidebar_label: Self hosted
+sidebar_label: Running
 displayed_sidebar: guides
 ---
 
-# How to self-host
+# Running customerOS
 
 :::caution work in progress
 
