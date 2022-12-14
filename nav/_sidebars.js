@@ -9,7 +9,6 @@ const guides = [
     collapsed: true,
     items: [
       'guides/installing-customer-os',
-      'guides/running-customer-os',
       'guides/uninstalling-customer-os'
     ],
   },

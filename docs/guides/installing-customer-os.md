@@ -1,5 +1,4 @@
 ---
-sidebar_position: 1
 sidebar_label: Installing
 displayed_sidebar: guides
 ---
@@ -8,21 +7,40 @@ displayed_sidebar: guides
 
 Setting up customerOS is pretty simple via the Openline CLI.  If you haven't yet installed the Openline CLI, check out our guide to [getting started][getting-started].
 
+## customerOS Overview
+
+Openline customerOS is comprised of the Features and Services:
+
+| Feature           | Service                        |
+|-------------------|--------------------------------|
+| auth              | auth-fusionauth                |
+|                   | auth-fusionauth-loadbalancer   |
+| customer-db       | customer-db-prostreql          |
+|                   | customer-db-neo4j              |
+| customer-os-api   | customer-os-api-service        |
+|                   | customer-os-api-loadbalancer   |
+| message-store-api | message-store-api-service      |
+|                   | message-store-api-loadbalancer |
+| launcher          | launcher-gui-service           |
+|                   | launcher-gui-loadbalancer      |
+
+We use kubernetes to orchestrate everything.  The Openline CLI manages the setup and provisioning of the kubernetes cluster for you.
+
 ## Installing customerOS via the Openline CLI
 
-Open your terminal and enter:
+The Openline CLI is a powerful tool, giving you the ability to control installation at the Product or Feature level.  If you'd like to install all of customerOS (recommended), run:
 
 ```shell
 openline dev start customer-os
 ```
 
-This will spin up the customerOS dev server and install the following services in a kubernetes cluster on your local machine:
+If you'd only like to install a customerOS feature, you can do that by running:
 
-- customer-os-api
-- message-store-api
-- auth-fusionauth
-- customer-db-neo4j
-- customer-db-postgresql
+```shell
+openline dev start <feature name>
+```
+
+as specified above.
 
 ### Running a different version
 
@@ -53,6 +71,16 @@ To verify that everything has been installed correctly, run:
 ```shell
 openline dev ping
 ```
+
+### Verifying the status of the local development server
+
+Occassionally you might want to check on the status of the local development server.  You can do that by running:
+
+```shell
+openline dev status
+```
+
+You'll be presented with a full view of what's currently installed and their current status.
 
 That's it!
 
