@@ -15,7 +15,7 @@ To start development on an Openline project, the first thing you need to do is s
 :::note
 These three steps only need to be followed the first time you fork an Openline project.
 :::
- 
+
 ### Fork the repo on GitHub to your personal account
 
 First, go to the GitHub repo of the Openline project you'd like to work on.  The Openline CLI makes this super easy.  In your terminal, simply enter
@@ -27,6 +27,7 @@ openline repo <openline-project>
 This will return the repo URL and attempt to open your web browser directing you to the specified GitHub repo.
 
 Once there, click on the `Fork` button in the upper right.  If you are presented with a list of organizations, be sure to click on your personal GitHub username.  This will create a copy of the Openline codebase in your personal GitHub account.
+
 ### Clone your fork
 
 Next, it's time to create a local copy of forked repo on your local machine.  To do this, enter
@@ -89,6 +90,7 @@ Now the fun part!  Open up your favorite IDE and start coding.  When you're read
 ```shell
 git commit -a -m "Description of my changes"
 ```
+
 ### Push the changes to your fork
 
 Often times, you'll find that while you were working on your code changes the original project repo has changed as other contributors are actively contributing code.  So before you can push the changes to your forked repo, you'll want to make sure the code you wrote is compatible with the latest verion of the original project.  To do that, run:

@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: Using Snowplow with customerOS
+sidebar_label: Snowplow
 displayed_sidebar: guides
 ---
 
@@ -15,6 +15,7 @@ We're busy building, and this is one of those things that is a work in progress!
 This guide will take you through how to collect customer data from your website using some tools from another great open source project [Snowplow][snowplow], specifically their web behaviour trackers. Openline can use these trackers to ingest clickstream data (such as page opens, clicks and other events) such that you can actively and securely load customer interaction data into customerOS.
 
 Openline's customerOS should be compatible with all 3 types of Snowplow trackers:
+
 - Browser tracker v3 ✅
 - Javascript Tracker (v2 ❓ and v3 ❓)
 - Node.js Tracker v3 ❓
@@ -22,6 +23,7 @@ Openline's customerOS should be compatible with all 3 types of Snowplow trackers
 (Emoji indicates whether compatibility has been established)
 
 ## Examples
+
 ### Snowplow Browser Tracker v3 on React (Docusaurus)
 
 To get started, follow the instructions [here][snowplow-browser-tracker] to install the browser tracker onto your React application.
@@ -31,9 +33,11 @@ Install the `@snowplow/browser-tracker` package using your preferred package man
 ```terminal
 npm install @snowplow/browser-tracker
 ```
+
 ```terminal
 yarn add @snowplow/browser-tracker
 ```
+
 ```terminal
 pnpm add @snowplow/browser-tracker
 ```
@@ -110,7 +114,7 @@ Of the fields above, the following settings should be created by Openline (this 
 - appId
   - e.g. openline-website-f6k4o8zqz7b1lpas
 - Url
-  - https://events.openline.ai
+  - `https://events.openline.ai`
 
 #### Self-hosted parameters
 
@@ -211,9 +215,8 @@ With additional configuration, the following can be collected:
   - Enriched application user data visible alongside your conversations
 - Openline Analytics (soon)
 
-
 <!--- References ---->
-[release]: https://github.com/openline-ai/openline-customer-os/tags
+
 [snowplow]: https://github.com/snowplow/snowplow
 [snowplow-browser-tracker]: https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/browser-tracker/
 [openline-snowplow]: https://github.com/openline-ai/openline.ai/blob/otter/src/components/Tracker/index.tsx
