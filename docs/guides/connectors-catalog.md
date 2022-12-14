@@ -1,10 +1,10 @@
 ---
 sidebar_position: 1
-sidebar_label: Catelog
+sidebar_label: Catalog
 displayed_sidebar: guides
 ---
 
-# Openline Connectors Catelog
+# Openline Connectors Catalog
 
 We currently support integrations with over 100 leading applications, with new connectors coming on line all the time.  If you don't see something you need, let us know!  We'd be happy to add it.
 
@@ -35,6 +35,7 @@ We currently support integrations with over 100 leading applications, with new c
 - Microsoft Dynamics NAV
 - Mixpanel
 - Posthog
+- [Snowplow][snowplow]
 - Yandex Metrica
 - Youtube Analytics
 
@@ -163,3 +164,7 @@ We currently support integrations with over 100 leading applications, with new c
 ## Security
 
 - SonarCloud
+
+<!--- References --->
+
+[snowplow]: <snowplow>
