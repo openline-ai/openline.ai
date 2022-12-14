@@ -43,8 +43,7 @@ openline --version
 
 If everything has been installed correctly, you'll see an output that looks like `openline/x.y.z`
 
-
-### Start building!
+### Start building
 
 That's it, you are ready to start building with Openline!
 
@@ -52,8 +51,6 @@ Next checkout
 
 - our [github worflow][github]
 - the [CLI quick reference][cli-guide] to check out all the commands
-
-
 
 <!---References---->
 
