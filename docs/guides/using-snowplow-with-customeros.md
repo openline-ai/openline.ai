@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-sidebar_label: Using Snowplow with customerOS
+sidebar_label: Openline Web Tracking
 displayed_sidebar: guides
 ---
 

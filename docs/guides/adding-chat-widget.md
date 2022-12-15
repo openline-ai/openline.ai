@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-sidebar_label: Adding Openline Chat to your website
+sidebar_label: Openline Chat
 displayed_sidebar: guides
 ---
 
@@ -12,7 +12,7 @@ We're busy building, and this is one of those things that is a work in progress!
 
 :::
 
-This guide will take you through how to collect customer data from your website using some tools from another great open source project [Snowplow][snowplow], specifically their web behaviour trackers. Openline can use these trackers to ingest clickstream data (such as page opens, clicks and other events) such that you can actively and securely load customer interaction data into customerOS.
+This guide will take you through how to install the Openline Chat widget to your website. 
 
 ## Examples
 ### Chat Widget on React (Docusaurus)
