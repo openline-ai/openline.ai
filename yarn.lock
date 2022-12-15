@@ -1732,10 +1732,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@openline-ai/openline-web-chat@^1.0.1":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@openline-ai/openline-web-chat/-/openline-web-chat-1.1.0.tgz#ff6d0335f8c9a99312b365380045776d61cc70ca"
-  integrity sha512-4E1k+AIIJV1WawEfpv9oo88hZ7oLUPP0Ji8Mkm03woxHZ0vaSbnCoIGkpNsrf80Y0XSigbQGzKjsJocfGWAj5Q==
+"@openline-ai/openline-web-chat@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@openline-ai/openline-web-chat/-/openline-web-chat-1.2.0.tgz#a822eac5c16365f2771a9f70943bee219f5a63f3"
+  integrity sha512-hwyaLpaJKFdDjQPzbKOSyxfSHuWjyHY0s+Sk97tohwz9QZxfFJMltJ0flx/iMQTrpXIkGmqdE3dn7KlDGN2nbw==
   dependencies:
     rimraf "^3.0.2"
 
