@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 
@@ -11,6 +10,7 @@ import AgentScreen from '@site/static/img/AgentScreen.png';
 import GithubButton from '@site/static/img/GithubButton.png';
 import InvestorLogos from '@site/static/img/InvestorLogos.svg';
 import CustomerWindow from '@site/static/img/CustomerWindow.png';
+import Integrations from '@site/static/img/IntegrationLogos.png';
 
 import Carousel0 from '@site/static/img/carousel/1000.svg';
 import Carousel1 from '@site/static/img/carousel/1001.svg';
@@ -166,6 +166,21 @@ function HomepageBetterData() {
   );
 }
 
+function HomepageIntegrations() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <>
+      <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
+        <h1 className={styles.integrationsTitle} style={{fontSize: '3em'}}>100s of apps.</h1>
+        <h2 className={styles.integrationsTitle} style={{fontSize: '3em'}}>Unlimited possibilities.</h2>
+        <h3 className={styles.integrationsSubtitle} style={{textTransform: 'uppercase', lineHeight: '40px'}}>never miss a conversation</h3>
+        <h3 className={styles.integrationsText} style={{fontSize: '18px'}}>Openline supports over one hundred apps out of the box and support for more is added every month</h3>
+        <img src={Integrations} alt="Integration Logos" className={styles.integrations} />
+      </div>
+    </>
+  );
+}
+
 function HomepageGithub() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -195,6 +210,7 @@ export default function Home(): JSX.Element {
         <HomepageIntimacy />
         <HomepageCarousel />
         <HomepageBetterData />
+        <HomepageIntegrations />
         <HomepageGithub />
       </main>
     </Layout>
