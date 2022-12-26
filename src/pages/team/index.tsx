@@ -12,7 +12,7 @@ import Matt from '@site/static/img/team/matt.png';
 import Jonty from '@site/static/img/team/jonty.png';
 import Vasi from '@site/static/img/team/vasi.png';
 import Edi from '@site/static/img/team/edi.png';
-import Fabio from '@site/static/img/team/fabio.png';
+import Antoine from '@site/static/img/team/antoine.png';
 import Alex from '@site/static/img/team/alex.png';
 import Gabi from '@site/static/img/team/gabi.png';
 import Torrey from '@site/static/img/team/torrey.png';
@@ -131,24 +131,24 @@ function Team() {
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
-                <img className='profile-photo' src={Fabio}></img>
+                <img className='profile-photo' src={Antoine}></img>
               </div>
               <div className='row'>
                 <div className='col'>
-                  <h3 className='team-profile-titles' >Fabio<br></br>Basile</h3>
+                  <h3 className='team-profile-titles' >Antoine<br></br>Valot</h3>
                 </div>
                 <div className='col'>
                   <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/fffabs/'>
+                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/avalot/'>
                       <LinkedInIcon />
                     </a>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://twitter.com/fffabs'>
+                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://twitter.com/avalot/'>
                       <TwitterIcon />
                     </a>
                   </div>
                 </div>
               </div>
-              <h4 className='team-profile-titles' >Design Master</h4>
+              <h4 className='team-profile-titles' >UX Lead</h4>
             </div>
           </div >
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
