@@ -22,7 +22,6 @@ export default function FooterWrapper(props: Props): JSX.Element {
                  trackerBufferSize={`${siteConfig.customFields.REACT_APP_SP_TRACKER_BUFFER_SIZE}`}
                  trackerMinimumVisitLength={`${siteConfig.customFields.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS}`}
                  trackerHeartbeatDelay={`${siteConfig.customFields.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS}`}
-
         ></WebChat>
       <Footer {...props} />
     </>
