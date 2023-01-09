@@ -43,7 +43,7 @@ function Pricing() {
                 <h5 className={styles.pricingfreemiumprice}>$0 / month</h5>
                 <p className={styles.pricingsubtext}>for 1,000 contacts</p>
                 <h5 className={styles.pricingprice}>Extra contacts</h5>
-                <p className={styles.pricingsubtext}>$0.05 / contact</p>
+                <p className={styles.pricingsubtext}>$0.15 / contact</p>
               </div>
             </div>
             <div className={styles.pricingtable}>
@@ -59,10 +59,9 @@ function Pricing() {
                 <li>Dedicated support</li>
               </ul>
               <div style={{ textAlign: 'center' }}>
-                <h5 className={styles.pricingfreemiumprice}>$0 / month</h5>
-                <p className={styles.pricingsubtext}>for 1,000 contacts</p>
-                <h5 className={styles.pricingprice}>Extra contacts</h5>
-                <p className={styles.pricingsubtext}>$0.02 / contact</p>
+                <h5 className={styles.pricingfreemiumprice}>Free</h5>
+                <p className={styles.pricingsubtext}>for unlimited contacts</p>
+                <p className={styles.pricingsubtext} style={{lineHeight: '0px', fontStyle: 'italic', fontSize: '12px'}}>(requires customerOS)</p>
               </div>
             </div>
           </div>
