@@ -16,6 +16,7 @@ import Antoine from '@site/static/img/team/antoine.png';
 import Alex from '@site/static/img/team/alex.png';
 import Gabi from '@site/static/img/team/gabi.png';
 import Torrey from '@site/static/img/team/torrey.png';
+import Kasia from '@site/static/img/team/kasia.png';
 import Outline from '@site/static/img/team/outline.png';
 
 function TeamHero() {
@@ -214,6 +215,26 @@ function Team() {
               <h4 className='team-profile-titles' >Senior Engineer</h4>
             </div>
           </div >
+          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
+            <div className='team-profile'>
+              <div className='profile-photos'>
+                <img className='profile-photo' src={Kasia}></img>
+              </div>
+              <div className='row'>
+                <div className='col'>
+                  <h3 className='team-profile-titles' >Kasia<br></br>Marciniszyn</h3>
+                </div>
+                <div className='col'>
+                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
+                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/k-marciniszyn/'>
+                      <LinkedInIcon />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <h4 className='team-profile-titles' >Senior Engineer</h4>
+            </div>
+          </div>
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
