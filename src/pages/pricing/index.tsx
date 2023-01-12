@@ -13,7 +13,7 @@ function PricingHero() {
         <div style={{ maxWidth: '70%', paddingLeft: '20vw', paddingTop: '4rem' }}>
           <h1 className="pricing-title">Open Transparent Pricing</h1>
           <h2 className="pricing-subtitle">Openline Cloud or Self-hosted.<br></br> Same Price. Same Support.</h2>
-          <div className='border-button pricing-book-demo'><a href='https://meetings-eu1.hubspot.com/matt2/customer-demos' rel="noreferrer" target="_blank" style={{ color: '#100024' }}>Schedule a demo</a></div>
+          <div className='border-button pricing-book-demo'><a href='https://cal.com/mbrown/20min' rel="noreferrer" target="_blank" style={{ color: '#100024' }}>Schedule a demo</a></div>
         </div>
       </div>
     </header>
@@ -66,7 +66,7 @@ function Pricing() {
             </div>
           </div>
           <div style={{ textAlign: 'center', padding: '40px' }}>
-            <p>Want to learn more?</p><a href='https://meetings-eu1.hubspot.com/matt2/customer-demos' rel="noreferrer" target="_blank" style={{ color: '#A16AFF' }}><p>Schedule a Demo ➔</p></a>
+            <p>Want to learn more?</p><a href='https://cal.com/mbrown/20min' rel="noreferrer" target="_blank" style={{ color: '#A16AFF' }}><p>Schedule a Demo ➔</p></a>
           </div>
         </div>
       </section>
