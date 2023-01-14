@@ -19,6 +19,7 @@ const guides = [
     items: [
       'guides/connectors-catalog',
       'guides/snowplow',
+      'guides/hubspot',
     ],
   },
   {
