@@ -412,3 +412,18 @@ html[data-theme='dark'] {
       font-size: 18px;
   }
 }
+
+/* Hubspot guide */
+
+img[alt=hubspot] { 
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+img[alt=hubspot-account] { 
+  width: 80%;
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
