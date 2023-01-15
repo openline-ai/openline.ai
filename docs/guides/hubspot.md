@@ -6,7 +6,7 @@ displayed_sidebar: guides
 
 # Hubspot
 
-This guide will take you through how to connect your customer data living in [Hubspot][hubspot] with Openline CustomerOS. Openline will load all of the selected data using a Hubspot Private App, which is Hubspot's replacement for providing an API key.
+This guide will take you through how to connect your customer data living in [Hubspot][hubspot] with Openline customerOS. Openline will load all of the selected data using a Hubspot Private App, which is Hubspot's replacement for providing an API key.
  
 :::danger proceed with care
 
@@ -46,18 +46,19 @@ Openline only requires read permissions as we don't push data back into Hubspot,
 :::
 
 Scopes:
-- `files`
 - `crm.objects.contacts.read`
 - `crm.objects.companies.read`
-- `crm.objects.owners.read`
 - `crm.objects.deals.read`
+- `crm.objects.owners.read`
+- `sales-email-read`
+- `files`
 - `files.ui_hidden.read`
 
 6. Once the Private App has been created, share the key via a secure method (we recommend a Single Use sharing website like [One Time Secret][onetimesecret] with confirmation that the share has been consumed by the other party) with the Openline team in order for us to configure customerOS for you!
 
 ![hubspot](@site/static/img/guides/hubspot/hubspot-key.png)
 
-7. Once configured, Openline will sync your data every 24 hours from Hubspot into customerOS to make sure you always are up to date.
+7. Once configured, Openline can also continuously sync your data from Hubspot to customerOS, from 1 to 24 hours from Hubspot into customerOS to make sure you always are up to date.
 
 <!--- TODO: update with sync details ---->
 
