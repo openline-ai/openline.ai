@@ -20,6 +20,7 @@ const guides = [
       'guides/connectors-catalog',
       'guides/snowplow',
       'guides/hubspot',
+      'guides/zendesk',
     ],
   },
   {
