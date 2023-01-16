@@ -13,7 +13,7 @@ All standard security protocols should be followed when sharing your Zendesk API
 
 :::
 
-### Guide to linking your Zendesk account
+### Connecting your Zendesk account
 
 1. Log into your Zendesk account that has Zendesk Admin permissions and make sure that API Access tokens are enabled (if you don't have this find out who does and ask them to help nicely!)
 2. Once logged in, locate your Zendesk subdomain found in your account URL. 
@@ -26,7 +26,7 @@ For example, if your account URL is `https://openline.zendesk.com/`, then `openl
 
 ### What happens to this data?
 
-- Openline collects the raw Zendesk data and stores this within its customer graph for easy manipulation into useful aggregations and views
+- Openline collects your Zendesk data and stores this within your customer graph for easy manipulation into useful aggregations and views
   - This data includes contacts, interactions, companies, deals and more!
 - Once stored in customerOS, this data is linked to all other customer data from other systems and inputs
   - This allows you to see the full picture about your customer without having to load data from one place to another!
