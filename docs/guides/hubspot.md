@@ -19,7 +19,7 @@ To create a private app in Hubspot, you'll need Hubspot admin privileges.
 
 1.  As the Hubspot admin, log into your [Hubspot][login] account and click on `Profile & Preferences` found under the top right user menu
 
-![hubspot-account](@site/static/img/guides/hubspot/hubspot-account.png)
+![guide-small](@site/static/img/guides/hubspot/hubspot-account.png)
 
 2. Click on `Private Apps` in the left hand menu under Integrations
 
@@ -59,7 +59,9 @@ Openline only requires read permissions as we don't push data back into Hubspot,
 
 ![guide](@site/static/img/guides/hubspot/hubspot-key.png)
 
-6. Log into you [Openline account][openline], click on the `Settings` button and paste your Hubspot app token into the `Hubspot app token` field.  Press save.
+6. Log into your [Openline account][openline], click on the `Settings` button and paste your Hubspot app token into the `Hubspot Private App token` field.  Press save.
+
+![guide-small](@site/static/img/guides/hubspot/openline-settings.png)
 
 7. That's it!  Openline will now continuously monitor your Hubspot account for data changes and automatically sync them to customerOS.
 
@@ -76,4 +78,4 @@ Openline only requires read permissions as we don't push data back into Hubspot,
 
 [hubspot]: https://www.hubspot.com/
 [login]: https://app.hubspot.com/login
-[openline]: https://openline.ai
+[openline]: https://app.openline.ai
