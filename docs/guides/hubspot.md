@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 sidebar_label: Hubspot
 displayed_sidebar: guides
 ---
@@ -25,19 +24,19 @@ Always follow the principles of least possible permission. Only create Private A
 
 3. Select `Private Apps` in the left hand menu under Integrations
 
-![hubspot](@site/static/img/guides/hubspot/hubspot-preferences.png)
+![guide](@site/static/img/guides/hubspot/hubspot-preferences.png)
 
 4. Select `Create a Private App` to create an app to link to Openline
 
-![hubspot](@site/static/img/guides/hubspot/hubspot-private-apps.png)
+![guide](@site/static/img/guides/hubspot/hubspot-private-apps.png)
 
 5. Setup the Private App as follows:
 
-![hubspot](@site/static/img/guides/hubspot/hubspot-basic-info.png)
+![guide](@site/static/img/guides/hubspot/hubspot-basic-info.png)
 
-![hubspot](@site/static/img/guides/hubspot/hubspot-scopes.png)
+![guide](@site/static/img/guides/hubspot/hubspot-scopes.png)
 
-![hubspot](@site/static/img/guides/hubspot/hubspot-approval.png)
+![guide](@site/static/img/guides/hubspot/hubspot-approval.png)
 
 :::info Minimum permissions
 
@@ -56,7 +55,7 @@ Scopes:
 
 6. Once the Private App has been created, share the key via a secure method (we recommend a Single Use sharing website like [One Time Secret][onetimesecret] with confirmation that the share has been consumed by the other party) with the Openline team in order for us to configure customerOS for you!
 
-![hubspot](@site/static/img/guides/hubspot/hubspot-key.png)
+![guide](@site/static/img/guides/hubspot/hubspot-key.png)
 
 7. Once configured, Openline can also continuously sync your data from Hubspot to customerOS, from 1 to 24 hours from Hubspot into customerOS to make sure you always are up to date.
 

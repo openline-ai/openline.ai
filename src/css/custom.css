@@ -413,9 +413,9 @@ html[data-theme='dark'] {
   }
 }
 
-/* Hubspot guide */
+/* Guide formatting */
 
-img[alt=hubspot] { 
+img[alt=guide] { 
   width: 80%;
   margin: auto;
   display: block;
