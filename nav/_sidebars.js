@@ -18,8 +18,9 @@ const guides = [
     collapsed: true,
     items: [
       'guides/connectors-catalog',
-      'guides/snowplow',
       'guides/hubspot',
+      'guides/smartsheet',
+      'guides/snowplow',
       'guides/zendesk',
     ],
   },
