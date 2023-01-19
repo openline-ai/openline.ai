@@ -67,7 +67,7 @@ But in a world of hyper specialized, interchangeable building blocks, software i
 
 So SaaS businesses started looking for ways to differentiate.  And most businesses chose to differentiate through data.
  
-Today's SaaS companies look to ingest as much data as possible while limiting data egress. Companies drive up switching costs by making it hard or expensive (or both) to move your data to a competitive product.  The biggest data silo's win -- or so the thinking goes.
+Today's SaaS companies look to ingest as much data as possible while limiting data egress. Companies drive up switching costs by making it hard or expensive (or both) to move your data to a competitive product.  The biggest data silos win -- or so the thinking goes.
  
 So we've now entered a world where a) everything is SaaS, and b) proprietary data is the primary SaaS differentiator.  This has driven data fragmentation as everyone fights to become the "system of record" for their corner of the application universe.  
 
