@@ -26,11 +26,12 @@
 .pricingTitle {
     color: #100024;
     padding-bottom: 15px;
-    text-align: left;
+    text-align: center;
     font-size: 4rem;
 }
 
 .pricingSubtitle {
+    text-align: center;
     color: #100024;
     font-size: 22px;
 }
