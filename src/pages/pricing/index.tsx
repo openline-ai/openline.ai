@@ -3,18 +3,21 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from './index.module.css'
+import SignUpFormReact from '../../components/Signup';
 
 
 function PricingHero() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('pricing-hero hero--primary')}>
-      <div className="pricing-hero pricing-background">
-        <div style={{ maxWidth: '70%', paddingLeft: '20vw', paddingTop: '4rem' }}>
-          <h1 className="pricing-title">Open Transparent Pricing</h1>
-          <h2 className="pricing-subtitle">Openline Cloud or Self-hosted.<br></br> Same Price. Same Support.</h2>
-          <div className='border-button pricing-book-demo'><a href='https://cal.com/mbrown/20min' rel="noreferrer" target="_blank" style={{ color: '#100024' }}>Schedule a demo</a></div>
+      <div className={styles.pricingBackground}>
+        <div className={styles.pricingHeader}>
+          <h1 className={styles.pricingTitle}>Open Transparent Pricing</h1>
+          <h2 className={styles.pricingSubtitle}>Openline Cloud or Self-hosted.<br></br> Same Price. Same Support.</h2>
+          <br></br>
+          <SignUpFormReact />
         </div>
+
       </div>
     </header>
   );
@@ -25,12 +28,12 @@ function Pricing() {
   return (
     <>
       <section style={{ marginTop: '-30px', paddingBottom: '30px' }}>
-        <div className="pricing-container">
-          <div className={styles.pricingrow}>
-            <div className={styles.pricingtable}>
-              <h3 className={styles.pricingtitle}>customerOS<br></br><br></br></h3> {/* fix this hack */}
+        <div className={styles.pricingContainer}>
+          <div className={styles.pricingRow}>
+            <div className={styles.pricingTable}>
+              <h3 className={styles.pricingTitle}>customerOS<br></br><br></br></h3> {/* fix this hack */}
               <br></br>
-              <ul className={styles.pricingtext}>
+              <ul className={styles.pricingText}>
                 <li>Unlimited events pipelines</li>
                 <li>Unlimited contacts</li>
                 <li>Unlimited API queries</li>
@@ -40,16 +43,16 @@ function Pricing() {
                 <br></br>
               </ul>
               <div style={{ textAlign: 'center' }}>
-                <h5 className={styles.pricingfreemiumprice}>$0 / month</h5>
-                <p className={styles.pricingsubtext}>for 1,000 contacts</p>
-                <h5 className={styles.pricingprice}>Extra contacts</h5>
-                <p className={styles.pricingsubtext}>$0.15 / contact</p>
+                <h5 className={styles.pricingFreemiumPrice}>$0 / month</h5>
+                <p className={styles.pricingSubtext}>for 1,000 contacts</p>
+                <h5 className={styles.pricingPrice}>Extra contacts</h5>
+                <p className={styles.pricingSubtext}>$0.15 / contact</p>
               </div>
             </div>
-            <div className={styles.pricingtable}>
-              <h3 className={styles.pricingtitle}>Openline App Suite</h3>
+            <div className={styles.pricingTable}>
+              <h3 className={styles.pricingTitle}>Openline App Suite</h3>
               <br></br>
-              <ul className={styles.pricingtext}>
+              <ul className={styles.pricingText}>
                 <li>Contact management</li>
                 <li>Chat</li>
                 <li>Messaging</li>
@@ -59,9 +62,9 @@ function Pricing() {
                 <li>Dedicated support</li>
               </ul>
               <div style={{ textAlign: 'center' }}>
-                <h5 className={styles.pricingfreemiumprice}>Free</h5>
-                <p className={styles.pricingsubtext}>for unlimited contacts</p>
-                <p className={styles.pricingsubtext} style={{lineHeight: '0px', fontStyle: 'italic', fontSize: '12px'}}>(requires customerOS)</p>
+                <h5 className={styles.pricingFreemiumPrice}>Free</h5>
+                <p className={styles.pricingSubtext}>for unlimited contacts</p>
+                <p className={styles.pricingSubtext} style={{ lineHeight: '0px', fontStyle: 'italic', fontSize: '12px' }}>(requires customerOS)</p>
               </div>
             </div>
           </div>

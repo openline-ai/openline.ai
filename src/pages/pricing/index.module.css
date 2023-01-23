@@ -3,14 +3,121 @@
  * and scoped locally.
  */
 
-.pricingrow {
+
+/* Pricing */
+
+.pricingHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    max-width: fit-content;
+}
+
+@media screen and (max-width: 996px) {
+    .pricingHeader {
+        align-items: left;
+        justify-content: left;
+    }
+}
+
+.pricingTitle {
+    color: #100024;
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 4rem;
+}
+
+.pricingSubtitle {
+    color: #100024;
+    font-size: 22px;
+}
+
+.pricingBookDemo {
+    position: absolute;
+    padding: 5px 15px 5px 15px;
+    border-color: #100024;
+}
+
+.pricingBackground {
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #C2ACFF;
+    background-image: url('@site/static/img/HeroBackground.svg');
+    background-position: 0% 50%;
+    background-size: fit;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 400px) {
+    .pricingTable {
+        width: 905 !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 20px !important;
+    }
+
+    .pricingContainer {
+        width: 100% !important;
+        border-radius: 0px !important;
+        box-shadow: none !important;
+
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .pricingContainer {
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        min-width: 720px;
+        width: 700px;
+        margin: auto;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 996px) {
+    .pricingContainer {
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+        border-radius: 8px;
+        width: 400px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .pricingTitle {
+        font-size: 32px;
+        word-wrap: normal;
+    }
+
+    .pricingSubtitle {
+        font-size: 18px;
+    }
+}
+
+.pricingRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.pricingtable {
+.pricingTable {
     background: #F6F5F9;
     color: #100024;
     margin: 20px;
@@ -19,42 +126,42 @@
     width: 300px;
 }
 
-.pricingtable ul {
+.pricingTable ul {
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
 
-.pricingtable li {
+.pricingTable li {
     padding-left: 1em;
     text-indent: -1em;
 }
 
-.pricingtable li:before {
+.pricingTable li:before {
     content: "✓";
     padding-right: 8px;
 }
 
-.pricingtitle {
+.pricingTitle {
     font-family: SohneBreit-Buch;
     text-align: center;
     font-size: 38px;
 }
 
-.pricingtext {
+.pricingText {
     font-size: 18px;
 }
 
-.pricingfreemiumprice {
+.pricingFreemiumPrice {
     font-size: 36px;
     font-weight: bold;
 }
 
-.pricingprice {
+.pricingPrice {
     font-size: 26px;
     font-weight: 500;
 }
 
-.pricingsubtext {
+.pricingSubtext {
     font-size: 16px;
 }
