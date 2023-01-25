@@ -168,6 +168,11 @@ const config = {
             position: 'right',
             value: '<div class="github-container"><iframe src="https://ghbtns.com/github-btn.html?user=openline-ai&repo=openline-customer-os&type=star&count=true&size=small" width="100" height="20" title="GitHub"></iframe></div>',
           },
+          {
+            type: 'html',
+            position: 'right',
+            value: '<a href="https://app.openline.ai/login" class="button-18" style="text-decoration:none;">Login</a>',
+          },
         ],
       },
       footer: {
