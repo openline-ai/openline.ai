@@ -91,6 +91,40 @@ html[data-theme='dark'] {
   justify-content: center;
 }
 
+.button-18 {
+  align-items: center;
+  background-color: var(--ifm-color-primary-lightest);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: var(--ifm-navbar-background-color);
+  cursor: cursor;
+  display: inline-flex;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 30px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-navbar-background-color);
+}
+
+.button-18:active {
+  background: var(--ifm-color-primary-lightest);
+}
+
 /* Footer */
 
 .footer__col {
