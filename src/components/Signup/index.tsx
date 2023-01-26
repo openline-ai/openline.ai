@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const SignUpFormReact = () => {
+const SignUpFormReact = ({waitlistName}) => {
     var INIT = "INIT";
     var SUBMITTING = "SUBMITTING";
     var ERROR = "ERROR";
@@ -75,7 +75,7 @@ const SignUpFormReact = () => {
 
         // build body
         const formBody = `userGroup=${encodeURIComponent(
-            formStyles.userGroup
+            waitlistName
         )}&email=${encodeURIComponent(email)}`;
 
         // API request to add user to newsletter

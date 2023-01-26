@@ -15,7 +15,7 @@ function PricingHero() {
           <h1 className={styles.pricingTitle}>Open Transparent Pricing</h1>
           <h2 className={styles.pricingSubtitle}>Openline Cloud or Self-hosted.<br></br> Same Price. Same Support.</h2>
           <br></br>
-          <SignUpFormReact />
+          <SignUpFormReact waitlistName='Waitlist-Pricing' />
         </div>
 
       </div>
