@@ -33,7 +33,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.tagline}</h1>
         <p className="hero__subtitle">Openline customerOS is an open source platform for managing customer data, building deeper relationships, and supercharging the productivity of customer-facing teams.</p>
-        <SignUpFormReact />
+        <SignUpFormReact waitlistName='Waitlist-Homepage' />
       </div>
       <div className="hero__image">
         <img src={AgentScreen} />
