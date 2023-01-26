@@ -72,7 +72,7 @@ const SignUpFormReact = ({waitlistName}) => {
         }
         if (hasRecentSubmission()) return;
         setFormState(SUBMITTING);
-        console.log(waitlistName)
+
         // build body
         const formBody = `userGroup=${encodeURIComponent(
             waitlistName
