@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Layout from '@theme/Layout';
@@ -38,219 +38,158 @@ function TeamHero() {
 }
 
 function Team() {
+
   const { siteConfig } = useDocusaurusContext();
+
+  const [team] = useState([
+    {
+      "id": "001",
+      "image": "Matt",
+      "firstName": "Matt",
+      "lastName": "Brown",
+      "title": "Founder & CEO",
+      "linkedin": "https://www.linkedin.com/in/mateocafe/",
+      "twitter": "https://twitter.com/mateocafe_",
+    },
+    {
+      "id": "002",
+      "image": "Jonty",
+      "firstName": "Jonty",
+      "lastName": "Knox",
+      "title": "Founder & CPO",
+      "linkedin": "https://www.linkedin.com/in/jontyknox/",
+      "twitter": "https://twitter.com/jontyk",
+    },
+    {
+      "id": "003",
+      "image": "Vasi",
+      "firstName": "Vasi",
+      "lastName": "Coscotin",
+      "title": "Founder & CTO",
+      "linkedin": "https://www.linkedin.com/in/vasilica-coscotin-2755b153/",
+    },
+    {
+      "id": "004",
+      "image": "Edi",
+      "firstName": "Edi",
+      "lastName": "Firut",
+      "title": "Founding Engineer",
+      "linkedin": "https://www.linkedin.com/in/eduard-firut-0bbb9469/",
+    },
+    {
+      "id": "005",
+      "image": "Antoine",
+      "firstName": "Antoine",
+      "lastName": "Valot",
+      "title": "UX Lead",
+      "linkedin": "https://www.linkedin.com/in/avalot/",
+      "twitter": "https://twitter.com/avalot",
+    },
+    {
+      "id": "006",
+      "image": "Alex",
+      "firstName": "Alex",
+      "lastName": "Basarab",
+      "title": "Founding Engineer",
+      "linkedin": "https://www.linkedin.com/in/alexandrubasarab/",
+    },
+    {
+      "id": "007",
+      "image": "Gabi",
+      "firstName": "Gabi",
+      "lastName": "Gontariu",
+      "title": "Founding Engineer",
+      "linkedin": "https://www.linkedin.com/in/gabrielgontariu/",
+    },
+    {
+      "id": "008",
+      "image": "Torrey",
+      "firstName": "Torrey",
+      "lastName": "Searle",
+      "title": "Senior Engineer",
+      "linkedin": "https://www.linkedin.com/in/torrey-searle-1725a11/",
+      "twitter": "https://twitter.com/tsearle",
+    },
+    {
+      "id": "009",
+      "image": "Kasia",
+      "firstName": "Kasia",
+      "lastName": "Marciniszyn",
+      "title": "Senior Engineer",
+      "linkedin": "https://www.linkedin.com/in/k-marciniszyn/",
+    },
+  ]);
+
   return (
     <section className="section" style={{ paddingTop: '100px', paddingBottom: '50px', maxWidth: '1100px', margin: 'auto' }}>
       <div className="container">
         <div className='row' style={{ justifyContent: 'center' }}>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Matt}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Matt<br></br>Brown</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/mateocafe/'>
-                      <LinkedInIcon />
-                    </a>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://twitter.com/mateocafe_'>
-                      <TwitterIcon />
-                    </a>
+
+          {team.map((member) => {
+            return (
+              <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
+                <div className='team-profile'>
+                  <div className='profile-photos'>
+                    {/* TODO: Hacky way below, update to just pass the component */}
+                    {member.image === "Matt" && <img className='profile-photo' src={Matt}></img>}
+                    {member.image === "Jonty" && <img className='profile-photo' src={Jonty}></img>}
+                    {member.image === "Vasi" && <img className='profile-photo' src={Vasi}></img>}
+                    {member.image === "Edi" && <img className='profile-photo' src={Edi}></img>}
+                    {member.image === "Antoine" && <img className='profile-photo' src={Antoine}></img>}
+                    {member.image === "Alex" && <img className='profile-photo' src={Alex}></img>}
+                    {member.image === "Gabi" && <img className='profile-photo' src={Gabi}></img>}
+                    {member.image === "Torrey" && <img className='profile-photo' src={Torrey}></img>}
+                    {member.image === "Kasia" && <img className='profile-photo' src={Kasia}></img>}
+                  </div>
+                  <div className='row' style={{ paddingTop: '1rem' }}>
+                    <div className='col'>
+                      <h3 className='team-profile-titles'>{member.firstName}<br></br>{member.lastName}</h3>
+                    </div>
+                    <div className='col'>
+                      <div style={{ textAlign: 'right', paddingRight: '1rem' }}>
+                        {member.linkedin &&
+                          <a className='social-media-logo' target='_blank' rel='noreferrer' href={member.linkedin}>
+                            <LinkedInIcon />
+                          </a>
+                        }
+                        {member.twitter &&
+                          <a className='social-media-logo' target='_blank' rel='noreferrer' href={member.twitter}>
+                            <TwitterIcon />
+                          </a>
+                        }
+                      </div>
+                    </div>
+                  </div>
+                  <div className='row'>
+                    <div className='col'>
+                      <p className='team-profile-titles' style={{ fontSize: '1.2rem', fontWeight: '400', color: '#000000' }}>{member.title}</p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <h4 className='team-profile-titles' >Founder & CEO</h4>
-            </div>
-          </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Jonty}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Jonty<br></br>Knox</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/jontyknox/'>
-                      <LinkedInIcon />
-                    </a>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://twitter.com/jontyk'>
-                      <TwitterIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Founder & CPO</h4>
-            </div>
-          </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Vasi}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Vasi<br></br>Coscotin</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/vasilica-coscotin-2755b153/'>
-                      <LinkedInIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Founder & CTO</h4>
-            </div>
-          </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Edi}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Edi<br></br>Firut</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/eduard-firut-0bbb9469/'>
-                      <LinkedInIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Founding Engineer</h4>
-            </div>
-          </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Antoine}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Antoine<br></br>Valot</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/avalot/'>
-                      <LinkedInIcon />
-                    </a>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://twitter.com/avalot/'>
-                      <TwitterIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >UX Lead</h4>
-            </div>
-          </div >
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Alex}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Alex<br></br>Basarab</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/alexandrubasarab/'>
-                      <LinkedInIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Founding Engineer</h4>
-            </div>
-          </div>
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Gabi}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Gabi<br></br>Gontariu</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/gabrielgontariu/'>
-                      <LinkedInIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Founding Engineer</h4>
-            </div>
-          </div >
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Torrey}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Torrey<br></br>Searle</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/torrey-searle-1725a11/'>
-                      <LinkedInIcon />
-                    </a>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://twitter.com/tsearle'>
-                      <TwitterIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Senior Engineer</h4>
-            </div>
-          </div >
-          <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
-            <div className='team-profile'>
-              <div className='profile-photos'>
-                <img className='profile-photo' src={Kasia}></img>
-              </div>
-              <div className='row'>
-                <div className='col'>
-                  <h3 className='team-profile-titles' >Kasia<br></br>Marciniszyn</h3>
-                </div>
-                <div className='col'>
-                  <div style={{ textAlign: 'right', paddingRight: '2rem', paddingTop: '0.5rem' }}>
-                    <a className='social-media-logo' target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/k-marciniszyn/'>
-                      <LinkedInIcon />
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <h4 className='team-profile-titles' >Senior Engineer</h4>
-            </div>
-          </div>
+            );
+          })}
+
           <div className='col' style={{ paddingBottom: '30px', maxWidth: '350px', flex: 'inherit' }}>
             <div className='team-profile'>
               <div className='profile-photos'>
                 <img className='profile-photo' src={Outline}></img>
               </div>
-              <div className='row'>
+              <div className='row' style={{ paddingTop: '1rem' }}>
                 <div className='col'>
                   <h3 className='team-profile-titles' >Want to<br></br>be here?</h3>
                 </div>
               </div>
-              <a href="mailto:careers@openline.ai" className='team-profile-titles' style={{ color: '#A16AFF' }}>Send us a message!</a>
+              <div className='row'>
+                <div className='col'>
+                  <p><a href="mailto:careers@openline.ai" className='team-profile-titles' style={{ fontSize: '1.2rem', fontWeight: '400', color: '#A16AFF' }}>Send us a message!</a></p>
+                </div>
+              </div>
             </div>
           </div>
-        </div >
-      </div >
-    </section >
+        </div>
+      </div>
+    </section>
   );
 }
 
