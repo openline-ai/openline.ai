@@ -169,9 +169,9 @@ Find the connector you need below, and click on the link to see the guide for th
 
 <!--- References --->
 
-[snowplow]: <snowplow>
-[zendesk-support]: <zendesk-support>
-[trello]: <trello>
-[smartsheet]: <smartsheet>
-[jira]: <jira>
-[hubspot]: <hubspot>
+[snowplow]: https://www.openline.ai/docs/guides/snowplow
+[zendesk-support]: <connectors/zendesk-support>
+[trello]: <connectors/trello>
+[smartsheet]: <connectors/smartsheet>
+[jira]: <connectors/jira>
+[hubspot]: <connectors/hubspot>
