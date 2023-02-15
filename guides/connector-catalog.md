@@ -1,12 +1,14 @@
 ---
 sidebar_position: 1
-sidebar_label: Catalog
+sidebar_label: Connector Catalog
 displayed_sidebar: guides
 ---
 
 # Openline Connectors Catalog
 
 We currently support integrations with over 100 leading applications, with new connectors coming on line all the time.  If you don't see something you need, let us know!  We'd be happy to add it.
+
+Find the connector you need below, and click on the link to see the guide for that connector.
 
 ## Accounting
 
@@ -59,12 +61,12 @@ We currently support integrations with over 100 leading applications, with new c
 - Github
 - Gitlab
 - Google Sheets
-- Jira
+- [Jira][jira]
 - Microsoft Teams
 - Notion
 - Slack
-- Smartsheets
-- Trello
+- [Smartsheet][smartsheet]
+- [Trello][trello]
 
 ## Communication
 
@@ -82,7 +84,7 @@ We currently support integrations with over 100 leading applications, with new c
 - Freshdesk
 - Intercom
 - Zendesk Chat
-- Zendesk Support
+- [Zendesk Support][zendesk-support]
 - Zendesk Talk
 
 ## Data Lake
@@ -168,3 +170,8 @@ We currently support integrations with over 100 leading applications, with new c
 <!--- References --->
 
 [snowplow]: <snowplow>
+[zendesk-support]: <zendesk-support>
+[trello]: <trello>
+[smartsheet]: <smartsheet>
+[jira]: <jira>
+[hubspot]: <hubspot>

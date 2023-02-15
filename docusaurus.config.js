@@ -74,6 +74,21 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
+        id: 'guides',
+        path: 'guides',
+        routeBasePath: 'guides',
+        sidebarCollapsible: true,
+        sidebarPath: require.resolve('./nav/_sidebarsGuides.js'),
+        editUrl:
+          'https://github.com/openline-ai/openline.ai/blob/otter',
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+        // ... other options
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
         id: 'legal',
         path: 'legal',
         routeBasePath: 'legal',
@@ -115,13 +130,18 @@ const config = {
           //   ]
           // },
           {
+            to: 'guides',
+            label: 'Guides',
+            position: 'left',
+          },
+          {
             type: 'dropdown',
             position: 'left',
             label: 'Developers',
             items: [
               {
                 to: 'docs',
-                label: 'Guides',
+                label: 'Getting Started',
               },
               {
                 to: 'docs/reference',
