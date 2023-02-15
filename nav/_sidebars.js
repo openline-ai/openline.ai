@@ -14,14 +14,10 @@ const guides = [
   },
   {
     type: 'category',
-    label: 'Connectors',
+    label: 'Components',
     collapsed: true,
     items: [
-      'guides/connectors-catalog',
-      'guides/hubspot',
-      'guides/smartsheet',
       'guides/snowplow',
-      'guides/zendesk',
     ],
   },
   {
