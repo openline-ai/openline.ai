@@ -69,21 +69,21 @@ function Team() {
       "linkedin": "https://www.linkedin.com/in/vasilica-coscotin-2755b153/",
     },
     {
+      "id": "005",
+      "image": "Antoine",
+      "firstName": "Antoine",
+      "lastName": "Valot",
+      "title": "CXO",
+      "linkedin": "https://www.linkedin.com/in/avalot/",
+      "twitter": "https://twitter.com/avalot",
+    },
+    {
       "id": "004",
       "image": "Edi",
       "firstName": "Edi",
       "lastName": "Firut",
       "title": "Founding Engineer",
       "linkedin": "https://www.linkedin.com/in/eduard-firut-0bbb9469/",
-    },
-    {
-      "id": "005",
-      "image": "Antoine",
-      "firstName": "Antoine",
-      "lastName": "Valot",
-      "title": "UX Lead",
-      "linkedin": "https://www.linkedin.com/in/avalot/",
-      "twitter": "https://twitter.com/avalot",
     },
     {
       "id": "006",
@@ -134,8 +134,8 @@ function Team() {
                     {member.image === "Matt" && <img className='profile-photo' src={Matt}></img>}
                     {member.image === "Jonty" && <img className='profile-photo' src={Jonty}></img>}
                     {member.image === "Vasi" && <img className='profile-photo' src={Vasi}></img>}
-                    {member.image === "Edi" && <img className='profile-photo' src={Edi}></img>}
                     {member.image === "Antoine" && <img className='profile-photo' src={Antoine}></img>}
+                    {member.image === "Edi" && <img className='profile-photo' src={Edi}></img>}
                     {member.image === "Alex" && <img className='profile-photo' src={Alex}></img>}
                     {member.image === "Gabi" && <img className='profile-photo' src={Gabi}></img>}
                     {member.image === "Torrey" && <img className='profile-photo' src={Torrey}></img>}

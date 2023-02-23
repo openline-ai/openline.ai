@@ -107,7 +107,7 @@ const config = {
       announcementBar: {
         id: 'notion_cloud_challengers_report',
         content:
-          '🍾 <b>Big news: We’re #1!</b> <a target="_blank" rel="noopener noreferrer" href="https://www.notion.vc/cloud-challengers-2023/introduction">Read more about</a> Openline’s rating at the top of the Notion Cloud Challenger Report 2023.',
+          '💥 <b>Boom!</b> Openline takes the #1 spot for early-stage cloud SaaS startups in Europe. <a target="_blank" rel="noopener noreferrer" href="https://www.notion.vc/cloud-challengers-2023/introduction">Check out the report.</a>',
         backgroundColor: '#E7F2FF',
         textColor: '#091E42',
         isCloseable: false,
