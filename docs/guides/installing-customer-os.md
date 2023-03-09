@@ -13,16 +13,14 @@ Openline customerOS is comprised of the Features and Services:
 
 | Feature           | Service                        |
 |-------------------|--------------------------------|
-| auth              | auth-fusionauth                |
-|                   | auth-fusionauth-loadbalancer   |
 | customer-db       | customer-db-prostreql          |
 |                   | customer-db-neo4j              |
 | customer-os-api   | customer-os-api-service        |
 |                   | customer-os-api-loadbalancer   |
 | message-store-api | message-store-api-service      |
 |                   | message-store-api-loadbalancer |
-| launcher          | launcher-gui-service           |
-|                   | launcher-gui-loadbalancer      |
+| ory-tunnel        | ory-tunnel-service             |
+|                   | ory-tunnel-loadbalancer        |
 
 We use kubernetes to orchestrate everything.  The Openline CLI manages the setup and provisioning of the kubernetes cluster for you.
 
@@ -82,7 +80,19 @@ openline dev status
 
 You'll be presented with a full view of what's currently installed and their current status.
 
-That's it!
+### Setting up social auth
+
+Our front end applications use social auth for a login system, in order to have this working you need to do the following steps
+
+1. Create an account at ory.sh
+2. If you created your account via social login, be sure to set a password
+3. create a project for social login
+4. run the following command on the openline cli
+
+```shell
+openline dev ory tunnel
+```
+you will be prompted to specify your ory login/password as well as name of your ory project, the redirect url you can probaby it enter if spaces is the app you intend to test
 
 <!--- References --->
 
