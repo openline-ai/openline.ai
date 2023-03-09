@@ -84,7 +84,7 @@ You'll be presented with a full view of what's currently installed and their cur
 
 Our front end applications use social auth for a login system, in order to have this working you need to do the following steps
 
-1. Create an account at <ory.sh>
+1. Create an account at ory.sh
 2. If you created your account via social login, be sure to set a password
 3. create a project for social login
 4. run the following command on the openline cli
