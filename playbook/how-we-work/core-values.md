@@ -64,14 +64,14 @@ Try new things. Ship fast.  Measure feedback.  Iterate.
 
 ## Examples of failures
 
-A few examples of behavior that violate our core values are are subject to our zero-tolerance policy.
+A few examples of behavior that violate our core values are subject to our zero-tolerance policy.
 
 - If someone has to ask you for an update on what you're doing.
-- If you're not actively working in public, amonst the community.
+- If you're not actively working in public, amongst the community.
 - If you say "it's not my problem."
 - If you don't use Openline tools in your everyday work.
 - If you're aware of things to be improved, and stay silent.
 - If you're not improving in objective, measurable ways on a monthly basis.
 
-And while not explicitly a core value, you should geniunely enjoy coming to work every day.  Building Openline should be fun.
+And while not explicitly a core value, you should genuinely enjoy coming to work every day.  Building Openline should be fun.
 

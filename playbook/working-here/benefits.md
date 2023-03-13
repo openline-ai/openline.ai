@@ -12,7 +12,7 @@ Every Openline team member will receive stock option grants as part of their com
 
 - All Openline team members get a maximum of 30 paid days off per year (including National holidays).
 - All Openline team members are required to take at least 20 paid days off per year.
-- You make take up to two weeks of paid time off at a given time.  
+- You may take up to two weeks of paid time off at a given time.  
 - We do not rollover unused holidays (unless local requirements require us to do so).  We do this because we want you to take your holidays!
 - We have team members all over the world, and as such we respect all local and national holidays.  Please be respectful of your colleagues in other parts of the world and remind them when you have a national holiday coming up.
 
@@ -34,4 +34,4 @@ Every Openline team member will receive stock option grants as part of their com
 
 <!---References--->
 
-[options]: <options>
+[options]: https://github.com/openline-ai/openline.ai/tree/otter/playbook/working-here/options.md
