@@ -64,7 +64,7 @@ Try new things. Ship fast.  Measure feedback.  Iterate.
 
 ## Examples of failures
 
-A few examples of behavior that violate our core values are subject to our zero-tolerance policy.
+A few examples of behavior that violate our core values and are subject to our zero-tolerance policy.
 
 - If someone has to ask you for an update on what you're doing.
 - If you're not actively working in public, amongst the community.
