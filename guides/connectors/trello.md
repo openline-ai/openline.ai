@@ -29,13 +29,15 @@ To create an API key in Trello, you'll need Trello admin privileges.
 
 ![guide](@site/static/img/guides/trello/trello-generate-key.png)
 
-5. And now we have our key and secret to link our Trello workspace to customerOS!
+5. However, this key and secret aren't what we need to connect to customerOS, you also need to generate an API token. To do this, click on the `Token` button:
 
 ![guide](@site/static/img/guides/trello/trello-api-key.png)
 
-6. Log into your [Openline account][openline], click on the `Settings` button in the sidebar and paste your Trello API key and token into the `Trello API key` and `Trello API token` fields.  Press save.
+6. You will need to authorize the token, so click on the `Allow` button, and copy the token you are provided.
 
-7. Once configured, Openline can also continuously sync your data from Trello to customerOS, from 1 to 24 hours from Trello into customerOS to make sure you always are up to date. If you need to add more than one Trello workspace to customerOS, [get in touch][help] with the team so we can help you out.
+7. Log into your [Openline account][openline], click on the `Settings` button in the sidebar and paste your Trello API token into the `Trello API token` fields.  Press save.
+
+8. Once configured, Openline can also continuously sync your data from Trello to customerOS, from 1 to 24 hours from Trello into customerOS to make sure you always are up to date. If you need to add more than one Trello workspace to customerOS, [get in touch][help] with the team so we can help you out.
 
 <!--- TODO: update with sync details ---->
 
