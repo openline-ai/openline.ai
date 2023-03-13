@@ -44,5 +44,5 @@ The playbook consist of Markdown files (.md or .mdx) that live in a [Github repo
 
 <!---References--->
 
-[contribute]: <contribute>
+[contribute]: https://github.com/openline-ai/openline.ai/tree/otter/playbook/contribute.md
 [repo]: https://github.com/openline-ai/openline.ai/tree/otter/playbook
