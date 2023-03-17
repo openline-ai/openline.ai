@@ -30,18 +30,46 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary')}>
-      <div className="container">
-        <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
-        <p className="hero__tagline">Built for customer-centric organisations</p>
-        <h1 className="hero__title"><span style={{color: '#8C8C8C', textDecoration: 'line-through'}}>Fight your data.</span><br></br> Love your customers.</h1>
-        <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what’s really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
-        <SignUpFormReact waitlistName='Waitlist-Homepage' />
+    <>
+      <header className={clsx('hero hero--primary')}>
+        <div className="container">
+          <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
+          <p className="hero__tagline">Built for customer-centric organisations</p>
+          <h1 className="hero__title"><span style={{ color: '#8C8C8C', textDecoration: 'line-through' }}>Fight your data.</span><br></br> Love your customers.</h1>
+          <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what’s really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
+          <SignUpFormReact waitlistName='Waitlist-Homepage' />
+        </div>
+        <div className="hero__image">
+          <img src={AgentScreen} />
+        </div>
+      </header>
+      <div className="hero__features">
+        <div className="hero__feature_item">
+          <h2>
+          End Data Sprawl
+          </h2>
+          <p>
+            All data can be mapped to Openline's customer graph in a couple of clicks - allowing you to not worry about data pipelines or data warehouses or ETL or ELT or... you get the idea.
+          </p>
+        </div>
+        <div className="hero__feature_item">
+          <h2>
+            Any Data Source
+          </h2>
+          <p>
+            Openline supports over 100 integrations to make sure that whether it's billing info, marketing emails or support tickets, it's all visible in one customer timeline.
+          </p>
+        </div>
+        <div className="hero__feature_item">
+          <h2>
+            One Workspace
+          </h2>
+          <p>
+            A single place to manage your customer relationships. No more hurriedly jumping from tab to tab every time you pick up the phone with summarised data the moment they ring.
+          </p>
+        </div>
       </div>
-      <div className="hero__image">
-        <img src={AgentScreen} />
-      </div>
-    </header>
+    </>
   );
 }
 
@@ -174,10 +202,10 @@ function HomepageIntegrations() {
   return (
     <>
       <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
-        <h1 className={styles.integrationsTitle} style={{fontSize: '3em'}}>100s of apps.</h1>
-        <h2 className={styles.integrationsTitle} style={{fontSize: '3em'}}>Unlimited possibilities.</h2>
-        <h3 className={styles.integrationsSubtitle} style={{textTransform: 'uppercase', lineHeight: '40px'}}>never miss a conversation</h3>
-        <h3 className={styles.integrationsText} style={{fontSize: '18px'}}>Openline supports over one hundred apps out of the box and support for more is added every month</h3>
+        <h1 className={styles.integrationsTitle} style={{ fontSize: '3em' }}>100s of apps.</h1>
+        <h2 className={styles.integrationsTitle} style={{ fontSize: '3em' }}>Unlimited possibilities.</h2>
+        <h3 className={styles.integrationsSubtitle} style={{ textTransform: 'uppercase', lineHeight: '40px' }}>never miss a conversation</h3>
+        <h3 className={styles.integrationsText} style={{ fontSize: '18px' }}>Openline supports over one hundred apps out of the box and support for more is added every month</h3>
         <img src={Integrations} alt="Integration Logos" className={styles.integrations} />
       </div>
     </>

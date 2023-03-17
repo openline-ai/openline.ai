@@ -15,7 +15,8 @@
   --ifm-color-primary-lightest: #8f4dfb;
   --ifm-code-font-size: 95%;
 
-  --ifm-heading-font-family: 'SohneBreit-Buch', sans-serif; /* Mona Sans alternative */
+  --ifm-heading-font-family: 'SohneBreit-Buch', sans-serif;
+  /* Mona Sans alternative */
   --ifm-font-family-base: Matter, sans-serif;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -46,11 +47,11 @@ html[data-theme='dark'] {
 /* Set page size */
 
 @media (min-width: 1416px) {
-	.main-wrapper {
-		align-self: center;
-		max-width: 1400px;
-		width: 1400px;
-	}
+  .main-wrapper {
+    align-self: center;
+    max-width: 1400px;
+    width: 1400px;
+  }
 }
 
 /* Fonts */
@@ -105,8 +106,8 @@ html[data-theme='dark'] {
 /* Navbar */
 
 .navbar .navbar__inner {
-    margin: 0 auto;
-    max-width: 1360px;
+  margin: 0 auto;
+  max-width: 1360px;
 }
 
 .navbar__title {
@@ -145,7 +146,7 @@ html[data-theme='dark'] {
 }
 
 .button-18:hover,
-.button-18:focus { 
+.button-18:focus {
   background-color: var(--ifm-color-primary-lighter);
   color: var(--ifm-navbar-background-color);
 }
@@ -272,6 +273,23 @@ html[data-theme='dark'] {
     justify-content: center;
     padding-bottom: 3rem;
   }
+}
+
+.hero__features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 996px) {
+  .hero__features {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 50px;
+  }
+}
+
+.hero__feature_item {
+  margin: 40px;
 }
 
 .features-carousel-container {
@@ -408,13 +426,13 @@ html[data-theme='dark'] {
 
 /* Guide formatting */
 
-img[alt=guide] { 
+img[alt=guide] {
   width: 80%;
   margin: auto;
   display: block;
 }
 
-img[alt=guide-small] { 
+img[alt=guide-small] {
   width: 80%;
   max-width: 400px;
   margin: auto;
