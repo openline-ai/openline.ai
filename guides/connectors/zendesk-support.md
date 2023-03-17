@@ -9,7 +9,7 @@ This guide will take you through how to connect your customer data living in [Ze
  
 :::info 
 
-To create an API key in Zendesk, you'll need Zendesk admin privileges and that your API Access tokens are enabled. 
+To create an API key in Zendesk, you'll need Zendesk admin privileges and make sure that your API Access tokens are enabled. 
 
 :::
 

@@ -4,6 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
+import Head from '@docusaurus/Head';
 
 
 import AgentScreen from '@site/static/img/AgentScreen.png';
@@ -31,8 +32,10 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary')}>
       <div className="container">
-        <h1 className="hero__title">{siteConfig.tagline}</h1>
-        <p className="hero__subtitle">Openline customerOS is an open source platform for managing customer data, building deeper relationships, and supercharging the productivity of customer-facing teams.</p>
+        <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
+        <p className="hero__tagline">Built for customer-centric organisations</p>
+        <h1 className="hero__title"><span style={{color: '#8C8C8C', textDecoration: 'line-through'}}>Fight your data.</span><br></br> Love your customers.</h1>
+        <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what’s really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
         <SignUpFormReact waitlistName='Waitlist-Homepage' />
       </div>
       <div className="hero__image">
@@ -204,6 +207,9 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Home`}
       description="Openline makes it easy to get a complete 360-degree view of your customers. We bring together behavioral, demographic, transactional, conversational, and social data to give you the most comprehensive view of your customer relationship.">
+      <Head>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageInvestors />

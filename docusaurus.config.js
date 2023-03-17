@@ -186,15 +186,9 @@ const config = {
             ]
           },
           {
-            href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
-            title: 'Slack',
-            label: 'Join our Slack',
-            position: 'right',
-          },
-          {
             type: 'html',
             position: 'right',
-            value: '<div class="github-container"><iframe src="https://ghbtns.com/github-btn.html?user=openline-ai&repo=openline-customer-os&type=star&count=true&size=small" width="100" height="20" title="GitHub"></iframe></div>',
+            value: '<a href="https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ"><img src="/img/slackButton.svg" alt="Join our Slack" class="slack-button" target=”_blank”></img></a>',
           },
           {
             type: 'html',
