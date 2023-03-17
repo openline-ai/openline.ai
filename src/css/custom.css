@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #8f4dfb;
   --ifm-code-font-size: 95%;
 
-  --ifm-heading-font-family: 'Mona Sans', sans-serif;
+  --ifm-heading-font-family: 'SohneBreit-Buch', sans-serif; /* Mona Sans alternative */
   --ifm-font-family-base: Matter, sans-serif;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -40,6 +40,17 @@ html[data-theme='dark'] {
 
 .footer--dark {
   --ifm-footer-background-color: #100024;
+}
+
+
+/* Set page size */
+
+@media (min-width: 1416px) {
+	.main-wrapper {
+		align-self: center;
+		max-width: 1400px;
+		width: 1400px;
+	}
 }
 
 /* Fonts */
@@ -72,6 +83,10 @@ html[data-theme='dark'] {
 
 /* Buttons */
 
+.github-stars {
+  padding-bottom: 1rem;
+}
+
 .border-button {
   border-color: var(--ifm-hero-text-color);
   border-style: solid;
@@ -79,7 +94,20 @@ html[data-theme='dark'] {
   border-radius: 100px;
 }
 
+.slack-button {
+  width: 120px;
+  cursor: cursor;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 /* Navbar */
+
+.navbar .navbar__inner {
+    margin: 0 auto;
+    max-width: 1360px;
+}
 
 .navbar__title {
   font-size: 26px;
@@ -93,18 +121,18 @@ html[data-theme='dark'] {
 
 .button-18 {
   align-items: center;
-  background-color: var(--ifm-color-primary-lightest);
+  background-color: #C2ACFF;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
-  color: var(--ifm-navbar-background-color);
+  color: #100024;
   cursor: cursor;
   display: inline-flex;
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
   max-width: 480px;
-  min-height: 30px;
+  min-height: 40px;
   overflow: hidden;
   padding: 0px;
   padding-left: 20px;
@@ -113,6 +141,7 @@ html[data-theme='dark'] {
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
+  font-family: 'SohneBreit-Buch', sans-serif;
 }
 
 .button-18:hover,
@@ -152,7 +181,9 @@ html[data-theme='dark'] {
 }
 
 .hero__subtitle,
-.hero__title {
+.hero__title,
+.hero__tagline,
+.github-stars {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -162,7 +193,18 @@ html[data-theme='dark'] {
 .hero__subtitle {
   font-size: 1rem;
   padding-bottom: 2rem;
+  padding-top: 2rem;
   max-width: 500px;
+}
+
+.hero__tagline {
+  font-family: 'SohneBreit-Buch', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  padding-bottom: 1rem;
 }
 
 .hero__image {
@@ -182,7 +224,7 @@ html[data-theme='dark'] {
 
 [data-theme='dark'] .hero__image {
   background-image: inherit;
-  background: inherit;
+  background: rgba(246, 245, 249, 0.2);
 }
 
 .waitlist-form {
@@ -206,7 +248,9 @@ html[data-theme='dark'] {
   }
 
   .hero__subtitle,
-  .hero__title {
+  .hero__title,
+  .hero__tagline,
+  .github-stars {
     text-align: center;
   }
 
