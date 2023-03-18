@@ -215,7 +215,7 @@ hr.solid {
 
 .hero__image {
   background: #C2ACFF;
-  background-image: url('@site/static/img//HeroBackground.svg');
+  background-image: url('@site/static/img/HeroBackground.svg');
   background-size: cover;
   background-origin: content-box;
   width: 100%;
@@ -229,8 +229,12 @@ hr.solid {
 }
 
 [data-theme='dark'] .hero__image {
-  background-image: inherit;
   background: rgba(246, 245, 249, 0.2);
+  background-image: url('@site/static/img/HeroBackground.svg');
+  background-size: cover;
+  background-origin: content-box;
+  width: 100%;
+  background-position: 0% 50%;
 }
 
 .waitlist-form {
@@ -288,20 +292,22 @@ hr.solid {
 
 @media screen and (max-width: 996px) {
   .hero__features {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 .hero__feature_item {
-  margin: 40px;
+  margin: 2rem;
+  max-width: 400px;
 }
 
 .hero__quote {
   padding-top: 2rem;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 9vw;
+  padding-right: 9vw;
   padding-bottom: 3rem;
 }
 

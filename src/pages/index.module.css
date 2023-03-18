@@ -83,7 +83,7 @@ cite {
 
 mark {
     -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
-            animation: 1.5s highlight 1.5s 1 normal forwards;
+    animation: 1.5s highlight 1.5s 1 normal forwards;
     background: linear-gradient(90deg, #f6ff47 50%, rgba(255, 255, 255, 0) 50%);
     background-size: 200% 100%;
     background-position: 100% 0;

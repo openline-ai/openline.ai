@@ -91,7 +91,7 @@ function HomepageInvestors() {
               With Openline, our customer-facing teams were able to understand our customers current status <mark>in seconds</mark> rather than minutes
             </q>
             <br></br>
-            <cite className="quote-citation">- Albert Smith, Head of Customer Success, Definitely A Real Company</cite>
+            <cite className="quote-citation"><b>Jane Smith</b>, Head of Customer Success, Big Impressive Tech Company</cite>
           </div>
         </div>
       </div>
