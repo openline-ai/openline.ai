@@ -36,7 +36,7 @@ function HomepageHeader() {
           <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
           <p className="hero__tagline">Built for customer-centric organisations</p>
           <h1 className="hero__title"><span style={{ color: '#8C8C8C', textDecoration: 'line-through' }}>Fight your data.</span><br></br> Love your customers.</h1>
-          <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what’s really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
+          <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what's really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
           <SignUpFormReact waitlistName='Waitlist-Homepage' />
         </div>
         <div className="hero__image">
@@ -46,7 +46,7 @@ function HomepageHeader() {
       <div className="hero__features">
         <div className="hero__feature_item">
           <h2>
-          End Data Sprawl
+            End Data Sprawl
           </h2>
           <p>
             All data can be mapped to Openline's customer graph in a couple of clicks - allowing you to not worry about data pipelines or data warehouses or ETL or ELT or... you get the idea.
@@ -78,12 +78,20 @@ function HomepageInvestors() {
   return (
     <>
       <div className={styles.investorcontainer}>
-        <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
+        <div className="container" style={{ paddingTop: '3rem', paddingBottom: '3rem', maxWidth: '1100px' }}>
           <div className={styles.titlepill}>
             Backed by leading investors
           </div>
-          <div style={{ paddingTop: '3rem' }}>
+          <div style={{ paddingTop: '2rem' }}>
             <InvestorLogos className={styles.features} />
+          </div>
+          <hr className="solid"></hr>
+          <div className="hero__quote">
+            <q className="quote">
+              With Openline, our customer-facing teams were able to understand our customers current status <mark>in seconds</mark> rather than minutes
+            </q>
+            <br></br>
+            <cite className="quote-citation">- Albert Smith, Head of Customer Success, Definitely A Real Company</cite>
           </div>
         </div>
       </div>

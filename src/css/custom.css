@@ -82,6 +82,12 @@ html[data-theme='dark'] {
   font-stretch: 75% 125%;
 }
 
+/* Dividers */
+
+hr.solid {
+  border-top: 1px solid rgb(16, 0, 36, 0.3);
+}
+
 /* Buttons */
 
 .github-stars {
@@ -188,14 +194,13 @@ html[data-theme='dark'] {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
-  max-width: 600px;
+  max-width: 620px;
 }
 
 .hero__subtitle {
   font-size: 1rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  max-width: 500px;
 }
 
 .hero__tagline {
@@ -276,6 +281,7 @@ html[data-theme='dark'] {
 }
 
 .hero__features {
+  padding-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -290,6 +296,22 @@ html[data-theme='dark'] {
 
 .hero__feature_item {
   margin: 40px;
+}
+
+.hero__quote {
+  padding-top: 2rem;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3rem;
+}
+
+.quote {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.quote-citation {
+  font-size: 1rem;
 }
 
 .features-carousel-container {

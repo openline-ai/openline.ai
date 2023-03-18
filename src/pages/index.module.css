@@ -35,10 +35,10 @@
     width: min-content;
     padding: 4px 43px 4px 43px;
     border-radius: 100px;
-    background-color: var(--ifm-color-primary-lightest);
+    background-color: rgba(246, 245, 249, 0.2);
     font-size: 16px;
     font-weight: bold;
-    color: var(--ifm-font-color-base-inverse);
+    color: #FFFFFF;
     white-space: nowrap;
 }
 
@@ -47,16 +47,59 @@
     width: min-content;
     padding: 4px 43px 4px 43px;
     border-radius: 100px;
-    background-color: var(--ifm-color-secondary-dark);
+    background-color: #FFFFFF;
     font-size: 16px;
     font-weight: bold;
-    color: var(--ifm-font-color-base);
+    color: #100024;
     white-space: nowrap;
 }
 
 [data-theme='light'] .investorcontainer {
-    background-color: #f6f5f9;
+    background-color: #F6F5F9;
 }
+
+[data-theme='dark'] .investorcontainer {
+    background-color: rgba(246, 245, 249, 0.2);
+}
+
+q::before {
+    content: "“";
+    font-family: Matter;
+    font-size: 4rem;
+    margin: -2rem 0 0 -2rem;
+    position: absolute;
+    opacity: 0.5;
+    color: #A16AFF;
+  }
+
+q::after {
+    content: "";
+}
+
+cite {
+    margin: 0.5rem 0 0 2rem;
+    position: absolute;
+}
+
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+            animation: 1.5s highlight 1.5s 1 normal forwards;
+    background: linear-gradient(90deg, #f6ff47 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+  }
+  
+  @-webkit-keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
+  
+  @keyframes highlight {
+    to {
+      background-position: 0 0;
+    }
+  }
 
 .title {
     font-size: 3rem;
