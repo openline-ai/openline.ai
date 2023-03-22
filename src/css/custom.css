@@ -420,3 +420,16 @@ img[alt=guide-small] {
   margin: auto;
   display: block;
 }
+
+/*region webchat*/
+.openline_avatar_wrapper {
+  display: none;
+}
+
+.openline_webchat_button {
+  display: none;
+}
+.support_window {
+  display: none;
+}
+/*endregion*/
