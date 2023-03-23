@@ -207,9 +207,6 @@ hr.solid {
 .hero__title,
 .hero__tagline,
 .github-stars {
-.hero__title,
-.hero__tagline,
-.github-stars {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -291,9 +288,6 @@ hr.solid {
   }
 
   .hero__subtitle,
-  .hero__title,
-  .hero__tagline,
-  .github-stars {
   .hero__title,
   .hero__tagline,
   .github-stars {

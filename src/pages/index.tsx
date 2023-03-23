@@ -5,7 +5,6 @@ import Layout from '@theme/Layout';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
-import Head from '@docusaurus/Head';
 
 
 import AgentScreen from '@site/static/img/AgentScreen.png';
