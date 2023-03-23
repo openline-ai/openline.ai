@@ -94,11 +94,23 @@ hr.solid {
   padding-bottom: 1rem;
 }
 
+.github-stars {
+  padding-bottom: 1rem;
+}
+
 .border-button {
   border-color: var(--ifm-hero-text-color);
   border-style: solid;
   border-width: 1.5px;
   border-radius: 100px;
+}
+
+.slack-button {
+  width: 120px;
+  cursor: cursor;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 .slack-button {
@@ -129,9 +141,11 @@ hr.solid {
 .button-18 {
   align-items: center;
   background-color: #C2ACFF;
+  background-color: #C2ACFF;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
+  color: #100024;
   color: #100024;
   cursor: cursor;
   display: inline-flex;
@@ -139,6 +153,7 @@ hr.solid {
   justify-content: center;
   line-height: 20px;
   max-width: 480px;
+  min-height: 40px;
   min-height: 40px;
   overflow: hidden;
   padding: 0px;
@@ -148,6 +163,7 @@ hr.solid {
   user-select: none;
   -webkit-user-select: none;
   vertical-align: middle;
+  font-family: 'SohneBreit-Buch', sans-serif;
   font-family: 'SohneBreit-Buch', sans-serif;
 }
 
@@ -191,6 +207,9 @@ hr.solid {
 .hero__title,
 .hero__tagline,
 .github-stars {
+.hero__title,
+.hero__tagline,
+.github-stars {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -201,6 +220,16 @@ hr.solid {
   font-size: 1rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
+}
+
+.hero__tagline {
+  font-family: 'SohneBreit-Buch', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  padding-bottom: 1rem;
 }
 
 .hero__tagline {
@@ -262,6 +291,9 @@ hr.solid {
   }
 
   .hero__subtitle,
+  .hero__title,
+  .hero__tagline,
+  .github-stars {
   .hero__title,
   .hero__tagline,
   .github-stars {
@@ -470,3 +502,16 @@ img[alt=guide-small] {
   margin: auto;
   display: block;
 }
+
+/*region webchat*/
+.openline_avatar_wrapper {
+  display: none;
+}
+
+.openline_webchat_button {
+  display: none;
+}
+.support_window {
+  display: none;
+}
+/*endregion*/

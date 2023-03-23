@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
+import Head from '@docusaurus/Head';
 
 
 import AgentScreen from '@site/static/img/AgentScreen.png';
@@ -244,6 +245,9 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Home`}
       description="Openline makes it easy to get a complete 360-degree view of your customers. We bring together behavioral, demographic, transactional, conversational, and social data to give you the most comprehensive view of your customer relationship.">
+      <Head>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+      </Head>
       <Head>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
       </Head>
