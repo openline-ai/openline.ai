@@ -213,7 +213,10 @@ hr.solid {
   padding-bottom: 1rem;
 }
 
-.hero__image {
+.hero__overlay {
+  display: flex;
+  justify-content: center;
+  margin: 0;
   background: #C2ACFF;
   background-image: url('@site/static/img/HeroBackground.svg');
   background-size: cover;
@@ -222,10 +225,11 @@ hr.solid {
   background-position: 0% 50%;
 }
 
-.hero__image img {
-  float: right;
-  max-width: 90%;
-  padding: 4rem 0rem 4rem 0rem;
+.hero__image {
+  width: 80%;
+  height: 80%;
+  margin: 5% 10% 5% 10%;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));  
 }
 
 [data-theme='dark'] .hero__image {

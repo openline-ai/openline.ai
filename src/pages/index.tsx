@@ -8,6 +8,7 @@ import Head from '@docusaurus/Head';
 
 
 import AgentScreen from '@site/static/img/AgentScreen.png';
+import Hero from '@site/static/img/hero.png';
 import GithubButton from '@site/static/img/GithubButton.png';
 import InvestorLogos from '@site/static/img/InvestorLogos.svg';
 import CustomerWindow from '@site/static/img/CustomerWindow.png';
@@ -39,8 +40,8 @@ function HomepageHeader() {
           <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what's really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
           <SignUpFormReact waitlistName='Waitlist-Homepage' />
         </div>
-        <div className="hero__image">
-          <img src={AgentScreen} />
+        <div className="hero__overlay">
+          <img src={Hero} className="hero__image"/>
         </div>
       </header>
       <div className="hero__features">
