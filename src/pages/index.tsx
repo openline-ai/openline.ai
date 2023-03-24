@@ -6,8 +6,8 @@ import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
 
-
-import AgentScreen from '@site/static/img/AgentScreen.png';
+import DataPipeline from '@site/static/img/DataPipeline.png';
+import DataSprawl from '@site/static/img/DataSprawl.png';
 import Hero from '@site/static/img/hero.png';
 import GithubButton from '@site/static/img/GithubButton.png';
 import InvestorLogos from '@site/static/img/InvestorLogos.svg';
@@ -41,7 +41,7 @@ function HomepageHeader() {
           <SignUpFormReact waitlistName='Waitlist-Homepage' />
         </div>
         <div className="hero__overlay">
-          <img src={Hero} className="hero__image"/>
+          <img src={Hero} className="hero__image" />
         </div>
       </header>
       <div className="hero__features">
@@ -89,10 +89,46 @@ function HomepageInvestors() {
           <hr className="solid"></hr>
           <div className="hero__quote">
             <q className="quote">
-              With Openline, our customer-facing teams were able to understand our customers current status <mark>in seconds</mark> rather than minutes
+              With Openline, our customer-facing teams were able to understand our customers current status <mark>in seconds</mark> rather than minutes.
             </q>
             <br></br>
-            <cite className="quote-citation"><b>Jane Smith</b>, Head of Customer Success, Big Impressive Tech Company</cite>
+            <cite className="quote-citation"><b>Ana Smith</b>, Head of Customer Success, Big Impressive Tech Company</cite>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+function HomepageProblem() {
+  const { siteConfig } = useDocusaurusContext();
+  return (
+    <>
+      <div className="container" style={{ paddingTop: '5rem' }}>
+        <div className={styles.titlepillalt}>
+          The problem
+        </div>
+        <h1 className={styles.title}>How do you bring your data together to drive business outcomes?</h1>
+        <div className={styles.problem__items}>
+          <div className={styles.problem__item}>
+            <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
+            <img src={DataPipeline} />
+            <p>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
+              Then you'll need to identify what data you need, where it's stored, how to get it, how to transform it, how to load it, how to keep it up to date, how to keep it secure, how to keep it performant, how to keep it consistent, how to keep it accurate, how to keep it relevant, how to keep it accessible, how to keep it auditable, how to keep it compliant, how to keep it... you get the idea.
+            </p>
+          </div>
+          <div className={styles.problem__item}>
+            <p className={styles.problem__subtitle}>...or try to keep doing what you're doing</p>
+            <img src={DataSprawl} />
+            <p>I mean, you can try?</p>
+          </div>
+        </div>
+        <h1 className={styles.title}>Or there's another option...</h1>
+        <div className={styles.solution__items}>
+          <div className={styles.solution__item}>
+            <p className={styles.problem__subtitle}>Openline brings your customer data together</p>
+            <img src={DataSprawl} />
+            <p>With all your customer data updated in real-time, where your team works</p>
           </div>
         </div>
       </div>
@@ -253,6 +289,7 @@ export default function Home(): JSX.Element {
       <HomepageHeader />
       <main>
         <HomepageInvestors />
+        <HomepageProblem />
         <HomepageIntimacy />
         <HomepageCarousel />
         <HomepageBetterData />

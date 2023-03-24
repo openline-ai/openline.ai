@@ -141,7 +141,6 @@ hr.solid {
 .button-18 {
   align-items: center;
   background-color: #C2ACFF;
-  background-color: #C2ACFF;
   border: 0;
   border-radius: 100px;
   box-sizing: border-box;
@@ -258,7 +257,7 @@ hr.solid {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));  
 }
 
-[data-theme='dark'] .hero__image {
+[data-theme='dark'] .hero__overlay {
   background: rgba(246, 245, 249, 0.2);
   background-image: url('@site/static/img/HeroBackground.svg');
   background-size: cover;
