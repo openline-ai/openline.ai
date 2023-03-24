@@ -5,7 +5,7 @@ description: The entire history of your customer relationship at your fingertips
 date: 2023-03-27
 image: ./images/hero/pink-hero.png
 authors: [matt]
-tags: [customerOS][spaces][timeline]
+tags: [customerOS, spaces, timeline]
 ---
 
 How well do you *actually* know your customers?
