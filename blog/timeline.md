@@ -20,7 +20,7 @@ This is why we’re thrilled to introduce Timeline, a revolutionary tool that pu
 - Personalize the customer experience by using their recent interactions with the company to guide the next best action.
 - Iterate faster on building and delivering the solutions that customers actually need.
 
-![Animation of the Timeline](Timeline-mousing.gif)
+![Animation of the Timeline](images/Timeline-mousing.gif)
 
 Using Timeline is easy.  It’s built on top of customerOS, meaning you’re able to connect all of your favorite SaaS tools and databases.  Within minutes, you’ll have a complete picture of your customer relationship *as they experienced it* in real-time.  This allows you to solve customer problems quickly and efficiently because you have all the context you need to take immediate action.
 
