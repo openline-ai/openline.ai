@@ -29,7 +29,7 @@ With timeline, you’ll be able to see everything, including:
 - What webpages your customers have visited
 - All phone calls, emails, video calls – all conversations with your customers across every channel
 - Purchase and payment history
-- Customer notes, tickets, and more sync’d from 100+ 3rd party platforms like [Hubspot][hubspot] or [Zendesk][zendesk]
+- Customer notes, tickets, and more synced from 100+ 3rd party platforms like [Hubspot][hubspot] or [Zendesk][zendesk]
 - Important documents and attachments, like invoices or contracts
 
 …and more.  
