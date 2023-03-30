@@ -123,7 +123,7 @@ function HomepageProblem() {
         <div className={styles.problem__items}>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
-            <img src={DataPipeline} />
+            <img src={DataPipeline} style={{padding: '1rem'}} />
             <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
               After you identify what data you need and where it's stored, you'll need to work out...</p>
               <div style={{display: 'flex', justifyContent: 'center'}}><b>how to <TypeAnimation /></b></div>
