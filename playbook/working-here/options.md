@@ -27,16 +27,15 @@ Yes.  All options vest over a period of 4 years with a 1 year cliff.  This means
 
 ## What other terms should I know about?
 
-- You have 10 years to exercise your vested options in the event that you leave Openline.  Industry standard is 90 days (which we think is bullshit).
-- Double trigger acceleration, which means if the company is acquired (trigger #1) and you are forced to leave without cause (trigger #2), 100% of your options vest immediately.
+- You have 5 years to exercise your vested options in the event that you leave Openline.  Industry standard is 90 days (which we think is bullshit).
 - Vesting starts from your start date (not after a "probation period" or similar).
 - For UK-based team members, our options are part of the [EMI share options scheme][emi], which is tax advantaged.
 
 ## What if I leave Openline before an "exit event"?
 
-- If you decide to leave or resign, you are classified as a `good leaver` and your stock options stop vesting on your last day of employment.  You retain the option to purchase all vested shares for the full 10 year life of the option.
+- If you decide to leave or resign, you are classified as a `good leaver` and your stock options stop vesting on your last day of employment.  You retain the option to purchase all vested shares for 5 years after your last day of employment.
 
-- If you are let go due to performance issues, or otherwise made redundant, we view that as our mistake and classify you as a `good leaver`.  Your stock options stop vesting on your last day of employment, and you retain the right to purchase all vested shares for the full 10 year life of the option.
+- If you are let go due to performance issues, or otherwise made redundant, we view that as our mistake and classify you as a `good leaver`.  Your stock options stop vesting on your last day of employment, and you retain the right to purchase all vested shares for 5 years after your last day of employment.
 
 - If you are let go due to gross misconduct, you are classified as a `bad leaver`, resulting in a forfeiture of all stock options--regardless of vested status.
 
@@ -51,4 +50,3 @@ By structuring the grant as options, you don't owe tax on the shares until you e
 <!---References---->
 
 [emi]: https://www.gov.uk/tax-employee-share-schemes/enterprise-management-incentives-emis
-
