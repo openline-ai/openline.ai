@@ -51,7 +51,7 @@
     -webkit-box-align: center;
     align-items: center;
     background: #C2ACFF;
-    background-image: url('@site/static/img/HeroBackground.svg');
+    background-image: url('@site/static/img/home/HeroBackground.svg');
     background-position: 0% 50%;
     background-size: fit;
     background-origin: content-box;

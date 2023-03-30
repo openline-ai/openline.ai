@@ -243,7 +243,7 @@ hr.solid {
   justify-content: center;
   margin: 0;
   background: #C2ACFF;
-  background-image: url('@site/static/img/HeroBackground.svg');
+  background-image: url('@site/static/img/home/HeroBackground.svg');
   background-size: cover;
   background-origin: content-box;
   width: 100%;
@@ -259,7 +259,7 @@ hr.solid {
 
 [data-theme='dark'] .hero__overlay {
   background: rgba(246, 245, 249, 0.2);
-  background-image: url('@site/static/img/HeroBackground.svg');
+  background-image: url('@site/static/img/home/HeroBackground.svg');
   background-size: cover;
   background-origin: content-box;
   width: 100%;

@@ -130,12 +130,18 @@ mark {
     line-height: 126%;
     text-align: center;
     padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 }
 
 .subtitle {
     font-size: 1.5rem;
     line-height: 126%;
     text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 10px;
 }
 
 .betterdatacontainer {
@@ -242,4 +248,8 @@ mark {
 .solution__item {
     margin: 2rem;
     max-width: 700px;
+}
+
+.home__image {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }

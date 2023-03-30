@@ -5,14 +5,16 @@ import Layout from '@theme/Layout';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
+import { TypeAnimation } from '../components/TypeAnimation';
 
-import DataPipeline from '@site/static/img/DataPipeline.png';
-import DataSprawl from '@site/static/img/DataSprawl.png';
-import Hero from '@site/static/img/hero.png';
-import GithubButton from '@site/static/img/GithubButton.png';
-import InvestorLogos from '@site/static/img/InvestorLogos.svg';
-import CustomerWindow from '@site/static/img/CustomerWindow.png';
-import Integrations from '@site/static/img/IntegrationLogos.png';
+import DataPipeline from '@site/static/img/home/DataPipeline.png';
+import DataSprawl from '@site/static/img/home/DataSprawl2.png';
+import OpenlineInterface from '@site/static/img/home/OpenlineInterface.png';
+import Hero from '@site/static/img/home/hero.png';
+import GithubButton from '@site/static/img/home/GithubButton.png';
+import InvestorLogos from '@site/static/img/home/InvestorLogos.svg';
+import CustomerWindow from '@site/static/img/home/CustomerWindow.png';
+import Integrations from '@site/static/img/home/IntegrationLogos.png';
 
 import Carousel0 from '@site/static/img/carousel/1000.svg';
 import Carousel1 from '@site/static/img/carousel/1001.svg';
@@ -100,35 +102,47 @@ function HomepageInvestors() {
   );
 }
 
+const WORDS_TO_ANIMATE = ['how to get it', 'how to transform it', 'how to load it', 'how to keep it up to date', 'how to keep it secure', 'how to keep it performant', 'how to keep it consistent', 'how to keep it accurate', 'how to keep it relevant', 'how to keep it accessible', 'how to keep it auditable', 'how to keep it compliant']
+
 function HomepageProblem() {
   const { siteConfig } = useDocusaurusContext();
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
   return (
     <>
       <div className="container" style={{ paddingTop: '5rem' }}>
-        <div className={styles.titlepillalt}>
-          The problem
-        </div>
+        <div className={styles.titlepillalt}>The problem</div>
         <h1 className={styles.title}>How do you bring your data together to drive business outcomes?</h1>
         <div className={styles.problem__items}>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
             <img src={DataPipeline} />
-            <p>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
-              Then you'll need to identify what data you need, where it's stored, how to get it, how to transform it, how to load it, how to keep it up to date, how to keep it secure, how to keep it performant, how to keep it consistent, how to keep it accurate, how to keep it relevant, how to keep it accessible, how to keep it auditable, how to keep it compliant, how to keep it... you get the idea.
+            <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
+              After you identify what data you need and where it's stored, you'll need to work out...</p>
+              <div style={{display: 'flex', justifyContent: 'center'}}><b>how to <TypeAnimation /></b></div>
+              <p className={styles.paragraph}>... you get the idea.
             </p>
           </div>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>...or try to keep doing what you're doing</p>
             <img src={DataSprawl} />
-            <p>I mean, you can try?</p>
+            <p className={styles.paragraph}>I mean, you can try?</p>
           </div>
         </div>
-        <h1 className={styles.title}>Or there's another option...</h1>
+        <div className={styles.titlepillalt}>The solution</div>
+        <h1 className={styles.title}>But there's another option...</h1>
         <div className={styles.solution__items}>
           <div className={styles.solution__item}>
             <p className={styles.problem__subtitle}>Openline brings your customer data together</p>
-            <img src={DataSprawl} />
-            <p>With all your customer data updated in real-time, where your team works</p>
+            <img src={OpenlineInterface} className={styles.home__image} />
+            <p className={styles.paragraph}>With all your customer data updated in real-time, where your team works, you don't need to worry about having stale data when analysing what is really going on with your customers.</p>
           </div>
         </div>
       </div>
