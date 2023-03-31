@@ -5,13 +5,16 @@ import Layout from '@theme/Layout';
 import SignUpFormReact from '../components/Signup';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
+import { TypeAnimation } from '../components/TypeAnimation';
 
-
-import AgentScreen from '@site/static/img/AgentScreen.png';
-import GithubButton from '@site/static/img/GithubButton.png';
-import InvestorLogos from '@site/static/img/InvestorLogos.svg';
-import CustomerWindow from '@site/static/img/CustomerWindow.png';
-import Integrations from '@site/static/img/IntegrationLogos.png';
+import DataPipeline from '@site/static/img/home/DataPipeline.png';
+import DataSprawl from '@site/static/img/home/DataSprawl2.png';
+import OpenlineInterface from '@site/static/img/home/OpenlineInterface.png';
+import Hero from '@site/static/img/home/hero.png';
+import GithubButton from '@site/static/img/home/GithubButton.png';
+import InvestorLogos from '@site/static/img/home/InvestorLogos.svg';
+import CustomerWindow from '@site/static/img/home/CustomerWindow.png';
+import Integrations from '@site/static/img/home/IntegrationLogos.png';
 
 import Carousel0 from '@site/static/img/carousel/1000.svg';
 import Carousel1 from '@site/static/img/carousel/1001.svg';
@@ -30,18 +33,46 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary')}>
-      <div className="container">
-        <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
-        <p className="hero__tagline">Built for customer-centric organisations</p>
-        <h1 className="hero__title"><span style={{color: '#8C8C8C', textDecoration: 'line-through'}}>Fight your data.</span><br></br> Love your customers.</h1>
-        <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what’s really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
-        <SignUpFormReact waitlistName='Waitlist-Homepage' />
+    <>
+      <header className={clsx('hero hero--primary')}>
+        <div className="container">
+          <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
+          <p className="hero__tagline">Built for customer-centric organisations</p>
+          <h1 className="hero__title"><span style={{ color: '#8C8C8C', textDecoration: 'line-through' }}>Fight your data.</span><br></br> Love your customers.</h1>
+          <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what's really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
+          <SignUpFormReact waitlistName='Waitlist-Homepage' />
+        </div>
+        <div className="hero__overlay">
+          <img src={Hero} className="hero__image" />
+        </div>
+      </header>
+      <div className="hero__features">
+        <div className="hero__feature_item">
+          <h2>
+            End Data Sprawl
+          </h2>
+          <p>
+            All data can be mapped to Openline's customer graph in a couple of clicks - allowing you to not worry about data pipelines or data warehouses or ETL or ELT or... you get the idea.
+          </p>
+        </div>
+        <div className="hero__feature_item">
+          <h2>
+            Any Data Source
+          </h2>
+          <p>
+            Openline supports over 100 integrations to make sure that whether it's billing info, marketing emails or support tickets, it's all visible in one customer timeline.
+          </p>
+        </div>
+        <div className="hero__feature_item">
+          <h2>
+            One Workspace
+          </h2>
+          <p>
+            A single place to manage your customer relationships. No more hurriedly jumping from tab to tab every time you pick up the phone with summarised data the moment they ring.
+          </p>
+        </div>
       </div>
-      <div className="hero__image">
-        <img src={AgentScreen} />
-      </div>
-    </header>
+    </>
   );
 }
 
@@ -50,12 +81,68 @@ function HomepageInvestors() {
   return (
     <>
       <div className={styles.investorcontainer}>
-        <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
+        <div className="container" style={{ paddingTop: '3rem', paddingBottom: '3rem', maxWidth: '1100px' }}>
           <div className={styles.titlepill}>
             Backed by leading investors
           </div>
-          <div style={{ paddingTop: '3rem' }}>
+          <div style={{ paddingTop: '2rem' }}>
             <InvestorLogos className={styles.features} />
+          </div>
+          <hr className="solid"></hr>
+          <div className="hero__quote">
+            <q className="quote">
+              With Openline, our customer-facing teams were able to understand our customers current status <mark>in seconds</mark> rather than minutes.
+            </q>
+            <br></br>
+            <cite className="quote-citation"><b>Ana Smith</b>, Head of Customer Success, Big Impressive Tech Company</cite>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+const WORDS_TO_ANIMATE = ['how to get it', 'how to transform it', 'how to load it', 'how to keep it up to date', 'how to keep it secure', 'how to keep it performant', 'how to keep it consistent', 'how to keep it accurate', 'how to keep it relevant', 'how to keep it accessible', 'how to keep it auditable', 'how to keep it compliant']
+
+function HomepageProblem() {
+  const { siteConfig } = useDocusaurusContext();
+  const [index, setIndex] = React.useState(0);
+
+  React.useEffect(() => {
+    const intervalId = setInterval(() =>
+      setIndex(index => index + 1),
+      3000 // every 3 seconds
+    );
+    return () => clearTimeout(intervalId);
+  }, []);
+  return (
+    <>
+      <div className="container" style={{ paddingTop: '5rem' }}>
+        <div className={styles.titlepillalt}>The problem</div>
+        <h1 className={styles.title}>How do you bring your data together to drive business outcomes?</h1>
+        <div className={styles.problem__items}>
+          <div className={styles.problem__item}>
+            <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
+            <img src={DataPipeline} style={{padding: '1rem'}} />
+            <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
+              After you identify what data you need and where it's stored, you'll need to work out...</p>
+              <div style={{display: 'flex', justifyContent: 'center'}}><b>how to <TypeAnimation /></b></div>
+              <p className={styles.paragraph}>... you get the idea.
+            </p>
+          </div>
+          <div className={styles.problem__item}>
+            <p className={styles.problem__subtitle}>...or try to keep doing what you're doing</p>
+            <img src={DataSprawl} />
+            <p className={styles.paragraph}>I mean, you can try?</p>
+          </div>
+        </div>
+        <div className={styles.titlepillalt}>The solution</div>
+        <h1 className={styles.title}>But there's another option...</h1>
+        <div className={styles.solution__items}>
+          <div className={styles.solution__item}>
+            <p className={styles.problem__subtitle}>Openline brings your customer data together</p>
+            <img src={OpenlineInterface} className={styles.home__image} />
+            <p className={styles.paragraph}>With all your customer data updated in real-time, where your team works, you don't need to worry about having stale data when analysing what is really going on with your customers.</p>
           </div>
         </div>
       </div>
@@ -174,10 +261,10 @@ function HomepageIntegrations() {
   return (
     <>
       <div className="container" style={{ paddingTop: '5rem', paddingBottom: '5rem' }}>
-        <h1 className={styles.integrationsTitle} style={{fontSize: '3em'}}>100s of apps.</h1>
-        <h2 className={styles.integrationsTitle} style={{fontSize: '3em'}}>Unlimited possibilities.</h2>
-        <h3 className={styles.integrationsSubtitle} style={{textTransform: 'uppercase', lineHeight: '40px'}}>never miss a conversation</h3>
-        <h3 className={styles.integrationsText} style={{fontSize: '18px'}}>Openline supports over one hundred apps out of the box and support for more is added every month</h3>
+        <h1 className={styles.integrationsTitle} style={{ fontSize: '3em' }}>100s of apps.</h1>
+        <h2 className={styles.integrationsTitle} style={{ fontSize: '3em' }}>Unlimited possibilities.</h2>
+        <h3 className={styles.integrationsSubtitle} style={{ textTransform: 'uppercase', lineHeight: '40px' }}>never miss a conversation</h3>
+        <h3 className={styles.integrationsText} style={{ fontSize: '18px' }}>Openline supports over one hundred apps out of the box and support for more is added every month</h3>
         <img src={Integrations} alt="Integration Logos" className={styles.integrations} />
       </div>
     </>
@@ -210,9 +297,13 @@ export default function Home(): JSX.Element {
       <Head>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
       </Head>
+      <Head>
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+      </Head>
       <HomepageHeader />
       <main>
         <HomepageInvestors />
+        <HomepageProblem />
         <HomepageIntimacy />
         <HomepageCarousel />
         <HomepageBetterData />

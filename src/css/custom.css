@@ -15,7 +15,8 @@
   --ifm-color-primary-lightest: #8f4dfb;
   --ifm-code-font-size: 95%;
 
-  --ifm-heading-font-family: 'SohneBreit-Buch', sans-serif; /* Mona Sans alternative */
+  --ifm-heading-font-family: 'SohneBreit-Buch', sans-serif;
+  /* Mona Sans alternative */
   --ifm-font-family-base: Matter, sans-serif;
 
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -46,11 +47,11 @@ html[data-theme='dark'] {
 /* Set page size */
 
 @media (min-width: 1416px) {
-	.main-wrapper {
-		align-self: center;
-		max-width: 1400px;
-		width: 1400px;
-	}
+  .main-wrapper {
+    align-self: center;
+    max-width: 1400px;
+    width: 1400px;
+  }
 }
 
 /* Fonts */
@@ -81,7 +82,17 @@ html[data-theme='dark'] {
   font-stretch: 75% 125%;
 }
 
+/* Dividers */
+
+hr.solid {
+  border-top: 1px solid rgb(16, 0, 36, 0.3);
+}
+
 /* Buttons */
+
+.github-stars {
+  padding-bottom: 1rem;
+}
 
 .github-stars {
   padding-bottom: 1rem;
@@ -102,11 +113,19 @@ html[data-theme='dark'] {
   padding-top: 5px;
 }
 
+.slack-button {
+  width: 120px;
+  cursor: cursor;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
 /* Navbar */
 
 .navbar .navbar__inner {
-    margin: 0 auto;
-    max-width: 1360px;
+  margin: 0 auto;
+  max-width: 1360px;
 }
 
 .navbar__title {
@@ -126,12 +145,14 @@ html[data-theme='dark'] {
   border-radius: 100px;
   box-sizing: border-box;
   color: #100024;
+  color: #100024;
   cursor: cursor;
   display: inline-flex;
   font-weight: 600;
   justify-content: center;
   line-height: 20px;
   max-width: 480px;
+  min-height: 40px;
   min-height: 40px;
   overflow: hidden;
   padding: 0px;
@@ -142,10 +163,11 @@ html[data-theme='dark'] {
   -webkit-user-select: none;
   vertical-align: middle;
   font-family: 'SohneBreit-Buch', sans-serif;
+  font-family: 'SohneBreit-Buch', sans-serif;
 }
 
 .button-18:hover,
-.button-18:focus { 
+.button-18:focus {
   background-color: var(--ifm-color-primary-lighter);
   color: var(--ifm-navbar-background-color);
 }
@@ -187,14 +209,13 @@ html[data-theme='dark'] {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
-  max-width: 600px;
+  max-width: 620px;
 }
 
 .hero__subtitle {
   font-size: 1rem;
   padding-bottom: 2rem;
   padding-top: 2rem;
-  max-width: 500px;
 }
 
 .hero__tagline {
@@ -207,24 +228,42 @@ html[data-theme='dark'] {
   padding-bottom: 1rem;
 }
 
-.hero__image {
+.hero__tagline {
+  font-family: 'SohneBreit-Buch', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 5px;
+  padding-bottom: 1rem;
+}
+
+.hero__overlay {
+  display: flex;
+  justify-content: center;
+  margin: 0;
   background: #C2ACFF;
-  background-image: url('@site/static/img//HeroBackground.svg');
+  background-image: url('@site/static/img/home/HeroBackground.svg');
   background-size: cover;
   background-origin: content-box;
   width: 100%;
   background-position: 0% 50%;
 }
 
-.hero__image img {
-  float: right;
-  max-width: 90%;
-  padding: 4rem 0rem 4rem 0rem;
+.hero__image {
+  width: 80%;
+  height: 80%;
+  margin: 5% 10% 5% 10%;
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));  
 }
 
-[data-theme='dark'] .hero__image {
-  background-image: inherit;
+[data-theme='dark'] .hero__overlay {
   background: rgba(246, 245, 249, 0.2);
+  background-image: url('@site/static/img/home/HeroBackground.svg');
+  background-size: cover;
+  background-origin: content-box;
+  width: 100%;
+  background-position: 0% 50%;
 }
 
 .waitlist-form {
@@ -272,6 +311,42 @@ html[data-theme='dark'] {
     justify-content: center;
     padding-bottom: 3rem;
   }
+}
+
+.hero__features {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 996px) {
+  .hero__features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.hero__feature_item {
+  margin: 2rem;
+  max-width: 400px;
+}
+
+.hero__quote {
+  padding-top: 2rem;
+  padding-left: 9vw;
+  padding-right: 9vw;
+  padding-bottom: 3rem;
+}
+
+.quote {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.quote-citation {
+  font-size: 1rem;
 }
 
 .features-carousel-container {
@@ -408,13 +483,13 @@ html[data-theme='dark'] {
 
 /* Guide formatting */
 
-img[alt=guide] { 
+img[alt=guide] {
   width: 80%;
   margin: auto;
   display: block;
 }
 
-img[alt=guide-small] { 
+img[alt=guide-small] {
   width: 80%;
   max-width: 400px;
   margin: auto;
