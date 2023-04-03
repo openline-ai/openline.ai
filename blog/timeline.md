@@ -3,12 +3,12 @@ slug: introducing-timeline
 title: Why didn’t anybody think of this before? Introducing Timeline.
 description: The entire history of your customer relationship at your fingertips.
 date: 2023-03-27
-image: ./images/hero/timeline-hero.jpg
+image: ./images/hero/timeline_hero.jpg
 authors: [matt]
 tags: [customerOS, spaces, timeline]
 ---
 
-![Timeline hero image](images/hero/timeline-hero.jpg)
+![Timeline hero image](images/hero/timeline_hero.jpg)
 
 How well do you *actually* know your customers?
 
