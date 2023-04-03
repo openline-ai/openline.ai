@@ -1,14 +1,14 @@
 ---
-slug: timeline
+slug: introducing-timeline
 title: Why didn’t anybody think of this before? Introducing Timeline.
 description: The entire history of your customer relationship at your fingertips.
 date: 2023-03-27
-image: ./images/hero/pink-hero.png
+image: ./images/hero/timeline_hero.png
 authors: [matt]
 tags: [customerOS, spaces, timeline]
 ---
 
-![Timeline hero image](images/timeline_hero.png)
+![Timeline hero image](images/hero/timeline_hero.png)
 
 How well do you *actually* know your customers?
 
@@ -38,7 +38,7 @@ With timeline, you’ll be able to see everything, including:
 
 So why hasn’t anyone thought of this before? Perhaps because the playbook for startups is to target a small specific pain, address a specific silo’s technical need. But the business of being customer-centric is transversal, it does not belong to any departmental budget. Everyone gets a SaaS app, except for the customer.
 
-This is why, instead of building another band-aid, we chose to focus on the fundamental, underserved core of your business. 
+This is why, instead of building another band-aid, we chose to focus on the fundamental, underserved core of your business.
 
 Your customer experience is all about the shared moments between you and your customers.  With Timeline, your team will be able to craft a story that’s as unique and profoundly meaningful as every one of your customer relationships.  
 
