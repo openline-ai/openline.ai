@@ -8,6 +8,8 @@ authors: [matt]
 tags: [customerOS, spaces, timeline]
 ---
 
+![Timeline hero image](images/timeline_hero.png)
+
 How well do you *actually* know your customers?
 
 If you’re like most of the high-growth companies we talk to, the answer is probably not well enough.  Customer information is often fragmented across departments, with sales, marketing, customer success, and support all holding different pieces of the puzzle.  This can leave your customers… puzzled, and result in poor customer experiences and missed opportunities for growth.
@@ -20,7 +22,7 @@ This is why we’re thrilled to introduce Timeline, a revolutionary tool that pu
 - Personalize the customer experience by using their recent interactions with the company to guide the next best action.
 - Iterate faster on building and delivering the solutions that customers actually need.
 
-![Animation of the Timeline](images/Timeline-mousing.gif)
+![Animation of the Timeline](images/Timeline-only.gif)
 
 Using Timeline is easy.  It’s built on top of customerOS, meaning you’re able to connect all of your favorite SaaS tools and databases.  Within minutes, you’ll have a complete picture of your customer relationship *as they experienced it* in real-time.  This allows you to solve customer problems quickly and efficiently because you have all the context you need to take immediate action.
 
