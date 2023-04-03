@@ -8,7 +8,7 @@ authors: [matt]
 tags: [customerOS, spaces, timeline]
 ---
 
-![Timeline hero image](images/hero/timeline_hero.png)
+![Timeline hero image](images/hero/timeline-hero.jpg)
 
 How well do you *actually* know your customers?
 
