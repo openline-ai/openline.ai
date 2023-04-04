@@ -48,4 +48,4 @@ Click here to [sign up for our waitlist][waitlist] and be one of the first to kn
 
 <!---References--->
 
-[waitlist]: https://www.openline.ai/
+[waitlist]: https://www.openline.ai/waitlist
