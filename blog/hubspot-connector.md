@@ -12,11 +12,11 @@ tags: [customerOS, hubspot, connectors]
 
 By the time the customer has been handed off to your operational teams, A LOT has happened.  Countless emails, virtual meetings, and other communications have been exchanged.  Proposals have been shared.  And reshared.  Contracts have been signed.
 
-How much of this realtionship data makes it to your operational teams when it's time to hand off the customer?
+How much of this relationship data makes it to your operational teams when it's time to hand off the customer?
 
 <!--truncate-->
 
-In today's customer-centric organizations, collaboration is central to crafting the ideal customer journey.  That's why we're excited to announce our customerOS Hubspot connector.  This powerful integration is designed to enhance your team's productivity, foster collaboration, and help your business thrive.  Say goodbye to paying for unnessary CRM lincenses and hello to seamless data synchronization.
+In today's customer-centric organizations, collaboration is central to crafting the ideal customer journey.  That's why we're excited to announce our customerOS Hubspot connector.  This powerful integration is designed to enhance your team's productivity, foster collaboration, and help your business thrive.  Say goodbye to paying for unnecessary CRM licenses and hello to seamless data synchronization.
 
 ## A unified view of all your contacts, communications, and active deals
 
