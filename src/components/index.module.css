@@ -253,3 +253,24 @@ mark {
 .home__image {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
 }
+
+.card__image {
+    max-height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.card__image img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 996px) {
+    .card__image {
+        max-height: none;
+    }
+}
