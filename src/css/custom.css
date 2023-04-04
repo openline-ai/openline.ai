@@ -43,6 +43,14 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #100024;
 }
 
+label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  display: block;
+  line-height: 0.75rem;
+  margin-top: 0.5rem;
+}
+
 
 /* Set page size */
 

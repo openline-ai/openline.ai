@@ -1,0 +1,54 @@
+.background {
+  background-image: url("/backgrounds/blueprint/background-00005.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.loginPanel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(rgb(255 255 255 / 84%) 30%,
+      rgb(255 255 255 / 83%));
+  border-radius: var(--border-radius-md);
+  box-shadow: 4px 4px 8px #0007;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  padding: 1rem;
+  flex-direction: column;
+  min-width: 300px;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 0.5rem;
+}
+
+.loginPanel__logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+}
+
+.button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.oryLogo {
+  margin-left: 1rem;
+}
+
+.oryInfoSection {
+  font-size: 0.75rem;
+}
