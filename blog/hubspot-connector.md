@@ -40,8 +40,8 @@ The Hubspot connector for customerOS automatically sync all changes and new data
 
 Interested in trying it out?  
 
-Simply enable the [Hubspot connector][hubspot] within your [Openline Spaces][spaces] applicaiton.  
-Don't have an acocunt?  Click here to [sign up for our waitlist][waitlist]!
+Simply enable the [Hubspot connector][hubspot] within your [Openline Spaces][spaces] application.  
+Don't have an account?  Click here to [sign up for our waitlist][waitlist]!
 
 <!---References--->
 
