@@ -3,12 +3,12 @@ slug: meetings
 title: Meetings - Get the most out of your customer conversations
 description: Meetings is a simple tool that allows you to collaborate, plan, and extract intelligence from your customer meetings.
 date: 2023-04-17
-image: ./images/hero/xxx
+image: ./images/hero/blue-hero.png
 authors: [matt]
 tags: [customerOS, spaces, timeline, meetings]
 ---
 
-![Meetings hero image](xxx)
+<!--![Meetings hero image](xxx)-->
 
 Let's talk about Meetings.
 
@@ -32,7 +32,7 @@ Meetings is a deceptively simple tool that gives you a single, centralized locat
 
 - Automatically extract action items and follow up discussion topics so you always follow through on your commitments.
 
-![Animation of Meetings](xxx)
+<!--![Animation of Meetings](xxx)-->
 
 Meetings makes it easy to get the most out of your customer conversations.  With Meetings, you can:
 
