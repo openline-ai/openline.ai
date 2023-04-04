@@ -29,6 +29,13 @@
   border-radius: 0.5rem;
 }
 
+.loginPanel input {
+  padding: 0.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  width: 100%;
+}
+
 .loginPanel__logo {
   margin-left: auto;
   margin-right: auto;
