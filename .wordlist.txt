@@ -206,3 +206,9 @@ Hubspot
 underserved
 waitlist
 jpg
+hubspot
+Hubspot
+onboarding
+SLAs
+CRM
+synching
