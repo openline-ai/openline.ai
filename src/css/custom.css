@@ -56,11 +56,11 @@ article[itemprop='blogPost'] h2 {
 }
 
 article[itemprop='blogPost'] a {
-  color: #100024;
+  color: var(--ifm-hero-text-color);
 }
 
 article[itemprop='blogPost'] a:hover {
-  color: #7626fa;
+  color: var(--ifm-color-primary);
   text-decoration: none;
 }
 
