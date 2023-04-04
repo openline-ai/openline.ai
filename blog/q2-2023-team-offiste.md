@@ -41,7 +41,7 @@ Next time you see Antoine Valot, ask him about his world renowned POTATO framewo
 
 ## Embracing an AI-first approach
 
-There's no doubt that the speed of AI advancement in the past 18 months has been absolutly staggering.  We believe in 10 years, there will only be two types of companies:
+There's no doubt that the speed of AI advancement in the past 18 months has been absolutely staggering.  We believe in 10 years, there will only be two types of companies:
 
 - Those that are great at leveraging AI throughout the business, and 
 - Those that are dead
