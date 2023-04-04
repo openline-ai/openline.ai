@@ -43,11 +43,7 @@ const config = {
           editUrl:
             'https://github.com/openline-ai/openline.ai/blob/otter',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/openline-ai/openline.ai/blob/otter',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -56,6 +52,17 @@ const config = {
   ],
 
   plugins: [
+    [
+      './plugins/blog-plugin',
+      {
+        id: 'blog',
+        routeBasePath: 'blog',
+        path: 'blog',
+        showReadingTime: true,
+        editUrl:
+          'https://github.com/openline-ai/openline.ai/blob/otter',
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {

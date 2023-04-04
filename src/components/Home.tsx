@@ -1,3 +1,6 @@
+// Note this is the homepage and is here because of limitations of fetching blog posts in the homepage
+// https://kgajera.com/blog/display-recent-blog-posts-on-home-page-with-docusaurus/
+
 import React, { useState } from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -28,6 +31,8 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
 import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 
 
 function HomepageHeader() {
@@ -123,11 +128,11 @@ function HomepageProblem() {
         <div className={styles.problem__items}>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
-            <img src={DataPipeline} style={{padding: '1rem'}} />
+            <img src={DataPipeline} style={{ padding: '1rem' }} />
             <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
               After you identify what data you need and where it's stored, you'll need to work out...</p>
-              <div style={{display: 'flex', justifyContent: 'center'}}><b>how to <TypeAnimation /></b></div>
-              <p className={styles.paragraph}>... you get the idea.
+            <div style={{ display: 'flex', justifyContent: 'center' }}><b>how to <TypeAnimation /></b></div>
+            <p className={styles.paragraph}>... you get the idea.
             </p>
           </div>
           <div className={styles.problem__item}>
@@ -288,8 +293,34 @@ function HomepageGithub() {
   );
 }
 
-export default function Home(): JSX.Element {
+function BlogCard({name, image, url, description}) {
+  return (
+    <div className="col col--4 margin-bottom--lg">
+      <div className='card'>
+        <div className={styles.card__image}>
+          <Link to={url}>
+            <img src={image} alt={`${name}'s image`}/>
+          </Link>
+        </div>
+        <div className="card__body">
+          <h3>{name}</h3>
+          <p>{description}</p>
+        </div>
+        <div className="card__footer">
+          <div style={{textAlign: 'center'}}>
+            <b>
+              <Link className="button button--secondary" to={url}>Read it here</Link>
+            </b>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function Home({recentPosts}): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
+    console.log(recentPosts)
   return (
     <Layout
       title={`Home`}
@@ -304,10 +335,15 @@ export default function Home(): JSX.Element {
       <main>
         <HomepageInvestors />
         <HomepageProblem />
-        <HomepageIntimacy />
+        {/* <HomepageIntimacy /> */}
         <HomepageCarousel />
         <HomepageBetterData />
         <HomepageIntegrations />
+        <div className="row margin-horiz--xs">
+        {recentPosts.map(({ content }) => (
+            <BlogCard key={content.metadata.permalink} name={content.frontMatter.title} image={content.assets.image} url={content.metadata.permalink} description={content.metadata.description} />
+        ))}
+        </div>
         <HomepageGithub />
       </main>
     </Layout>
