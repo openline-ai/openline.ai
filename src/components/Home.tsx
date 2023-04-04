@@ -328,9 +328,6 @@ export default function Home({recentPosts}): JSX.Element {
       <Head>
         <script async defer src="https://buttons.github.io/buttons.js"></script>
       </Head>
-      <Head>
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-      </Head>
       <HomepageHeader />
       <main>
         <HomepageInvestors />
