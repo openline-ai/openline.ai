@@ -51,6 +51,22 @@ label {
   margin-top: 0.5rem;
 }
 
+article[itemprop='blogPost'] h2 {
+  font-size: 2rem;
+}
+
+article[itemprop='blogPost'] a {
+  color: var(--ifm-hero-text-color);
+}
+
+article[itemprop='blogPost'] a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+article[itemprop='blogPost'] h1 {
+  font-size: 2rem;
+}
 
 /* Set page size */
 
