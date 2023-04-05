@@ -2,7 +2,7 @@
 slug: q2-2023-team-offsite
 title: Embracing diversity & innovation - A glimpse into our Q2 2023 team offsite
 description: Over the course of three days, we delved into a range of topics, from our Super Secret Master Plan 🤫 to the role of agentive software in shaping our company's future.
-date: 2023-04-10
+date: 2023-04-05
 image: ./images/openline-team-q2-2023-offsite.jpg
 authors: [matt]
 tags: [offsite]
