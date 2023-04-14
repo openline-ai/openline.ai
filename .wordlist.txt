@@ -217,9 +217,3 @@ agentive
 Agentive
 huuuuuge
 Valot
-hubspot
-onboarding
-SLAs
-CRM
-synching
-reshared
