@@ -20,7 +20,7 @@ In today's customer-centric organizations, collaboration is central to crafting 
 
 ## A unified view of all your contacts, communications, and active deals
 
-By synching your Hubspot data with customerOS, your entire team will have access to essential customer information, such as contacts and organizations, complete conversation history, and the details of the engagement.  This unified view, when combined with our unique [Timeline functionality][timeline], empowers your team to make informed decisions, quickly respond to customer needs, and effectively manage the customer relationship.
+By syncing your Hubspot data with customerOS, your entire team will have access to essential customer information, such as contacts and organizations, complete conversation history, and the details of the engagement.  This unified view, when combined with our unique [Timeline functionality][timeline], empowers your team to make informed decisions, quickly respond to customer needs, and effectively manage the customer relationship.
 
 ## A complete communication log
 

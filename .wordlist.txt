@@ -210,7 +210,7 @@ hubspot
 onboarding
 SLAs
 CRM
-synching
+syncing
 reshared
 Bedford
 agentive
