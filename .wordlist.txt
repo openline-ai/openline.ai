@@ -206,6 +206,12 @@ Hubspot
 underserved
 waitlist
 jpg
+hubspot
+onboarding
+SLAs
+CRM
+syncing
+reshared
 Bedford
 agentive
 Agentive
