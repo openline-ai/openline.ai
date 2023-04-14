@@ -304,6 +304,20 @@ hr.solid {
   margin-left: 1rem;
 }
 
+.waitlist-input {
+
+}
+
+@media screen and (max-width: 996px) {
+  .waitlist-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+}
+
 @media screen and (max-width: 996px) {
   .hero {
     padding-top: 4rem;
