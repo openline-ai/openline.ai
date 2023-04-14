@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import SignUpFormReact from '../components/Signup';
+import SignUpModal from '../components/SignupModal';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
 import { TypeAnimation } from '../components/TypeAnimation';
@@ -45,7 +45,7 @@ function HomepageHeader() {
           <p className="hero__tagline">Built for customer-centric organisations</p>
           <h1 className="hero__title"><span style={{ color: '#8C8C8C', textDecoration: 'line-through' }}>Fight your data.</span><br></br> Love your customers.</h1>
           <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what's really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
-          <SignUpFormReact waitlistName='Waitlist-Homepage' />
+          <SignUpModal waitlistName='Waitlist-Homepage' />
         </div>
         <div className="hero__overlay">
           <img src={Hero} className="hero__image" />
@@ -320,7 +320,6 @@ function BlogCard({name, image, url, description}) {
 
 export default function Home({recentPosts}): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
-    console.log(recentPosts)
   return (
     <Layout
       title={`Home`}
