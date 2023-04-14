@@ -3,12 +3,12 @@ slug: openline-hubspot-connector
 title: Keep your operational teams in the loop with new Hubspot Connector
 description: Hubspot now integrates directly with Openline customerOS
 date: 2023-03-27
-image: ./images/hero/hubspot-connector.jpg
+image: ./images/hero/hubspot-connector-hero.jpg
 authors: [matt]
 tags: [customerOS, hubspot, connectors]
 ---
 
-![Timeline hero image](images/hero/hubspot-connector.jpg)
+![Timeline hero image](images/hero/hubspot-connector-hero.jpg)
 
 By the time the customer has been handed off to your operational teams, A LOT has happened.  Countless emails, virtual meetings, and other communications have been exchanged.  Proposals have been shared.  And reshared.  Contracts have been signed.
 
