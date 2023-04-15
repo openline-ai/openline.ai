@@ -69,6 +69,6 @@ We'll undoubtedly pick up new crew members along the way, and we'll lose some to
 
 <!---References--->
 
-[hubspot]: https://www.openline.ai/guides/connectors/hubspot
+[hubspot]: /guides/connectors/hubspot/
 [waitlist]: https://www.openline.ai/
-[zendesk]: https://www.openline.ai/guides/connectors/zendesk-support
+[zendesk]: /guides/connectors/zendesk-support/

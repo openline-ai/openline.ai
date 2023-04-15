@@ -48,6 +48,6 @@ Click here to [sign up for our waitlist][waitlist] and be one of the first to kn
 
 <!---References--->
 
-[hubspot]: https://www.openline.ai/guides/connectors/hubspot
-[waitlist]: https://www.openline.ai/waitlist
-[zendesk]: https://www.openline.ai/guides/connectors/zendesk-support
+[hubspot]: /guides/connectors/hubspot/
+[waitlist]: /waitlist/
+[zendesk]: /guides/connectors/zendesk-support/

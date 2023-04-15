@@ -49,13 +49,13 @@ That's it, you are ready to start building with Openline!
 
 Next checkout
 
-- our [github worflow][github]
+- our [github workflow][github]
 - the [CLI quick reference][cli-guide] to check out all the commands
 
 <!---References---->
 
-[cli-guide]: <docs/guides/cli-overview>
-[github]: <github-workflow>
+[cli-guide]: /docs/guides/cli-overview/
+[github]: /docs/contribute/github-workflow/
 [linux-arm]: http://openline.sh/openline-linux-arm.tar.gz
 [linux-x64]: http://openline.sh/openline-linux-x64.tar.gz
 [mac-arm]: http://openline.sh/openline-darwin-arm.tar.gz
