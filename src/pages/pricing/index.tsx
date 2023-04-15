@@ -67,6 +67,24 @@ function Pricing() {
                 <p className={styles.pricingSubtext} style={{ lineHeight: '0px', fontStyle: 'italic', fontSize: '12px' }}>(requires customerOS)</p>
               </div>
             </div>
+            <div className={styles.pricingTable}>
+              <h3 className={styles.pricingTitle}>Openline App Suite</h3>
+              <br></br>
+              <ul className={styles.pricingText}>
+                <li>Contact management</li>
+                <li>Chat</li>
+                <li>Messaging</li>
+                <li>Email</li>
+                <li>Voice</li>
+                <li>Web analytics</li>
+                <li>Dedicated support</li>
+              </ul>
+              <div style={{ textAlign: 'center' }}>
+                <h5 className={styles.pricingFreemiumPrice}>Free</h5>
+                <p className={styles.pricingSubtext}>for unlimited contacts</p>
+                <p className={styles.pricingSubtext} style={{ lineHeight: '0px', fontStyle: 'italic', fontSize: '12px' }}>(requires customerOS)</p>
+              </div>
+            </div>
           </div>
           <div style={{ textAlign: 'center', padding: '40px' }}>
             <p>Want to learn more?</p><a href='https://cal.com/mbrown/20min' rel="noreferrer" target="_blank" style={{ color: '#A16AFF' }}><p>Schedule a Demo ➔</p></a>

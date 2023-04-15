@@ -55,7 +55,7 @@ article[itemprop='blogPost'] h2 {
   font-size: 2rem;
 }
 
-article[itemprop='blogPost'] a {
+h2[itemprop='headline'] a {
   color: var(--ifm-hero-text-color);
 }
 
