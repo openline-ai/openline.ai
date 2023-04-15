@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
 
-const SignUpModal = ({ waitlistName }) => {
+const SignUpModal = ({ waitlistName, slack }) => {
     var INIT = "INIT";
     var SUBMITTING = "SUBMITTING";
     var ERROR = "ERROR";
@@ -14,14 +14,14 @@ const SignUpModal = ({ waitlistName }) => {
         "formFont": "Matter",
         "formFontColor": "#000000",
         "formFontSizePx": 16,
-        "buttonText": "Join the Waitlist",
+        "buttonText": "Book now!",
         "buttonFont": "Matter",
         "buttonFontColor": "#000000",
         "buttonColor": "#0D9488",
         "buttonFontSizePx": 16,
         "successMessage": "Thanks! We'll be in touch!",
         "successFont": "Matter",
-        "successFontColor": "#FFFFFF",
+        "successFontColor": "var(--ifm-color-primary)",
         "successFontSizePx": 16,
         "userGroup": "Waitlist"
     }
@@ -94,6 +94,24 @@ const SignUpModal = ({ waitlistName }) => {
             .then((res) => {
                 if (res) {
                     resetForm();
+                    fetch(slack, {
+                        body: JSON.stringify(
+                            {
+                                blocks: [
+                                    {
+                                        "type": "section",
+                                        "text": {
+                                            "type": "mrkdwn",
+                                            "text": `New signup for *${waitlistName}*\n\n*Email:* ${email}\n*First Name:* ${firstName}\n*Last Name:* ${lastName}\n*Company:* ${company}`,
+                                        },
+                                    }
+                                ]
+                            }),
+                        headers: {
+                        },
+                        method: "POST",
+                    }).then((res) => { console.log(res) })
+                        .catch((err) => { console.log(err) })
                     setFormState(SUCCESS);
                 } else {
                     setFormState(ERROR);
@@ -167,32 +185,43 @@ const SignUpModal = ({ waitlistName }) => {
 
     const SignUpFormButton = () => {
         return (
-            <button
-                type="submit"
-                className="waitlist-button"
-                style={{
-                    background: formStyles.buttonColor,
-                    backgroundImage: "radial-gradient(circle farthest-corner at 100% 100%, #e095f5, #85abff 53%, #b6d6f0)",
-                    fontSize: `${formStyles.buttonFontSizePx}px`,
-                    color: formStyles.buttonFontColor,
-                    fontFamily: `'${formStyles.buttonFont}', sans-serif`,
-                    maxWidth: "300px",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    flexDirection: "row",
-                    padding: "13px 40px",
-                    boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.05)",
-                    borderRadius: "100px",
-                    textAlign: "center",
-                    fontWeight: 600,
-                    lineHeight: "20px",
-                    border: "1px",
-                    cursor: "pointer",
-                    margin: "10px",
-                }}
-            >
-                {formState === SUBMITTING ? "Please wait..." : formStyles.buttonText}
-            </button>
+            <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                paddingBottom: '3rem',
+            }}>
+                <button
+                    type="submit"
+                    style={{
+                        background: formStyles.buttonColor,
+                        backgroundImage: "radial-gradient(circle farthest-corner at 100% 100%, #e095f5, #85abff 53%, #b6d6f0)",
+                        fontSize: `${formStyles.buttonFontSizePx}px`,
+                        color: formStyles.buttonFontColor,
+                        fontFamily: `'${formStyles.buttonFont}', sans-serif`,
+                        maxWidth: "300px",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        flexDirection: "row",
+                        padding: "13px 40px",
+                        boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.05)",
+                        borderRadius: "100px",
+                        textAlign: "center",
+                        fontWeight: 600,
+                        lineHeight: "20px",
+                        border: "1px",
+                        cursor: "pointer",
+                        margin: "10px",
+                        whiteSpace: "nowrap",
+                        width: "min-content",
+                        minWidth: "120px",
+                        marginTop: "1rem",
+                    }}
+                >
+                    {formState === SUBMITTING ? "Please wait..." : formStyles.buttonText}
+                </button>
+            </div>
         );
     }
 
@@ -248,8 +277,8 @@ const SignUpModal = ({ waitlistName }) => {
                     bottom: 'auto',
                     marginRight: '-50%',
                     transform: 'translate(-50%, -50%)',
-                    paddingTop: '3rem',
-                    paddingBottom: '2rem',
+                    paddingTop: '2rem',
+                    paddingBottom: '1rem',
                 },
             };
             return (
@@ -289,7 +318,7 @@ const SignUpModal = ({ waitlistName }) => {
                         style={customStyles}
                         ariaHideApp={false}
                     >
-                        <h2 style={{textAlign: 'center', paddingBottom: '1rem'}}>
+                        <h2 style={{ textAlign: 'center', paddingBottom: '1rem' }}>
                             Book a demo now!
                         </h2>
                         <form
