@@ -301,7 +301,6 @@ hr.solid {
   width: 250px;
   white-space: nowrap;
   width: min-content;
-  margin-left: 2rem;
 }
 
 @media screen and (max-width: 996px) {
