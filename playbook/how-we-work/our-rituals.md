@@ -12,7 +12,7 @@ We're busy building, and this is one of those things that is a work in progress!
 
 # Meetups
 
-Building a company asynchronously is hard. So to combat the downsides of working apart from one another, both by location and time-zones, we make an effort to meet up with each other once per quarter at a minimum in a different location while the team is small and agile. As mentioned in the [goals](goals) section, this is where we set our quarterly targets we work against, as well as retrospectively look at how we've performed. We run the meetup in the same way every time, minimum 2 days covering the following topics:
+Building a company asynchronously is hard. So to combat the downsides of working apart from one another, both by location and time-zones, we make an effort to meet up with each other once per quarter at a minimum in a different location while the team is small and agile. As mentioned in the [goals][goals] section, this is where we set our quarterly targets we work against, as well as retrospectively look at how we've performed. We run the meetup in the same way every time, minimum 2 days covering the following topics:
 
 - Company update
 - Mission

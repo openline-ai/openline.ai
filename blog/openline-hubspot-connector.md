@@ -45,7 +45,7 @@ Don't have an account?  Click here to [sign up for our waitlist][waitlist]!
 
 <!---References--->
 
-[hubspot]: https://www.openline.ai/guides/connectors/hubspot
-[spaces]: https://spaces.openline.ai
-[timeline]: <introducing-timeline>
-[waitlist]: https://www.openline.ai/waitlist
+[hubspot]: /guides/connectors/hubspot/
+[spaces]: https://spaces.openline.ai/
+[timeline]: /blog/introducing-timeline/
+[waitlist]: /waitlist/

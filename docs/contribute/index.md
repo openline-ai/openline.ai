@@ -43,8 +43,8 @@ Thank you for joining us! :hugs:
 
 <!--- References -->
 
-[code_of_conduct]: <code-of-conduct>
-[engage]: <engage>
+[code_of_conduct]: /docs/contribute/code-of-conduct/
+[engage]: /docs/contribute/engage/
 [license]: https://choosealicense.com/licenses/mit/
 [markdown]: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 [repo]: https://github.com/openline-ai/community/

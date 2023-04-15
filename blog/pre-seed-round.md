@@ -16,7 +16,7 @@ The company's pre-seed round saw institutional participation from [Seedcamp][see
 
 [cocoa]: https://www.cocoa.vc/
 [crane]: https://crane.vc/
-[github]: https://github.com/openline-ai
+[github]: https://github.com/openline-ai/
 [openline]: </>
 [seedcamp]: https://seedcamp.com/
 [yc]: https://www.ycombinator.com/
