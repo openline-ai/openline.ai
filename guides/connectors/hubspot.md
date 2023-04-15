@@ -78,4 +78,4 @@ Openline only requires read permissions as we don't push data back into Hubspot,
 
 [hubspot]: https://www.hubspot.com/
 [login]: https://app.hubspot.com/login
-[openline]: https://spaces.openline.ai
+[openline]: https://spaces.openline.ai/
