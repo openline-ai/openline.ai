@@ -11,5 +11,5 @@ If you find something not quite right, or you have a suggestion for improvement,
 
 <!---References--->
 
-[contribute]: <contribute>
+[contribute]: /guides/contribute/
 [repo]: https://github.com/openline-ai/openline.ai/tree/otter/playbook

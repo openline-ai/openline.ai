@@ -34,5 +34,5 @@ To create an API key in Jira, you'll need Jira admin privileges.
 
 [jira]: https://www.atlassian.com/software/jira
 [jira-api-guide]: https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/
-[openline]: https://spaces.openline.ai
+[openline]: https://spaces.openline.ai/
 
