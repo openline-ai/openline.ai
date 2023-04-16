@@ -1,7 +1,7 @@
 ---
 slug: openline-customeros-hubspot-connector
 title: Keep your operational teams in the loop with new Hubspot Connector
-description: Boost your team's efficiency and ROI with the CustomerOS Hubspot Connector. Experience seamless data synchronization, improved collaboration, and reduced expenses. Schedule a demo today!
+description: Boost your team's efficiency and ROI with the customerOS Hubspot Connector. Experience seamless data synchronization, improved collaboration, and reduced expenses. Schedule a demo today!
 date: 2023-04-16
 image: ./images/hero/hubspot-connector-hero.jpg
 authors: [matt]
