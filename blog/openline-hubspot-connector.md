@@ -1,8 +1,8 @@
 ---
-slug: openline-hubspot-connector
+slug: openline-customeros-hubspot-connector
 title: Keep your operational teams in the loop with new Hubspot Connector
-description: Hubspot now integrates directly with Openline customerOS
-date: 2023-04-14
+description: Boost your team's efficiency and ROI with the CustomerOS Hubspot Connector. Experience seamless data synchronization, improved collaboration, and reduced expenses. Schedule a demo today!
+date: 2023-04-16
 image: ./images/hero/hubspot-connector-hero.jpg
 authors: [matt]
 tags: [customerOS, hubspot, connectors]
@@ -14,38 +14,43 @@ By the time the customer has been handed off to your operational teams, A LOT ha
 
 How much of this relationship data makes it to your operational teams when it's time to hand off the customer?
 
+In today's customer-centric organizations, collaboration is central to crafting the ideal customer journey.  That's why we're thrilled to introduce our customerOS Hubspot connector.  This powerful integration not only boosts your team's productivity and collaboration, but also delivers quantifiable benefits that directly impact your bottom line. Say goodbye to paying for unnecessary CRM licenses and hello to seamless data synchronization and improved operational efficiency.
+
+## Key benefits of the customerOS Hubspot connector
+
+- Unified view of your data for better decision-making
+- Improved communication for enhanced customer satisfaction
+- Streamlined collaboration across the business with access to essential conversations and documents
+- Automatic updates for real-time accuracy
+- Increased time savings and decreased expenses
+
 <!--truncate-->
 
-In today's customer-centric organizations, collaboration is central to crafting the ideal customer journey.  That's why we're excited to announce our customerOS Hubspot connector.  This powerful integration is designed to enhance your team's productivity, foster collaboration, and help your business thrive.  Say goodbye to paying for unnecessary CRM licenses and hello to seamless data synchronization.
+## Make better decisions, faster
 
-## A unified view of all your contacts, communications, and active deals
+By syncing your Hubspot data with customerOS, your entire team gains access to vital customer information, such as contacts and organizations, complete conversation history, and the specifics of the engagement. This unified view, coupled with our unique [Timeline functionality][timeline], enables your team to make informed decisions, rapidly respond to customer needs, and effectively manage customer relationships.
 
-By syncing your Hubspot data with customerOS, your entire team will have access to essential customer information, such as contacts and organizations, complete conversation history, and the details of the engagement.  This unified view, when combined with our unique [Timeline functionality][timeline], empowers your team to make informed decisions, quickly respond to customer needs, and effectively manage the customer relationship.
+## Improved communication = happy customers
 
-## A complete communication log
+Effective communication is the foundation of lasting customer relationships. With the Hubspot connector for customerOS, your team can access the full conversation history for each contact, including emails, phone calls, meetings, and more. This ensures that everyone is on the same page regarding promises and agreements made, helping improve client satisfaction and retention.
 
-Communication is key in building lasting customer relationships. With the Hubspot integration for customerOS, your team can access the complete conversation history for each contact, including emails, phone calls, meetings, and more.  This ensures that everyone is on the same page when it comes to what was promised to whom. This level of visibility will help your team manage customer expectations and personalize the onboarding experience, resulting in improved client satisfaction and retention.
+## Improve cross-functional collaboration
 
-## All important files and deal documents
+The customerOS Hubspot connector also equips your team with access to all files and attachments stored in Hubspot, enabling seamless sharing of essential documents like proposals, contracts, SLAs, and other materials exchanged during the sales process.
 
-The customerOS Hubspot connector also provides your team with access to all files and attachments collected in Hubspot.  This allows for the streamlined sharing of essential documents, such as proposals, contracts, SLAs, and anything else that was shared and agreed during the sales process.  
-
-## Reduce the number of CRM licenses
-
-One of the most significant benefits of the customerOS Hubspot connector is the cost savings.  By utilizing this integration, you no longer need to purchase separate CRM licenses for your operational teams.  Everything is available in near real-time within customerOS for the entire organization to search and view.
-
-## Automatic updates and syncing
+## Real-time accuracy
 
 The Hubspot connector for customerOS automatically sync all changes and new data from Hubspot.  This ensures that your team is always working with the most up-to-date information, helping improve accuracy and operational efficiency.
 
-Interested in trying it out?  
+## Save time, save money
 
-Simply enable the [Hubspot connector][hubspot] within your [Openline Spaces][spaces] application.  
-Don't have an account?  Click here to [sign up for our waitlist][waitlist]!
+Using the customerOS Hubspot connector, you no longer need to purchase separate CRM licenses for your operational teams. Plus, our connector helps your organization save an estimated 3.8 hours per week per customer-facing employee, resulting in a total of 9,880 hours saved annually for a 50-person team. With an average hourly wage of $30, that's a whopping $296,400 in time savings!
+
+Experience the unparalleled efficiency and ROI that the customerOS Hubspot connector brings to your organization. Give your operational teams the tools they need to drive customer success and maximize your business's growth.
+
+**Ready to unlock the full potential of your operational teams? [Schedule a demo][demo] today and experience the difference with the customerOS Hubspot connector.**
 
 <!---References--->
 
-[hubspot]: /guides/connectors/hubspot/
-[spaces]: https://spaces.openline.ai/
+[demo]: https://www.openline.ai/
 [timeline]: /blog/introducing-timeline/
-[waitlist]: /waitlist/
