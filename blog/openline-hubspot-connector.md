@@ -14,6 +14,8 @@ By the time the customer has been handed off to your operational teams, A LOT ha
 
 How much of this relationship data makes it to your operational teams when it's time to hand off the customer?
 
+<!--truncate-->
+
 In today's customer-centric organizations, collaboration is central to crafting the ideal customer journey.  That's why we're thrilled to introduce our customerOS Hubspot connector.  This powerful integration not only boosts your team's productivity and collaboration, but also delivers quantifiable benefits that directly impact your bottom line. Say goodbye to paying for unnecessary CRM licenses and hello to seamless data synchronization and improved operational efficiency.
 
 ## Key benefits of the customerOS Hubspot connector
@@ -23,8 +25,6 @@ In today's customer-centric organizations, collaboration is central to crafting 
 - Streamlined collaboration across the business with access to essential conversations and documents
 - Automatic updates for real-time accuracy
 - Increased time savings and decreased expenses
-
-<!--truncate-->
 
 ## Make better decisions, faster
 
