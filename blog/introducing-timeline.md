@@ -30,7 +30,7 @@ This is why we’re thrilled to introduce Timeline, a revolutionary tool that pu
 
 ![Animation of the Timeline](images/Timeline-only.gif)
 
-## How Timeline works: seemless integration with customerOS
+## How Timeline works: seamless integration with customerOS
 
 Using Timeline is easy.  It’s built on top of customerOS, meaning you’re able to connect all of your favorite SaaS tools and databases.  Within minutes, you’ll have a complete picture of your customer relationship *as they experienced it* in real-time.  This allows you to solve customer problems quickly and efficiently because you have all the context you need to take immediate action.
 
