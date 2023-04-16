@@ -34,7 +34,7 @@ By syncing your Hubspot data with customerOS, your entire team gains access to v
 
 Effective communication is the foundation of lasting customer relationships. With the Hubspot connector for customerOS, your team can access the full conversation history for each contact, including emails, phone calls, meetings, and more. This ensures that everyone is on the same page regarding promises and agreements made, helping improve client satisfaction and retention.
 
-## Improve cross-functional collaboration
+## Streamlined cross-functional collaboration
 
 The customerOS Hubspot connector also equips your team with access to all files and attachments stored in Hubspot, enabling seamless sharing of essential documents like proposals, contracts, SLAs, and other materials exchanged during the sales process.
 
@@ -42,9 +42,9 @@ The customerOS Hubspot connector also equips your team with access to all files 
 
 The Hubspot connector for customerOS automatically sync all changes and new data from Hubspot.  This ensures that your team is always working with the most up-to-date information, helping improve accuracy and operational efficiency.
 
-## Save time, save money
+## Save time, save (lots of) money
 
-Using the customerOS Hubspot connector, you no longer need to purchase separate CRM licenses for your operational teams. Plus, our connector helps your organization save an estimated 3.8 hours per week per customer-facing employee, resulting in a total of 9,880 hours saved annually for a 50-person team. With an average hourly wage of $30, that's a whopping $296,400 in time savings!
+Using the customerOS Hubspot connector, you no longer need to purchase separate CRM licenses for your operational teams. Plus, our connector helps your organization save an estimated [3.8 hours per week per customer-facing employee][forbes], resulting in a total of 9,880 hours saved annually for a 50-person team. With an average hourly wage of $30, **that's a whopping $296,400 in time savings!**
 
 Experience the unparalleled efficiency and ROI that the customerOS Hubspot connector brings to your organization. Give your operational teams the tools they need to drive customer success and maximize your business's growth.
 
@@ -53,4 +53,5 @@ Experience the unparalleled efficiency and ROI that the customerOS Hubspot conne
 <!---References--->
 
 [demo]: https://www.openline.ai/
+[forbes]: https://www.forbes.com/sites/forbestechcouncil/2019/12/17/reality-check-still-spending-more-time-gathering-instead-of-analyzing/
 [timeline]: /blog/introducing-timeline/
