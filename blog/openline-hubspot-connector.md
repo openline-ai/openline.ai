@@ -30,7 +30,7 @@ In today's customer-centric organizations, collaboration is central to crafting 
 
 By syncing your Hubspot data with customerOS, your entire team gains access to vital customer information, such as contacts and organizations, complete conversation history, and the specifics of the engagement. This unified view, coupled with our unique [Timeline functionality][timeline], enables your team to make informed decisions, rapidly respond to customer needs, and effectively manage customer relationships.
 
-And this is critical.  A [study by the MIT Sloan School of Management][sloan] found that organizations that are data-driven have 4% higher productivity and 6% higher profits than their competitors.  Better data drives better decisions, which in turn drive better outcomes.
+And this is critical.  A [study by the MIT Sloan School of Management][sloan] found that organizations that are data-driven have **4% higher productivity and 6% higher profits** than their competitors.  Better data drives better decisions, which in turn drive better outcomes.
 
 ## Improved communication = happy customers
 
