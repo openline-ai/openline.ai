@@ -217,5 +217,5 @@ agentive
 Agentive
 huuuuuge
 Valot
-customerOS
 ROI
+customeros
