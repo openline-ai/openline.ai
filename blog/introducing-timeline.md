@@ -1,6 +1,6 @@
 ---
 slug: introducing-timeline
-title: Why didn’t anybody think of this before? Introducing Timeline.
+title: Introducing Timeline - Know your customers better than ever!
 description: The entire history of your customer relationship at your fingertips.
 date: 2023-03-27
 image: ./images/hero/timeline-hero.jpg
@@ -10,21 +10,31 @@ tags: [customerOS, spaces, timeline]
 
 ![Timeline hero image](images/hero/timeline-hero.jpg)
 
-How well do you *actually* know your customers?
+Are you tired of spending hours searching for customer information? You're not alone!
 
-If you’re like most of the high-growth companies we talk to, the answer is probably not well enough.  Customer information is often fragmented across departments, with sales, marketing, customer success, and support all holding different pieces of the puzzle.  This can leave your customers… puzzled, and result in poor customer experiences and missed opportunities for growth.
+Many fast-growing companies struggle to know their customers well enough as customer information is typically fragmented across different teams. Research from McKinsey & Company shows that [customer teams spend 20-30% of their time looking for information][mckinsey], leading to confused customers and poor experiences.
 
 <!--truncate-->
 
+## The problem: fragmented customer information
+
+With sales, marketing, customer success, and support teams holding different pieces of customer information, it's difficult to provide personalized experiences. This fragmentation impacts customer satisfaction, which [decreases by 13% for every additional minute a customer service representative spends searching for information][hbr].
+
+## The solution:  Timeline
+
 This is why we’re thrilled to introduce Timeline, a revolutionary tool that puts the entire history of your customer relationship at your fingertips.  This allows fast-growing teams to:
 
-- Solve customer problems on-the-spot, because they understand the full context behind the issue.
-- Personalize the customer experience by using their recent interactions with the company to guide the next best action.
-- Iterate faster on building and delivering the solutions that customers actually need.
+- **Solve customer problems on-the-spot**, as they understand the full context behind the issue.
+- **Personalize the customer experience** by using their recent interactions with the company to guide the next best action.
+- **Iterate faster** on building and delivering the solutions that customers actually need.
 
 ![Animation of the Timeline](images/Timeline-only.gif)
 
+## How Timeline works: seemless integration with customerOS
+
 Using Timeline is easy.  It’s built on top of customerOS, meaning you’re able to connect all of your favorite SaaS tools and databases.  Within minutes, you’ll have a complete picture of your customer relationship *as they experienced it* in real-time.  This allows you to solve customer problems quickly and efficiently because you have all the context you need to take immediate action.
+
+## Transform your business with Timeline
 
 With timeline, you’ll be able to see everything, including:
 
@@ -36,18 +46,17 @@ With timeline, you’ll be able to see everything, including:
 
 …and more.  
 
-So why hasn’t anyone thought of this before? Perhaps because the playbook for startups is to target a small specific pain, address a specific silo’s technical need. But the business of being customer-centric is transversal, it does not belong to any departmental budget. Everyone gets a SaaS app, except for the customer.
-
-This is why, instead of building another band-aid, we chose to focus on the fundamental, underserved core of your business.
-
 Your customer experience is all about the shared moments between you and your customers.  With Timeline, your team will be able to craft a story that’s as unique and profoundly meaningful as every one of your customer relationships.  
 
-Interested in trying it out?  
+## Ready to take your customer relationships to the next level?
 
-Click here to [sign up for our waitlist][waitlist] and be one of the first to know how it feels to truly know your customer!  
+Experience the benefits of Timeline for yourself!  [**Schedule a demo today**][demo] and revolutionize the way you engage with your customers.
 
 <!---References--->
 
+[demo]: /
+[hbr]: https://hbr.org/2007/02/understanding-customer-experience
 [hubspot]: /guides/connectors/hubspot/
+[mckinsey]: https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/if-were-all-so-busy-why-isnt-anything-getting-done
 [waitlist]: /waitlist/
 [zendesk]: /guides/connectors/zendesk-support/
