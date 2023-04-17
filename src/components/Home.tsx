@@ -11,7 +11,7 @@ import Head from '@docusaurus/Head';
 import { TypeAnimation } from '../components/TypeAnimation';
 
 import DataPipeline from '@site/static/img/home/DataPipeline.png';
-import DataSprawl from '@site/static/img/home/DataSprawl2.png';
+import DataSprawl from '@site/static/img/home/TraditionalCustomerData.png';
 import OpenlineInterface from '@site/static/img/home/OpenlineInterface.png';
 import Hero from '@site/static/img/home/hero.png';
 import GithubButton from '@site/static/img/home/GithubButton.png';
@@ -128,7 +128,7 @@ function HomepageProblem() {
         <div className={styles.problem__items}>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
-            <img src={DataPipeline} style={{ padding: '1rem' }} />
+            <img src={DataPipeline} className={styles.home__image} />
             <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
               After you identify what data you need and where it's stored, you'll need to work out...</p>
             <div style={{ display: 'flex', justifyContent: 'center' }}><b>how to <TypeAnimation /></b></div>
@@ -137,7 +137,7 @@ function HomepageProblem() {
           </div>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>...or try to keep doing what you're doing</p>
-            <img src={DataSprawl} />
+            <img src={DataSprawl} className={styles.home__image} />
             <p className={styles.paragraph}>I mean, you can try?</p>
           </div>
         </div>

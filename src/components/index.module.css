@@ -207,6 +207,7 @@ mark {
     padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-bottom: 3rem;
 }
 
 @media screen and (max-width: 996px) {
