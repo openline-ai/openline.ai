@@ -16,6 +16,8 @@ We've all been there.
 
 - The Marketing team launches a campaign without checking the status of open support items. The customer, frustrated with the open issues, isn't in a buying posture.  The campaign is ignored, or worse, the customer's frustration escalates at the prospects of being upsold when they're not happy with the current solution.
 
+<!--truncate-->
+
 In our hyper-connected world, where small mistakes can quickly spread on social media, solving problems fast and working together are essential to keeping customers happy. That's why we're thrilled to introduce the customerOS Zendesk connector. This fantastic tool improves teamwork, boosts customer happiness, and offers a solid ROI.
 
 ## Key Benefits of the CustomerOS Zendesk Connector
