@@ -56,6 +56,6 @@ Experience the benefits of Timeline for yourself!  [**Schedule a demo today**][d
 
 [demo]: /
 [hbr]: https://hbr.org/2007/02/understanding-customer-experience
-[hubspot]: /openline-hubspot-connector/
+[hubspot]: /blog/openline-customeros-hubspot-connector/
 [mckinsey]: https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/if-were-all-so-busy-why-isnt-anything-getting-done
 [zendesk]: /guides/connectors/zendesk-support/
