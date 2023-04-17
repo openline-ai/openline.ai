@@ -1,50 +1,58 @@
 ---
 slug: customer-os-zendesk-connector
-title: Beyond boundaries - customerOS Zendesk Connector redefines customer support
-description: 
+title: "Beyond boundaries: customerOS Zendesk Connector redefines customer support"
+description: tbd
 date: 2023-04-17
-image: 
+image: ./images/hero/zendesk-connector-hero.png
 authors: [jonty]
 tags: [customerOS, zendesk, connectors]
 ---
 
-![Timeline hero image](images/hero/)
+![Zendesk connector hero image](images/hero/zendesk-connector-hero.png)
 
-Are your customer-facing teams finding it hard to stay in sync on support issues and ticket updates? We're excited to introduce the customerOS Zendesk connector, a powerful integration that improves teamwork, boosts customer happiness, and delivers impressive ROI.
+We've all been there. 
 
-In today's competitive world, quick issue resolution and smooth collaboration are key to keeping customers satisfied. Our customerOS Zendesk connector streamlines your team's workflow and communication while offering clear benefits that positively impact your bottom line. Say goodbye to disconnected support processes and hello to complete visibility and better ROI.
+- An Account Manager, unaware of several open support tickets, joins a customer meeting hoping to upsell. Instead, they spend the whole hour discussing unresolved issues. They end up looking foolish and waste an opportunity to build customer trust.
 
-Key Benefits of the CustomerOS Zendesk Connector:
+- The Marketing team launches a campaign without checking the status of open support items. The customer, frustrated with the open issues, isn't in a buying posture.  The campaign is ignored, or worse, the customer's frustration escalates at the prospects of being upsold when they're not happy with the current solution.
 
-Unified view for efficient issue management
-Faster resolution times for happier customers
-Proactive issue handling with full data access
-Improved collaboration for smarter decision-making
-Increased transparency and accountability
-[Image 1: A screenshot of the customerOS Zendesk connector user interface, showcasing its features]
+In our hyper-connected world, where small mistakes can quickly spread on social media, solving problems fast and working together are essential to keeping customers happy. That's why we're thrilled to introduce the customerOS Zendesk connector. This fantastic tool improves teamwork, boosts customer happiness, and offers a solid ROI.
 
-By connecting Zendesk with customerOS, everyone in your company can access important support information like ticket statuses, issue details, and conversation history. This complete view helps your teams work together, respond quickly to customer needs, and manage support issues effectively.
+## Key Benefits of the CustomerOS Zendesk Connector
 
-Faster resolution times are essential for keeping customers happy. With the Zendesk integration for customerOS, your teams can prioritize and address issues more efficiently, leading to increased customer satisfaction and retention. Research from Forrester shows that a 10% improvement in ticket resolution time can result in a 1% increase in customer satisfaction.
+- Complete view for efficient issue management
+- Quicker issue resolution for happier customers
+- Proactive approach with full data access
+- Better teamwork for smart decision-making
+- More transparency and accountability
 
-[Image 2: A visual representation of the seamless information flow between Zendesk and customerOS]
+## See Everything
 
-The customerOS Zendesk connector gives your teams full access to data, allowing them to spot patterns and trends proactively. By tackling recurring issues early, your organization can cut support costs and improve the overall customer experience.
+When you connect Zendesk to customerOS, everyone in your company can access important support information like ticket statuses, issue details, and conversation history directly on the [customerOS Timeline][timeline]. This complete view helps your teams work together, respond quickly to customer needs, and manage support issues effectively.
 
-Better collaboration and visibility, offered by the Zendesk connector, help your teams make smarter decisions about resource allocation, issue prioritization, and process improvements. Data-driven organizations have a 4% higher productivity rate and a 6% higher profit rate, according to a study by MIT Sloan.
+## Solve Issues Faster
 
-[Image 3: A bar chart comparing support efficiency and customer satisfaction before and after implementing the customerOS Zendesk connector]
+Quick issue resolution is key to keeping customers happy. With the Zendesk integration for customerOS, your teams can prioritize and address issues more efficiently, leading to increased customer satisfaction and retention. Research from Forrester shows that a [10% improvement in issue resolution time can result in a 1% increase in customer satisfaction][forrester].
+
+## Be Proactive
+
+The customerOS Zendesk connector gives your teams full access to data, letting them proactively spot patterns and trends. By tackling recurring issues early, your organization can cut support costs and improve the overall customer experience.
+
+## Make Smarter Decisions
+
+Better teamwork and visibility, offered by the Zendesk connector, help your teams make smarter decisions about resource allocation, issue prioritization, and process improvements. Data-driven organizations have a [4% higher productivity rate and a 6% higher profit rate][sloan], according to a study by MIT Sloan.
+
+## Full Transparency and Accountability
 
 Increased transparency and accountability create a culture of continuous improvement within your organization, as all customer-facing teams can track progress and understand how their actions affect customer satisfaction.
 
-Discover the unmatched efficiency and ROI that the customerOS Zendesk connector brings to your organization. Give your customer-facing teams the tools they need to excel in issue resolution and boost your business's growth.
+Discover the amazing efficiency and customer satisfaction that the customerOS Zendesk connector brings to your organization. Give your customer-facing teams the tools they need to excel in issue resolution and boost your business's growth!
 
-
-**Ready to unlock the full potential of your operational teams? [Schedule a demo][demo] today and experience the difference with the customerOS Hubspot connector.**
+**Ready to unlock your team's full potential? [Schedule a demo][demo] today and experience the difference with the customerOS Zendesk connector.**
 
 <!---References--->
 
 [demo]: /
-[forbes]: https://www.forbes.com/sites/forbestechcouncil/2019/12/17/reality-check-still-spending-more-time-gathering-instead-of-analyzing/
+[forrester]: https://www.forrester.com/report/How-Customer-Experience-Drives-Business-Growth-2019/RES158938
 [sloan]: http://ebusiness.mit.edu/research/papers/2011.12_Brynjolfsson_Hitt_Kim_Strength%20in%20Numbers_302.pdf
 [timeline]: /blog/timeline-improves-customer-relationships/
