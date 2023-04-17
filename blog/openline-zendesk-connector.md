@@ -1,7 +1,7 @@
 ---
 slug: customer-os-zendesk-connector
 title: "Beyond boundaries: customerOS Zendesk Connector redefines customer support"
-description: tbd
+description: The customerOS Zendesk Connector improves customer support efficiency, enhances collaboration, and delivers impressive ROI by boosting customer satisfaction and reducing resolution times. Unlock its benefits with a demo today.
 date: 2023-04-17
 image: ./images/hero/zendesk-connector-hero.png
 authors: [jonty]
