@@ -3,12 +3,12 @@ slug: hubspot-integration-customer-os
 title: Keep your operation teams in the loop with new customerOS Hubspot integration
 description: Discover the benefits of our Hubspot integration for customer success, account management, and customer service teams. Schedule a demo today to experience seamless data synchronization and improved collaboration.
 date: 2023-04-16
-image: ./images/hero/hubspot-integration-customer-os-hero.png
+image: ./images/hero/hubspot-integration-customer-os-hero.webp
 authors: [jonty]
 tags: [customerOS, Hubspot integration]
 ---
 
-![Hubspot integration hero image](images/hero/hubspot-integration-customer-os-hero.png)
+![Hubspot integration hero image](images/hero/hubspot-integration-customer-os-hero.webp)
 
 By the time a customer reaches your operational teams, A LOT has happened.  They’ve exchanged countless emails, virtual meetings, and other communications.  Proposals have been shared and agreed.  Contracts have been signed.
 
