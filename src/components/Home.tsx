@@ -10,10 +10,10 @@ import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
 import { TypeAnimation } from '../components/TypeAnimation';
 
-import DataPipeline from '@site/static/img/home/DataPipeline.png';
-import DataSprawl from '@site/static/img/home/TraditionalCustomerData.png';
-import OpenlineInterface from '@site/static/img/home/OpenlineInterface.png';
-import Hero from '@site/static/img/home/hero.png';
+import DataPipeline from '@site/static/img/home/DataPipeline.webp';
+import DataSprawl from '@site/static/img/home/TraditionalCustomerData.webp';
+import OpenlineInterface from '@site/static/img/home/OpenlineInterface.webp';
+import Hero from '@site/static/img/home/hero.webp';
 import GithubButton from '@site/static/img/home/GithubButton.png';
 import InvestorLogos from '@site/static/img/home/InvestorLogos.svg';
 import CustomerWindow from '@site/static/img/home/CustomerWindow.png';
@@ -128,7 +128,7 @@ function HomepageProblem() {
         <div className={styles.problem__items}>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
-            <img src={DataPipeline} className={styles.home__image} />
+            <img src={DataPipeline} className={styles.home__image} loading='lazy'/>
             <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
               After you identify what data you need and where it's stored, you'll need to work out...</p>
             <div style={{ display: 'flex', justifyContent: 'center' }}><b>how to <TypeAnimation /></b></div>
@@ -137,7 +137,7 @@ function HomepageProblem() {
           </div>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>...or try to keep doing what you're doing</p>
-            <img src={DataSprawl} className={styles.home__image} />
+            <img src={DataSprawl} className={styles.home__image} loading='lazy'/>
             <p className={styles.paragraph}>I mean, you can try?</p>
           </div>
         </div>
@@ -146,7 +146,7 @@ function HomepageProblem() {
         <div className={styles.solution__items}>
           <div className={styles.solution__item}>
             <p className={styles.problem__subtitle}>Openline brings your customer data together</p>
-            <img src={OpenlineInterface} className={styles.home__image} />
+            <img src={OpenlineInterface} className={styles.home__image} loading='lazy'/>
             <p className={styles.paragraph}>With all your customer data updated in real-time, where your team works, you don't need to worry about having stale data when analysing what is really going on with your customers.</p>
           </div>
         </div>

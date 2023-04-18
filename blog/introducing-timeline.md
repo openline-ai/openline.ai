@@ -3,12 +3,12 @@ slug: timeline-improves-customer-relationships
 title: Introducing Timeline - Know your customers better than ever!
 description:  Discover Timeline, the revolutionary customer management tool that consolidates your customers' entire journey in one place, saving you time and enhancing customer relationships. Schedule a demo today!
 date: 2023-03-27
-image: ./images/hero/timeline-hero.jpg
+image: ./images/hero/timeline-hero.webp
 authors: [matt]
 tags: [customerOS, spaces, timeline]
 ---
 
-![Timeline hero image](images/hero/timeline-hero.jpg)
+![Timeline hero image](images/hero/timeline-hero.webp)
 
 Are you tired of spending hours searching for customer information? You're not alone!
 
