@@ -9,6 +9,7 @@ import SignUpModal from '../components/SignupModal';
 import { Carousel } from 'primereact/carousel';
 import Head from '@docusaurus/Head';
 import { TypeAnimation } from '../components/TypeAnimation';
+import GitHubButton from 'react-github-btn';
 
 import DataPipeline from '@site/static/img/home/DataPipeline.webp';
 import DataSprawl from '@site/static/img/home/TraditionalCustomerData.webp';
@@ -41,11 +42,13 @@ function HomepageHeader() {
     <>
       <header className={clsx('hero hero--primary')}>
         <div className="container">
-          <div className="github-stars"><a className="github-button" href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</a></div>
+          <div className="github-stars">
+            <GitHubButton href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</GitHubButton>
+          </div>
           <p className="hero__tagline">Built for customer-centric organisations</p>
           <h1 className="hero__title"><span style={{ color: '#8C8C8C', textDecoration: 'line-through' }}>Fight your data.</span><br></br> Love your customers.</h1>
           <p className="hero__subtitle">Openline brings all your customer data under one roof, allowing you to focus on what's really important - building deeper relationships with your customers and supercharging the productivity of your customer-facing teams.</p>
-          <div style={{marginLeft: '2rem'}}><SignUpModal waitlistName='Demo-Homepage' slack={siteConfig.customFields.REACT_APP_SLACK_WEBHOOK}  /></div>
+          <div style={{ marginLeft: '2rem' }}><SignUpModal waitlistName='Demo-Homepage' slack={siteConfig.customFields.REACT_APP_SLACK_WEBHOOK} /></div>
         </div>
         <div className="hero__overlay">
           <img src={Hero} className="hero__image" />
@@ -128,7 +131,7 @@ function HomepageProblem() {
         <div className={styles.problem__items}>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>Maybe with an in-house Data team...</p>
-            <img src={DataPipeline} className={styles.home__image} loading='lazy'/>
+            <img src={DataPipeline} className={styles.home__image} loading='lazy' />
             <p className={styles.paragraph}>Prepare to make a lot of new hires - or worse, require everyone in the company to become data engineers.
               After you identify what data you need and where it's stored, you'll need to work out...</p>
             <div style={{ display: 'flex', justifyContent: 'center' }}><b>how to <TypeAnimation /></b></div>
@@ -137,7 +140,7 @@ function HomepageProblem() {
           </div>
           <div className={styles.problem__item}>
             <p className={styles.problem__subtitle}>...or try to keep doing what you're doing</p>
-            <img src={DataSprawl} className={styles.home__image} loading='lazy'/>
+            <img src={DataSprawl} className={styles.home__image} loading='lazy' />
             <p className={styles.paragraph}>I mean, you can try?</p>
           </div>
         </div>
@@ -146,7 +149,7 @@ function HomepageProblem() {
         <div className={styles.solution__items}>
           <div className={styles.solution__item}>
             <p className={styles.problem__subtitle}>Openline brings your customer data together</p>
-            <img src={OpenlineInterface} className={styles.home__image} loading='lazy'/>
+            <img src={OpenlineInterface} className={styles.home__image} loading='lazy' />
             <p className={styles.paragraph}>With all your customer data updated in real-time, where your team works, you don't need to worry about having stale data when analysing what is really going on with your customers.</p>
           </div>
         </div>
@@ -293,13 +296,13 @@ function HomepageGithub() {
   );
 }
 
-function BlogCard({name, image, url, description}) {
+function BlogCard({ name, image, url, description }) {
   return (
     <div className="col col--4 margin-bottom--lg">
       <div className='card'>
         <div className={styles.card__image}>
           <Link to={url}>
-            <img src={image} alt={`${name}'s image`}/>
+            <img src={image} alt={`${name}'s image`} />
           </Link>
         </div>
         <div className="card__body">
@@ -307,7 +310,7 @@ function BlogCard({name, image, url, description}) {
           <p>{description}</p>
         </div>
         <div className="card__footer">
-          <div style={{textAlign: 'center'}}>
+          <div style={{ textAlign: 'center' }}>
             <b>
               <Link className="button button--secondary" to={url}>Read it here</Link>
             </b>
@@ -318,15 +321,12 @@ function BlogCard({name, image, url, description}) {
   );
 }
 
-export default function Home({recentPosts}): JSX.Element {
+export default function Home({ recentPosts }): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Home`}
       description="Openline makes it easy to get a complete 360-degree view of your customers. We bring together behavioral, demographic, transactional, conversational, and social data to give you the most comprehensive view of your customer relationship.">
-      <Head>
-        <script async defer src="https://buttons.github.io/buttons.js"></script>
-      </Head>
       <HomepageHeader />
       <main>
         <HomepageInvestors />
@@ -336,9 +336,9 @@ export default function Home({recentPosts}): JSX.Element {
         <HomepageBetterData />
         <HomepageIntegrations />
         <div className="row margin-horiz--xs">
-        {recentPosts.map(({ content }) => (
+          {recentPosts.map(({ content }) => (
             <BlogCard key={content.metadata.permalink} name={content.frontMatter.title} image={content.assets.image} url={content.metadata.permalink} description={content.metadata.description} />
-        ))}
+          ))}
         </div>
         <HomepageGithub />
       </main>
