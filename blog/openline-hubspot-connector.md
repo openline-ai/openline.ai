@@ -16,7 +16,7 @@ But how much of this crucial data makes it to your operational teams when it's t
 
 <!--truncate-->
 
-In today's customer-centric organizations, collaboration is key to creating the perfect customer journey. That's why we're excited to introduce our customerOS HubSpot integration. This powerful integration not only enhances your team's productivity and collaboration but also delivers measurable benefits that directly impact your bottom line. Say goodbye to paying for unnecessary CRM licenses and hello to seamless data synchronization and improved operational efficiency.
+In today's customer-centric organizations, collaboration is key to creating the perfect customer journey. That's why we're excited to introduce our customerOS Hubspot integration. This powerful integration not only enhances your team's productivity and collaboration but also delivers measurable benefits that directly impact your bottom line. Say goodbye to paying for unnecessary CRM licenses and hello to seamless data synchronization and improved operational efficiency.
 
 ## The perks of the customerOS Hubspot integration
 
