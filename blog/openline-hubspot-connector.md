@@ -5,7 +5,7 @@ description: Discover the benefits of our Hubspot integration for customer succe
 date: 2023-04-16
 image: ./images/hero/hubspot-integration-customer-os-hero.png
 authors: [jonty]
-tags: [customerOS, Hubspot integration, Hubspot customer service]
+tags: [customerOS, Hubspot integration]
 ---
 
 ![Hubspot integration hero image](images/hero/hubspot-integration-customer-os-hero.png)
