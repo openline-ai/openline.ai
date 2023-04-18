@@ -30,7 +30,7 @@ In today's customer-centric organizations, collaboration is key to creating the 
 
 By integrating your Hubspot data with customerOS, your entire team gains access to essential customer information like contacts and organizations, comprehensive conversation history, and engagement details. This unified view, along with our unique [timeline functionality][timeline], enables your team to make informed decisions, quickly respond to customer needs, and effectively manage customer relationships.
 
-And it’s crucial.  A [study by the MIT Sloan School of Management][sloan] found that data-driven organizations have **4% higher productivity and 6% higher profits** than their competitors.  Better data leads to better decisions, which ultimately results in better outcomes.
+And it’s crucial.  A study by the MIT Sloan School of Management found that [data-driven organizations have **4% higher productivity and 6% higher profits** than their competitors][sloan].  Better data leads to better decisions, which ultimately results in better outcomes.
 
 ## Improved communication means happy customers
 
