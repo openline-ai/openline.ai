@@ -233,7 +233,7 @@ function HomepageCarousel() {
   return (
     <>
       <div className="container justify-content-center" style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
-        <div className={styles.titlepill}>
+        <div className={styles.titlepillalt}>
           customerOS
         </div>
         <Carousel style={{ paddingTop: '10px' }}
