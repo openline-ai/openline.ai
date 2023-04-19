@@ -59,4 +59,4 @@ Experience the benefits of the customerOS timeline for yourself!  [**Schedule a 
 [hbr]: https://hbr.org/2007/02/understanding-customer-experience
 [hubspot]: /blog/hubspot-integration-customer-os/
 [mckinsey]: https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/if-were-all-so-busy-why-isnt-anything-getting-done
-[zendesk]: /blog/customer-os-zendesk-connector/
+[zendesk]: /blog/customer-os-zendesk-integration/

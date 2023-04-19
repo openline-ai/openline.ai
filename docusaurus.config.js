@@ -130,21 +130,6 @@ const config = {
           srcDark: 'img/OpenlineLogoDarkMode.svg'
         },
         items: [
-          // {
-          //   type: 'dropdown',
-          //   position: 'left',
-          //   label: 'Products',
-          //   items: [
-          //     {
-          //       to: 'products/customer-os',
-          //       label: 'customerOS',
-          //     },
-          //     {
-          //       to: 'products/contacts',
-          //       label: 'Contacts',
-          //     },
-          //   ]
-          // },
           {
             to: 'guides',
             label: 'Guides',

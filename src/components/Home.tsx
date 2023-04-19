@@ -219,10 +219,10 @@ function HomepageCarousel() {
           </div>
         </div>
         <div className="features-carousel-text">
-          <div style={{ padding: '0 30px 30px 30px' }}>
+          <div style={{ padding: '15px 0 30px 0' }}>
             {product.text}
           </div>
-          <div style={{ padding: '30px' }}>
+          <div>
             <h3>{product.subtextTitle}</h3>
             <p>{product.subtextContent}</p>
           </div>
@@ -233,7 +233,7 @@ function HomepageCarousel() {
   return (
     <>
       <div className="container justify-content-center" style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
-        <div className={styles.titlepill}>
+        <div className={styles.titlepillalt}>
           customerOS
         </div>
         <Carousel style={{ paddingTop: '10px' }}
