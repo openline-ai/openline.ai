@@ -12,6 +12,8 @@ tags: [customerOS, hubspot integration]
 
 As a startup CEO, you're no stranger to juggling numerous tasks and responsibilities. To make your life easier and improve your startup's performance, it's crucial to create leverage wherever you can.  The easiest way to do that is to see all your customer data together in one place.  Hubspot, the industry-leading marketing, sales, and customer service platform, makes this easy with their suite of integrations. In this blog post, we dive into the top 10 Hubspot integrations that every startup CEO should be aware of to drive growth and success.
 
+<!--truncate-->
+
 ## 1. Slack
 
 Maintain efficient communications with your team by integrating [Hubspot and Slack][slack]. This integration allows you to automate notifications, receive deal updates, and manage tasks directly within your Slack channels.
@@ -56,11 +58,10 @@ Are you interested in experiencing the benefits of the Openline Hubspot integrat
 [demo]: /
 [google-analytics]: https://knowledge.hubspot.com/website-pages/integrate-google-analytics-with-hubspot-content
 [livechat]: https://zapier.com/apps/livechat/integrations/hubspot
-[openline]: /hubspot-integration-customer-os/
+[openline]: /blog/hubspot-integration-customer-os/
 [mailchimp]: https://ecosystem.hubspot.com/marketplace/apps/marketing/email/mailchimp
 [salesforce]: https://www.hubspot.com/products/salesforce
 [slack]: https://www.hubspot.com/slack
 [stripe]: https://ecosystem.hubspot.com/marketplace/apps/sales/sales-enablement/stripe
 [trello]: https://ecosystem.hubspot.com/marketplace/apps/productivity/project-management/trello-230691
 [zapier]: https://zapier.com/apps/hubspot/integrations
-
