@@ -233,7 +233,6 @@ hr.solid {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
-  max-width: 620px;
 }
 
 .hero__subtitle {
@@ -281,6 +280,13 @@ hr.solid {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));  
 }
 
+@media screen and (max-width: 1300px) {
+  .hero__image {
+    max-width: 600px;
+    margin: 0;
+  }
+}
+
 [data-theme='dark'] .hero__overlay {
   background: rgba(246, 245, 249, 0.2);
   background-image: url('@site/static/img/home/HeroBackground.svg');
@@ -303,7 +309,7 @@ hr.solid {
   width: min-content;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1300px) {
   .waitlist-button-container {
     display: flex;
     flex-direction: column;
@@ -313,7 +319,7 @@ hr.solid {
   }
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1300px) {
   .hero {
     padding-top: 4rem;
     grid-template-columns: 1fr;
@@ -327,7 +333,7 @@ hr.solid {
   }
 
   .hero .container {
-    max-width: 600px;
+    max-width: 800px;
   }
 
   .waitlist-button {
