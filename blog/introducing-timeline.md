@@ -5,7 +5,7 @@ description:  Timeline gives you a unified customer view, enhancing customer exp
 date: 2023-03-27
 image: ./images/hero/timeline-hero.webp
 authors: [matt]
-tags: [customerOS, spaces, timeline]
+tags: [customerOS, customer 360, timeline]
 ---
 
 ![Experience customer 360 with Timeline!](images/hero/timeline-hero.webp)
