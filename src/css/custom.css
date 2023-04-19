@@ -384,7 +384,7 @@ hr.solid {
 
 .features-carousel-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  text-align: justify;
 }
 
 .features-carousel .features-carousel-text .features-carousel-image {
@@ -398,12 +398,17 @@ hr.solid {
   .features-carousel .features-carousel-container .features-carousel-text {
     padding: 20px;
   }
-
+  .features-carousel-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 996px) {
   .features-carousel .features-carousel-container .features-carousel-text {
     padding: 5px;
+  }
+  .features-carousel-container {
+    grid-template-columns: 1fr;
   }
 }
 
