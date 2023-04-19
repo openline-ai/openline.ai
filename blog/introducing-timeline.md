@@ -22,7 +22,7 @@ With sales, marketing, customer success, and support teams each holding differen
 
 ## The solution:  timeline - Your key to customer 360
 
-This is why we’re excited to introduce timeline, a game-changing tool that provides a full 360-degree view of your customers.  Timeline is fundamental in enhancing customer experience while improviging customer satisfaction and retention.  With timeline, fast-growting teams can:
+This is why we’re excited to introduce timeline, a game-changing tool that provides a full 360-degree view of your customers.  Timeline is fundamental in enhancing customer experience while improving customer satisfaction and retention.  With timeline, fast-growing teams can:
 
 - **Solve customer problems on-the-spot**, by understanding the full context behind the issue.
 - **Personalize the customer experience** using their recent interactions with the company to guide the next best action.
