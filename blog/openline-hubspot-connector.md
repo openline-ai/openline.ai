@@ -57,4 +57,4 @@ Experience the unmatched efficiency and ROI that the customerOS Hubspot integrat
 [demo]: /
 [forbes]: https://www.forbes.com/sites/forbestechcouncil/2019/12/17/reality-check-still-spending-more-time-gathering-instead-of-analyzing/
 [sloan]: http://ebusiness.mit.edu/research/papers/2011.12_Brynjolfsson_Hitt_Kim_Strength%20in%20Numbers_302.pdf
-[timeline]: /blog/timeline-improves-customer-relationships/
+[timeline]: /blog/customer-os-timeline-enables-customer-360/

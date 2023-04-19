@@ -1,5 +1,5 @@
 ---
-slug: customer-os-zendesk-integration
+slug: zendesk-integration-customer-os
 title: "Beyond boundaries: customerOS Zendesk Integration redefines customer support"
 description: The customerOS Zendesk Integration improves customer support efficiency, enhances collaboration, and delivers impressive ROI by boosting customer satisfaction and reducing resolution times. Unlock its benefits with a demo today.
 date: 2023-04-17
@@ -57,4 +57,4 @@ Discover the amazing efficiency and customer satisfaction that the customerOS Ze
 [demo]: /
 [forrester]: https://www.forrester.com/report/How-Customer-Experience-Drives-Business-Growth-2019/RES158938
 [sloan]: http://ebusiness.mit.edu/research/papers/2011.12_Brynjolfsson_Hitt_Kim_Strength%20in%20Numbers_302.pdf
-[timeline]: /blog/timeline-improves-customer-relationships/
+[timeline]: /blog/customer-os-timeline-enables-customer-360/
