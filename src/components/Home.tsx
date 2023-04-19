@@ -33,17 +33,19 @@ import "primereact/resources/primereact.min.css";                  //core css
 import "primeicons/primeicons.css";                                //icons
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Link from '@docusaurus/Link';
+import { useColorMode } from '@docusaurus/theme-common';
 import Translate from '@docusaurus/Translate';
 
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  const { isDarkTheme } = useColorMode();
   return (
     <>
       <header className={clsx('hero hero--primary')}>
         <div className="container">
           <div className="github-stars">
-            <GitHubButton href="https://github.com/openline-ai/openline-customer-os" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</GitHubButton>
+            <GitHubButton href="https://github.com/openline-ai/openline-customer-os" data-color-scheme={ isDarkTheme ? "dark" : "light" } data-icon="octicon-star" data-size="small" data-show-count="true" aria-label="Star openline-ai/openline-customer-os on GitHub">Star</GitHubButton>
           </div>
           <p className="hero__tagline">Built for customer-centric organisations</p>
           <h1 className="hero__title"><span style={{ color: '#8C8C8C', textDecoration: 'line-through' }}>Fight your data.</span><br></br> Love your customers.</h1>
