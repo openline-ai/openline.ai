@@ -51,6 +51,22 @@ label {
   margin-top: 0.5rem;
 }
 
+article[itemprop='blogPost'] h2 {
+  font-size: 2rem;
+}
+
+h2[itemprop='headline'] a {
+  color: var(--ifm-hero-text-color);
+}
+
+article[itemprop='blogPost'] a:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+article[itemprop='blogPost'] h1 {
+  font-size: 2rem;
+}
 
 /* Set page size */
 
@@ -217,7 +233,6 @@ hr.solid {
   text-align: left;
   padding-left: 2rem;
   padding-right: 2rem;
-  max-width: 620px;
 }
 
 .hero__subtitle {
@@ -265,6 +280,13 @@ hr.solid {
   filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.3));  
 }
 
+@media screen and (max-width: 1300px) {
+  .hero__image {
+    max-width: 600px;
+    margin: 0;
+  }
+}
+
 [data-theme='dark'] .hero__overlay {
   background: rgba(246, 245, 249, 0.2);
   background-image: url('@site/static/img/home/HeroBackground.svg');
@@ -285,10 +307,19 @@ hr.solid {
   width: 250px;
   white-space: nowrap;
   width: min-content;
-  margin-left: 1rem;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 1300px) {
+  .waitlist-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
   .hero {
     padding-top: 4rem;
     grid-template-columns: 1fr;
@@ -302,7 +333,7 @@ hr.solid {
   }
 
   .hero .container {
-    max-width: 600px;
+    max-width: 800px;
   }
 
   .waitlist-button {
@@ -359,7 +390,7 @@ hr.solid {
 
 .features-carousel-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  text-align: justify;
 }
 
 .features-carousel .features-carousel-text .features-carousel-image {
@@ -369,16 +400,26 @@ hr.solid {
   flex-direction: column;
 }
 
+.features-carousel-image {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 997px) {
   .features-carousel .features-carousel-container .features-carousel-text {
     padding: 20px;
   }
-
+  .features-carousel-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media screen and (max-width: 996px) {
   .features-carousel .features-carousel-container .features-carousel-text {
     padding: 5px;
+  }
+  .features-carousel-container {
+    grid-template-columns: 1fr;
   }
 }
 

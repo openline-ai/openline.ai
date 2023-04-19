@@ -218,4 +218,4 @@ With additional configuration, the following can be collected:
 
 [snowplow]: https://github.com/snowplow/snowplow
 [snowplow-browser-tracker]: https://docs.snowplow.io/docs/collecting-data/collecting-from-own-applications/javascript-trackers/browser-tracker/
-[openline-snowplow]: https://github.com/openline-ai/openline.ai/blob/otter/src/components/Tracker/index.tsx
+[openline-snowplow]: https://github.com/openline-ai/openline.ai/blob/otter/src/theme/Footer/index.tsx

@@ -117,7 +117,7 @@ We depend on new people becoming members and regular code contributors, so we wo
 
 <!--- References -->
 
-[code_of_conduct]: <code-of-conduct>
+[code_of_conduct]: /docs/contribute/code-of-conduct/
 [communication_discord]: <./>
 [expectations]: <./>
 [getting_started]: <./>

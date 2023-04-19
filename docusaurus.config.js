@@ -14,6 +14,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -129,21 +130,6 @@ const config = {
           srcDark: 'img/OpenlineLogoDarkMode.svg'
         },
         items: [
-          // {
-          //   type: 'dropdown',
-          //   position: 'left',
-          //   label: 'Products',
-          //   items: [
-          //     {
-          //       to: 'products/customer-os',
-          //       label: 'customerOS',
-          //     },
-          //     {
-          //       to: 'products/contacts',
-          //       label: 'Contacts',
-          //     },
-          //   ]
-          // },
           {
             to: 'guides',
             label: 'Guides',
@@ -220,10 +206,6 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/openline',
-              },
-              {
                 label: 'Slack',
                 href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
               },
@@ -265,6 +247,7 @@ const config = {
     'REACT_APP_SP_TRACKER_BUFFER_SIZE': process.env.REACT_APP_SP_TRACKER_BUFFER_SIZE,
     'REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS': process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS,
     'REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS': process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS,
+    'REACT_APP_SLACK_WEBHOOK': process.env.REACT_APP_SLACK_WEBHOOK,
   },
 };
 
