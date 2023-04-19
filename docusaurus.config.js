@@ -14,6 +14,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -43,11 +44,7 @@ const config = {
           editUrl:
             'https://github.com/openline-ai/openline.ai/blob/otter',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/openline-ai/openline.ai/blob/otter',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -56,6 +53,17 @@ const config = {
   ],
 
   plugins: [
+    [
+      './plugins/blog-plugin',
+      {
+        id: 'blog',
+        routeBasePath: 'blog',
+        path: 'blog',
+        showReadingTime: true,
+        editUrl:
+          'https://github.com/openline-ai/openline.ai/blob/otter',
+      },
+    ],
     [
       '@docusaurus/plugin-content-docs',
       {
@@ -122,21 +130,6 @@ const config = {
           srcDark: 'img/OpenlineLogoDarkMode.svg'
         },
         items: [
-          // {
-          //   type: 'dropdown',
-          //   position: 'left',
-          //   label: 'Products',
-          //   items: [
-          //     {
-          //       to: 'products/customer-os',
-          //       label: 'customerOS',
-          //     },
-          //     {
-          //       to: 'products/contacts',
-          //       label: 'Contacts',
-          //     },
-          //   ]
-          // },
           {
             to: 'guides',
             label: 'Guides',
@@ -186,15 +179,9 @@ const config = {
             ]
           },
           {
-            href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
-            title: 'Slack',
-            label: 'Join our Slack',
-            position: 'right',
-          },
-          {
             type: 'html',
             position: 'right',
-            value: '<div class="github-container"><iframe src="https://ghbtns.com/github-btn.html?user=openline-ai&repo=openline-customer-os&type=star&count=true&size=small" width="100" height="20" title="GitHub"></iframe></div>',
+            value: '<a href="https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ"><img src="/img/slackButton.svg" alt="Join our Slack" class="slack-button" target=”_blank”></img></a>',
           },
           {
             type: 'html',
@@ -218,10 +205,6 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/openline',
-              },
               {
                 label: 'Slack',
                 href: 'https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ',
@@ -264,6 +247,7 @@ const config = {
     'REACT_APP_SP_TRACKER_BUFFER_SIZE': process.env.REACT_APP_SP_TRACKER_BUFFER_SIZE,
     'REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS': process.env.REACT_APP_SP_TRACKER_MIN_VISIT_SECONDS,
     'REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS': process.env.REACT_APP_SP_TRACKER_HEARTBEAT_SECONDS,
+    'REACT_APP_SLACK_WEBHOOK': process.env.REACT_APP_SLACK_WEBHOOK,
   },
 };
 

@@ -3,7 +3,7 @@ slug: pre-seed-round
 title: Openline raises $2.1m pre-seed for open source customer data platform
 description: Openline customerOS eliminates customer data sprawl
 date: 2022-06-10
-image: ./images/AgentScreen.png
+image: ./images/hero/orange-hero.png
 authors: [matt]
 tags: [funding]
 ---
@@ -16,7 +16,7 @@ The company's pre-seed round saw institutional participation from [Seedcamp][see
 
 [cocoa]: https://www.cocoa.vc/
 [crane]: https://crane.vc/
-[github]: https://github.com/openline-ai
+[github]: https://github.com/openline-ai/
 [openline]: </>
 [seedcamp]: https://seedcamp.com/
 [yc]: https://www.ycombinator.com/

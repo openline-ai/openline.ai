@@ -3,7 +3,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from './index.module.css'
-import SignUpFormReact from '../../components/Signup';
+import SignUpModal from '../../components/SignupModal';
 
 
 function PricingHero() {
@@ -15,9 +15,8 @@ function PricingHero() {
           <h1 className={styles.pricingTitle}>Open Transparent Pricing</h1>
           <h2 className={styles.pricingSubtitle}>Openline Cloud or Self-hosted.<br></br> Same Price. Same Support.</h2>
           <br></br>
-          <SignUpFormReact waitlistName='Waitlist-Pricing' />
+          <SignUpModal waitlistName='Demo-Pricing' slack={siteConfig.customFields.REACT_APP_SLACK_WEBHOOK} />
         </div>
-
       </div>
     </header>
   );
@@ -31,45 +30,64 @@ function Pricing() {
         <div className={styles.pricingContainer}>
           <div className={styles.pricingRow}>
             <div className={styles.pricingTable}>
-              <h3 className={styles.pricingTitle}>customerOS<br></br><br></br></h3> {/* fix this hack */}
-              <br></br>
+              <h3 className={styles.pricingTitle}>Starter</h3>
               <ul className={styles.pricingText}>
-                <li>Unlimited events pipelines</li>
-                <li>Unlimited contacts</li>
-                <li>Unlimited API queries</li>
-                <li>Dedicated support</li>
-                <br></br> {/* fix this hack */}
-                <br></br>
+                <li>Contact management</li>
+                <li>Email</li>
+                <li>Messaging</li>
+                <li>Voice</li>
+                <li>Chat</li>
+                <li>Web analytics</li>
+                <li>Integrations</li>
                 <br></br>
               </ul>
               <div style={{ textAlign: 'center' }}>
-                <h5 className={styles.pricingFreemiumPrice}>$0 / month</h5>
-                <p className={styles.pricingSubtext}>for 1,000 contacts</p>
+                <h5 className={styles.pricingFreemiumPrice}>$500 / month</h5>
+                <p className={styles.pricingSubtext}>for 5,000 contacts</p>
                 <h5 className={styles.pricingPrice}>Extra contacts</h5>
-                <p className={styles.pricingSubtext}>$0.15 / contact</p>
+                <p className={styles.pricingSubtext}>$0.10 / contact</p>
               </div>
             </div>
             <div className={styles.pricingTable}>
-              <h3 className={styles.pricingTitle}>Openline App Suite</h3>
-              <br></br>
+              <h3 className={styles.pricingTitle}>Growth</h3>
               <ul className={styles.pricingText}>
                 <li>Contact management</li>
-                <li>Chat</li>
-                <li>Messaging</li>
                 <li>Email</li>
+                <li>Messaging</li>
                 <li>Voice</li>
+                <li>Chat</li>
                 <li>Web analytics</li>
-                <li>Dedicated support</li>
+                <li>Integrations</li>
+                <br></br>
               </ul>
               <div style={{ textAlign: 'center' }}>
-                <h5 className={styles.pricingFreemiumPrice}>Free</h5>
-                <p className={styles.pricingSubtext}>for unlimited contacts</p>
-                <p className={styles.pricingSubtext} style={{ lineHeight: '0px', fontStyle: 'italic', fontSize: '12px' }}>(requires customerOS)</p>
+                <h5 className={styles.pricingFreemiumPrice}>$2,500 / month</h5>
+                <p className={styles.pricingSubtext}>for up to 40,000 contacts</p>
+                <h5 className={styles.pricingPrice}>Extra contacts</h5>
+                <p className={styles.pricingSubtext}>$0.05 / contact</p>
+              </div>
+            </div>
+            <div className={styles.pricingTable}>
+              <h3 className={styles.pricingTitle}>Enterprise</h3>
+              <ul className={styles.pricingText}>
+                <li>Same as Growth tier</li>
+                <li><i>plus...</i></li>
+                <li>Dedicated Support</li>
+                <li>SAML</li>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+              </ul>
+              <div style={{ textAlign: 'center' }}>
+                <h5 className={styles.pricingFreemiumPrice}>Contact us</h5>
+                <p className={styles.pricingSubtext}>for bespoke pricing</p>
               </div>
             </div>
           </div>
           <div style={{ textAlign: 'center', padding: '40px' }}>
-            <p>Want to learn more?</p><a href='https://cal.com/mbrown/20min' rel="noreferrer" target="_blank" style={{ color: '#A16AFF' }}><p>Schedule a Demo ➔</p></a>
+            <p>Want to learn more?</p>
+            <SignUpModal waitlistName='Demo-Pricing' slack={siteConfig.customFields.REACT_APP_SLACK_WEBHOOK} />
           </div>
         </div>
       </section>

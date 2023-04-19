@@ -52,10 +52,6 @@ const reference = [
     type: 'doc',
     id: 'reference/index'
   },
-  {
-    type: 'doc',
-    id: 'reference/intro',
-  },
 ]
 
 const contribute = [
@@ -85,16 +81,7 @@ const contribute = [
       'contribute/github-workflow'
     ],
   },
-  {
-    type: 'category',
-    label: 'Contribute docs',
-    collapsed: true,
-    items: [
-      'contribute/test'
-    ],
-  }
 ]
-
 
 module.exports = {
   guides,

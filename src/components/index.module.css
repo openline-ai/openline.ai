@@ -1,0 +1,277 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+[data-theme='dark'] .features [fill="#100024"] {
+    fill: #FFFFFF;
+}
+
+[data-theme='light'] .features [fill="#100024"] {
+    fill: #100024;
+}
+
+.features {
+    align-items: center;
+    padding: 0 5%;
+    width: 100%;
+}
+
+@media (min-width: 1416px) {
+    .main-wrapper {
+        align-self: center;
+        max-width: 1400px;
+        width: 1400px;
+    }
+}
+
+.navbar .navbar__inner {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+
+[data-theme='dark'] .titlepill {
+    margin: auto;
+    width: min-content;
+    padding: 4px 43px 4px 43px;
+    border-radius: 100px;
+    background-color: rgba(246, 245, 249, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+[data-theme='light'] .titlepill {
+    margin: auto;
+    width: min-content;
+    padding: 4px 43px 4px 43px;
+    border-radius: 100px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    color: #100024;
+    white-space: nowrap;
+}
+
+[data-theme='dark'] .titlepillalt {
+    margin: auto;
+    width: min-content;
+    padding: 4px 43px 4px 43px;
+    border-radius: 100px;
+    background-color: rgba(246, 245, 249, 0.2);
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+[data-theme='light'] .titlepillalt {
+    margin: auto;
+    width: min-content;
+    padding: 4px 43px 4px 43px;
+    border-radius: 100px;
+    background-color: #F5F5F5;
+    font-size: 16px;
+    font-weight: bold;
+    color: #100024;
+    white-space: nowrap;
+}
+
+[data-theme='light'] .investorcontainer {
+    background-color: #F6F5F9;
+}
+
+[data-theme='dark'] .investorcontainer {
+    background-color: rgba(246, 245, 249, 0.2);
+}
+
+q::before {
+    content: "“";
+    font-family: Matter;
+    font-size: 4rem;
+    margin: -2rem 0 0 -2rem;
+    position: absolute;
+    opacity: 0.5;
+    color: #A16AFF;
+}
+
+q::after {
+    content: "";
+}
+
+cite {
+    margin: 0.5rem 0 0 2rem;
+    position: absolute;
+}
+
+mark {
+    -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+    animation: 1.5s highlight 1.5s 1 normal forwards;
+    background: linear-gradient(90deg, #f6ff47 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+}
+
+@-webkit-keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+@keyframes highlight {
+    to {
+        background-position: 0 0;
+    }
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 126%;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    line-height: 126%;
+    text-align: center;
+}
+
+.paragraph {
+    text-align: center;
+    margin: 10px;
+}
+
+.betterdatacontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+}
+
+@media screen and (max-width: 996px) {
+    .betterdatacontainer {
+        padding-top: 4rem;
+        grid-template-columns: 1fr;
+    }
+}
+
+[data-theme='light'] .betterdatacontainer {
+    background-color: #cbcbcb;
+}
+
+.window {
+    align-items: center;
+    padding: 5% 5%;
+    width: 100%;
+}
+
+.centeredtext {
+    text-align: center;
+}
+
+.integrationsTitle {
+    font-size: 3rem;
+    line-height: 126%;
+    text-align: center;
+    padding-bottom: 0rem;
+    font-weight: 500;
+}
+
+.integrationsSubtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 126%;
+    letter-spacing: 0.6rem;
+    text-align: center;
+    background: linear-gradient(90deg, #C745EB 7.43%, #3F77F3 50.06%, #239BFD 91.8%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.integrationsText {
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 126%;
+    text-align: center;
+}
+
+.integrations {
+    padding: 5% 0% 0% 0%;
+    max-width: 100%;
+}
+
+.problem__items {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 996px) {
+    .problem__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.problem__item {
+    margin: 2rem;
+    max-width: 500px;
+}
+
+.problem__subtitle {
+    font-size: 1.5rem;
+    line-height: 126%;
+    text-align: center;
+}
+
+.solution__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 996px) {
+    .solution__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.solution__item {
+    margin: 2rem;
+    max-width: 700px;
+}
+
+.home__image {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+    max-height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.card__image img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 996px) {
+    .card__image {
+        max-height: none;
+    }
+}
