@@ -228,3 +228,16 @@ upsold
 Forrester
 webp
 integrations
+CEOs
+ceo
+Mailchimp
+Hubspot's
+Mailchimp's
+Trello
+Trello's
+Zapier
+Zapier's
+Aircall
+Aircall's
+LiveChat
+LiveChat's
