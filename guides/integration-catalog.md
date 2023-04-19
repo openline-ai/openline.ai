@@ -1,14 +1,14 @@
 ---
 sidebar_position: 1
-sidebar_label: Connector Catalog
+sidebar_label: Integration Catalog
 displayed_sidebar: guides
 ---
 
-# Openline Connectors Catalog
+# Openline Integrations Catalog
 
-We currently support integrations with over 100 leading applications, with new connectors coming on line all the time.  If you don't see something you need, let us know!  We'd be happy to add it.
+We currently support integrations with over 100 leading applications, with new integrations coming on line all the time.  If you don't see something you need, let us know!  We'd be happy to add it.
 
-Find the connector you need below, and click on the link to see the guide for that connector.
+Find the integration you need below, and click on the link to see the guide for that integration.
 
 ## Accounting
 
@@ -170,8 +170,8 @@ Find the connector you need below, and click on the link to see the guide for th
 <!--- References --->
 
 [snowplow]: https://www.openline.ai/docs/guides/snowplow
-[zendesk-support]: /guides/connectors/zendesk-support/
-[trello]: /guides/connectors/trello/
-[smartsheet]: /guides/connectors/smartsheet/
-[jira]: /guides/connectors/jira/
-[hubspot]: /guides/connectors/hubspot/
+[zendesk-support]: /guides/integrations/zendesk-support/
+[trello]: /guides/integrations/trello/
+[smartsheet]: /guides/integrations/smartsheet/
+[jira]: /guides/integrations/jira/
+[hubspot]: /guides/integrations/hubspot/
