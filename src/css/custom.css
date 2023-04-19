@@ -394,6 +394,11 @@ hr.solid {
   flex-direction: column;
 }
 
+.features-carousel-image {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (min-width: 997px) {
   .features-carousel .features-carousel-container .features-carousel-text {
     padding: 20px;
