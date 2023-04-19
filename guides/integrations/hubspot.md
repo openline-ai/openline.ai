@@ -31,7 +31,7 @@ To create a private app in Hubspot, you'll need Hubspot admin privileges.
 
 4. Setup the Private App as follows:
 
-- Name: openline-connector
+- Name: openline-integration
 - Description:  This private app is used to sync data with Openline customerOS
 
 ![guide](@site/static/img/guides/hubspot/hubspot-basic-info.png)

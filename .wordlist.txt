@@ -227,3 +227,4 @@ upsell
 upsold
 Forrester
 webp
+integrations
