@@ -181,7 +181,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<a href="https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ"><img src="/img/slackButton.svg" alt="Join our Slack" class="slack-button" target=”_blank”></img></a>',
+            value: '<a href="https://join.slack.com/t/openline-ai/shared_invite/zt-1i6umaw6c-aaap4VwvGHeoJ1zz~ngCKQ"><img src="/img/slackButton.webp" alt="Join our Slack" class="slack-button" target=”_blank”></img></a>',
           },
           {
             type: 'html',
