@@ -17,8 +17,8 @@ import OpenlineInterface from '@site/static/img/home/OpenlineInterface.webp';
 import Hero from '@site/static/img/home/hero.webp';
 import GithubButton from '@site/static/img/home/GithubButton.png';
 import InvestorLogos from '@site/static/img/home/InvestorLogos.svg';
-import CustomerWindow from '@site/static/img/home/CustomerWindow.png';
-import Integrations from '@site/static/img/home/IntegrationLogos.png';
+import CustomerWindow from '@site/static/img/home/CustomerWindow.webp';
+import Integrations from '@site/static/img/home/IntegrationLogos.webp';
 
 import Carousel0 from '@site/static/img/carousel/1000.svg';
 import Carousel1 from '@site/static/img/carousel/1001.svg';
@@ -217,7 +217,7 @@ function HomepageCarousel() {
       <div className="features-carousel-container">
         <div className="column col--6">
           <div className="features-carousel-image">
-            <img src={useBaseUrl(product.image)} style={{ maxWidth: '100%' }} />
+            <img src={useBaseUrl(product.image)} style={{ maxWidth: '100%' }} loading='lazy' />
           </div>
         </div>
         <div className="features-carousel-text">
@@ -239,7 +239,7 @@ function HomepageCarousel() {
           customerOS
         </div>
         <Carousel style={{ paddingTop: '10px' }}
-          value={products} numVisible={1} numScroll={1} circular='true'
+          value={products} numVisible={1} numScroll={1} circular={true}
           itemTemplate={productTemplate} className='features-carousel'
           header={<h2 className={styles.subtitle} style={{ margin: '30px' }}>The benefits of a Customer-centric approach</h2>} />
       </div>
@@ -259,7 +259,7 @@ function HomepageBetterData() {
           </div>
         </div>
         <div>
-          <img src={CustomerWindow} className={styles.window} />
+          <img src={CustomerWindow} className={styles.window} loading='lazy' />
         </div>
       </div>
     </>
@@ -275,7 +275,7 @@ function HomepageIntegrations() {
         <h2 className={styles.integrationsTitle} style={{ fontSize: '3em' }}>Unlimited possibilities.</h2>
         <h3 className={styles.integrationsSubtitle} style={{ textTransform: 'uppercase', lineHeight: '40px' }}>never miss a conversation</h3>
         <h3 className={styles.integrationsText} style={{ fontSize: '18px' }}>Openline supports over one hundred apps out of the box and support for more is added every month</h3>
-        <img src={Integrations} alt="Integration Logos" className={styles.integrations} />
+        <img src={Integrations} alt="Integration Logos" className={styles.integrations} loading='lazy' />
       </div>
     </>
   );
@@ -290,7 +290,7 @@ function HomepageGithub() {
         <h2 className={styles.subtitle}>Browse on GitHub</h2>
         <div className={styles.centeredtext}>
           <a href="https://github.com/openline-ai" rel="noreferrer" target="_blank">
-            <img src={GithubButton} width={101} height={101} alt="Github Logo" />
+            <img src={GithubButton} width={101} height={101} alt="Github Logo" loading='lazy'/>
           </a>
         </div>
       </div>
@@ -304,7 +304,7 @@ function BlogCard({ name, image, url, description }) {
       <div className='card'>
         <div className={styles.card__image}>
           <Link to={url}>
-            <img src={image} alt={`${name}'s image`} />
+            <img src={image} alt={`${name}'s image`} loading='lazy'/>
           </Link>
         </div>
         <div className="card__body">
