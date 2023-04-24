@@ -2,7 +2,7 @@
 slug: meetings
 title: Meetings - Get the most out of your customer conversations
 description: Meetings is a simple tool that allows you to collaborate, plan, and extract intelligence from your customer meetings.
-date: 2023-04-17
+date: 2023-04-24
 image: ./images/hero/blue-hero.png
 authors: [matt]
 tags: [customerOS, spaces, timeline, meetings]
@@ -12,40 +12,50 @@ tags: [customerOS, spaces, timeline, meetings]
 
 Let's talk about Meetings.
 
-Customer meetings are at the heart of every organization.  Whether in-person or virtual, these meetings are essential for building relationships, gathering feedback, and uncovering new business opportunities.  But to extract the most out of your meetings requires planning, diligent note taking, and a way to share the meeting content with team members across the organization.
+Customer meetings are at the heart of every organization.  Whether in-person or virtual, these meetings are vital for building relationships, gathering feedback, and discovering new business opportunities.  But getting the most out of meetings means planning, diligent note-taking, and effectively sharing meeting content across your team.  
+
+By automating and optimizing meeting management, Meetings (built on customerOS) can give back each team member 4 hours a week, allowing them 10% more time to focus on your business' core assets--the customers!
+
+## A new era of meeting management
 
 <!--truncate-->
 
-Today meetings belong to the people who call them. The invitations, the agenda, the minutes, they live wherever the host decides to put them. And if the host didn’t share them with you, good luck finding them later. 
+Traditionally, meetings belong to the people who call them. Invitations, agendas, and minutes live wherever the host decides to store them. If the host didn't share them with you, finding them later can be a challenge.
 
-That’s. Not. Right. 
+This approach is outdated.
 
 Customers belong to the business, and the meetings we hold with them are a key business asset.
 
 That’s where Meetings comes in!
 
-Meetings is a deceptively simple tool that gives you a single, centralized location to collaborate, plan, and extract intelligence from your customer meetings.  With Meetings, you’ll be able to:
+Meetings is an innovative, user-friendly tool for managing meeting notes and team collaboration. Bid farewell to disorganized notes and untidy spreadsheets, and embrace a platform that streamlines customer conversations for enhanced collaboration, communication, and satisfaction.
 
-- Enhance your customer service by having access to a complete history of all customer conversations across the business, allowing you to personalize your interactions and solve problems faster.
+## Unlock the power of AI meeting notes
 
-- Improve internal communication and collaboration by sharing meeting notes and key takeaways across different teams and departments, ensuring everyone stays informed and on the same page.
+Meetings is your all-in-one tool for collaborating, planning, and extracting valuable insights from customer meetings. With Meetings, you can:
 
-- Automatically extract action items and follow up discussion topics so you always follow through on your commitments.
+- Boost customer service by accessing a complete history of customer conversations, enabling personalized interactions and swift problem resolution. This can increase retention rates by up to 15%.
 
-<!--![Animation of Meetings](xxx)-->
+- Strengthen internal communication and collaboration by sharing AI-generated meeting transcriptions, summaries, and action items across teams and departments. This is vital, as 86% of employees attribute workplace failures to poor collaboration and communication.
 
-Meetings makes it easy to get the most out of your customer conversations.  With Meetings, you can:
+- Automatically pinpoint action items and follow-up discussion topics to keep on top of your commitments.
 
-- Create meeting templates to pre-plan your discussion topics to ensure you hit the right points and execute on your meeting objectives.
+## Maximize your virtual meetings
 
-- Upload and share recordings, or have Openline’s AI engine automatically transcribe the meeting, summarize the key ideas, and extract action items and follow ups.
+Make your customer interactions count with Meetings:
 
-- Tag your teammates so they can follow along and stay in the loop.
+- Design meeting templates to pre-plan discussion topics, ensuring you cover all essential points and achieve your objectives. A clear agenda can reduce meeting times by an impressive 80%, freeing up time for other tasks.
 
-Say goodbye to messy spreadsheets and disorganized notes.  With Meetings, you can streamline your customer conversations and achieve better collaboration, communication, and customer satisfaction.  Wanna give it a go?
+- Upload and share recordings with ease while the customerOS AI engine automatically takes care of meeting transcription, conversation summary, and extracts key action items and follow-ups.
 
-Click here to [sign up for our waitlist][waitlist] and be one of the first to know how it feels to truly know your customer!  
+- Tag your teammates to keep them informed and engaged in the conversation.
+
+## Embrace better customer conversations
+
+Say goodbye to messy spreadsheets and disorganized notes. With Meetings, you can enhance collaboration, communication, and customer satisfaction. Ready to give it a try?
+
+Click here to [schedule a demo][demo] and experience the true power of knowing your customer!
 
 <!---References--->
 
-[waitlist]: https://www.openline.ai/waitlist
+[demo]: /
