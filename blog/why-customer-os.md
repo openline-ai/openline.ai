@@ -8,6 +8,7 @@ authors: [matt]
 tags: [customerOS]
 ---
 
+![customerOS for customer centricity](images/customer-centric-strategy.webp)
 
 > "You've got to start with the customer experience and work back towards the technology, not the other way around."
 >
@@ -30,6 +31,8 @@ The walls were adorned with inspiring quotes from visionaries like Steve Jobs. W
 This declaration, made 30 years ago, officially rung in the age of customer centricity. The message was clear--put the customer at the core of your business or risk falling behind.  
 
 This shift led to significant changes in how we thought about software. 
+
+![customer centricity](images/customer-centricity.webp)
 
 ## The servicification and commoditization of software
  
