@@ -54,7 +54,7 @@ Make your customer interactions count with Meetings:
 
 Say goodbye to messy spreadsheets and disorganized notes. With Meetings, you can enhance collaboration, communication, and customer satisfaction. Ready to give it a try?
 
-Click here to [schedule a demo][demo] and experience the true power of collaborative meeting managment!
+Click here to [schedule a demo][demo] and experience the true power of collaborative meeting management!
 
 <!---References--->
 
