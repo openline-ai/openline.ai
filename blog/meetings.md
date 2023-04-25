@@ -30,6 +30,8 @@ That’s where Meetings comes in!
 
 Meetings is an innovative, user-friendly tool for managing meeting notes and team collaboration. Bid farewell to disorganized notes and untidy spreadsheets, and embrace a platform that streamlines customer conversations for enhanced collaboration, communication, and satisfaction.
 
+![Meeting management demo](images/meetings.gif)
+
 ## Unlock the power of AI meeting notes
 
 Meetings is your all-in-one tool for collaborating, planning, and extracting valuable insights from customer meetings. With Meetings, you can:
