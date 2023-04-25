@@ -1,7 +1,7 @@
 ---
-slug: meetings
+slug: customer-os-meetings-streamline-meeting-notes
 title: "Meeting notes, reinvented: Discover the future of collaboration with Meetings"
-description: Meetings is a simple tool that allows you to collaborate, plan, and extract intelligence from your customer meetings.
+description: Revolutionize your customer meetings with customerOS. Streamline your meeting notes and collaboration, enabling better communication and enhanced satisfaction with the power of AI meeting management. Schedule a demo today!
 date: 2023-04-24
 image: ./images/hero/meetings-hero.webp
 authors: [matt]
