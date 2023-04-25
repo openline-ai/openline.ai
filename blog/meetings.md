@@ -1,11 +1,11 @@
 ---
 slug: meetings
-title: Meetings - Get the most out of your customer conversations
+title: "Meeting notes, reinvented: Discover the future of collaboration with Meetings"
 description: Meetings is a simple tool that allows you to collaborate, plan, and extract intelligence from your customer meetings.
 date: 2023-04-24
 image: ./images/hero/meetings-hero.webp
 authors: [matt]
-tags: [customerOS, spaces, timeline, meetings]
+tags: [customerOS, meetings, meeting notes, meeting transcription, meeting summary, action items]
 ---
 
 ![Openline virtual meeting management](images/hero/meetings-hero.webp)
