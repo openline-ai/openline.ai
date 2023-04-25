@@ -2,7 +2,7 @@
 slug: top-10-hubspot-integrations-every-startup-ceo-should-know-about
 title: Top 10 Hubspot integrations every startup CEO should know about
 description:  Discover the top 10 Hubspot integrations for boosting customer satisfaction and retention, and enhancing customer experience. Streamline operations and drive startup growth with these essential tools.
-date: 2023-04-18
+date: 2023-04-17
 image: ./images/hero/blue-hero.png
 authors: [matt]
 tags: [customerOS, hubspot integration]
