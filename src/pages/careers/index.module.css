@@ -4,9 +4,28 @@
  */
 
 
-/* Pricing */
+/* Careers */
 
-.pricingHeader {
+.careersBackground {
+    display: flex;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    background: #C2ACFF;
+    background-image: url('@site/static/img/careers/orange-hero.svg');
+    background-position: 0% 50%;
+    background-size: fill;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    border-radius: 0 0 4px 4px;
+    min-height: 500px;
+    height: 500px;
+}
+
+.careersHeader {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,60 +35,26 @@
     max-width: fit-content;
 }
 
-@media screen and (max-width: 996px) {
-    .pricingHeader {
-        align-items: left;
-        justify-content: left;
-    }
-}
-
-.pricingTitle {
+.careersTitle {
     color: #100024;
-    font-family: SohneBreit-Buch;
     padding-bottom: 15px;
     text-align: center;
-    font-size: 38px;
+    font-size: 3rem;
 }
 
-.pricingSubtitle {
-    text-align: center;
-    color: #100024;
-    font-size: 22px;
-}
-
-.pricingBookDemo {
-    position: absolute;
-    padding: 5px 15px 5px 15px;
-    border-color: #100024;
-}
-
-.pricingBackground {
-    display: flex;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    align-items: center;
-    background: #C2ACFF;
-    background-image: url('@site/static/img/home/HeroBackground.svg');
-    background-position: 0% 50%;
-    background-size: fit;
-    background-origin: content-box;
-    background-repeat: no-repeat;
-    min-height: 500px;
-    height: 500px;
+.careersIntro {
+    margin: 3rem;
 }
 
 @media screen and (max-width: 400px) {
-    .pricingTable {
+    .careersTable {
         width: 905 !important;
         margin-left: auto !important;
         margin-right: auto !important;
         margin-top: 20px !important;
     }
 
-    .pricingContainer {
+    .careersContainer {
         width: 100% !important;
         border-radius: 0px !important;
         box-shadow: none !important;
@@ -78,7 +63,7 @@
 }
 
 @media screen and (min-width: 996px) {
-    .pricingContainer {
+    .careersContainer {
         background-color: #FFFFFF;
         box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
@@ -90,7 +75,7 @@
 }
 
 @media screen and (min-width: 1300px) {
-    .pricingContainer {
+    .careersContainer {
         background-color: #FFFFFF;
         box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
@@ -102,7 +87,7 @@
 }
 
 @media screen and (max-width: 996px) {
-    .pricingContainer {
+    .careersContainer {
         background-color: #FFFFFF;
         box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
@@ -112,61 +97,20 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
-
-    .pricingTitle {
-        font-size: 32px;
-        word-wrap: normal;
-    }
-
-    .pricingSubtitle {
-        font-size: 18px;
-    }
 }
 
-.pricingRow {
+.careersRow {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.pricingTable {
+.careersTable {
     background: #F6F5F9;
     color: #100024;
     margin: 20px;
     border-radius: 8px;
     padding: 20px;
     width: 300px;
-}
-
-.pricingTable ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
-}
-
-.pricingTable li {
-    padding-left: 1em;
-    text-indent: -1em;
-}
-
-.pricingTable li:before {
-    content: "✓";
-    padding-right: 8px;
-}
-
-.pricingText {
-    font-size: 1.25rem;
-}
-
-.pricingFreemiumPrice {
-    font-size: 1.75rem;
-}
-
-.pricingPrice {
-    font-size: 1.3rem;
-}
-
-.pricingSubtext {
-    font-size: 1rem;
 }

@@ -200,6 +200,10 @@ const config = {
                 label: 'Getting Started',
                 to: 'docs',
               },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/openline-ai',
+              },
             ],
           },
           {
@@ -219,8 +223,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/openline-ai',
+                label: 'Careers',
+                href: '/careers',
               },
               {
                 label: 'Legal',
