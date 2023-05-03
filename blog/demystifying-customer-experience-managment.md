@@ -16,7 +16,7 @@ This guide aims to demystify Customer Experience Management (CXM) software and t
 
 <!--truncate-->
 
-## What is Customer Experience Managment (CXM) Software?
+## What is Customer Experience Management (CXM) Software?
 
 Customer Experience Management software is a suite of tools and technologies designed to help businesses collect, analyze, and act on customer feedback and data, delivering seamless and personalized experiences. CXM software typically includes features such as:
 
