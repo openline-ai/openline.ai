@@ -241,3 +241,12 @@ Aircall
 Aircall's
 LiveChat
 LiveChat's
+CXM
+cxm
+csm
+CSM
+Personalization
+Omni
+lifecycle
+scalable
+APIs
