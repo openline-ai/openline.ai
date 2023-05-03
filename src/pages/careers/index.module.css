@@ -64,7 +64,7 @@
 
 @media screen and (min-width: 996px) {
     .careersContainer {
-        background-color: #FFFFFF;
+        background-color: var(--ifm-card-background-color);
         box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
         min-width: 720px;
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 1300px) {
     .careersContainer {
-        background-color: #FFFFFF;
+        background-color: var(--ifm-card-background-color);
         box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
         min-width: 720px;
@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 996px) {
     .careersContainer {
-        background-color: #FFFFFF;
+        background-color: var(--ifm-table-background-color);
         box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
         border-radius: 8px;
         width: 400px;
@@ -107,8 +107,8 @@
 }
 
 .careersTable {
-    background: #F6F5F9;
-    color: #100024;
+    background: #ffffff30;
+    color: var(--ifm-hero-text-color);
     margin: 20px;
     border-radius: 8px;
     padding: 20px;
