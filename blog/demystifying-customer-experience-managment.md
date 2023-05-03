@@ -58,7 +58,7 @@ Adopting new technology often comes with a learning curve, and some Customer Suc
 
 By addressing these fears and misconceptions, Customer Success leaders can make informed decisions about adopting CXM software. When chosen and implemented thoughtfully, CXM tools can offer valuable insights, streamline workflows, and enhance the customer experience. Ultimately, the key to success lies in striking the perfect balance between leveraging technology and maintaining a human touch in customer interactions.
 
-## Selecting the right Customer Experience Mangement (CXM) Software
+## Selecting the right Customer Experience Management (CXM) Software
 
 Choosing the right CXM software for your business is an essential step towards reaping its benefits. Here are some factors to consider when evaluating different options:
 

@@ -242,6 +242,7 @@ Aircall's
 LiveChat
 LiveChat's
 CXM
+cxm
 csm
 CSM
 Personalization
