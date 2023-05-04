@@ -18,6 +18,7 @@ import Gabi from '@site/static/img/team/gabi.png';
 import Torrey from '@site/static/img/team/torrey.png';
 import Kasia from '@site/static/img/team/kasia.png';
 import Silviu from '@site/static/img/team/silviu.png';
+import Andrea from '@site/static/img/team/andrea.png';
 import Outline from '@site/static/img/team/outline.png';
 
 function TeamHero() {
@@ -127,6 +128,14 @@ function Team() {
       "title": "Senior Test Engineer",
       "linkedin": "https://www.linkedin.com/in/silviu-basu-3a0b0921/",
     },
+    {
+      "id": "011",
+      "image": "Andrea",
+      "firstName": "Andrea",
+      "lastName": "Garretta",
+      "title": "UX/UI Designer",
+      "linkedin": "https://www.linkedin.com/in/andrea-garretta/",
+    },
   ]);
 
   return (
@@ -150,6 +159,7 @@ function Team() {
                     {member.image === "Torrey" && <img className='profile-photo' src={Torrey}></img>}
                     {member.image === "Kasia" && <img className='profile-photo' src={Kasia}></img>}
                     {member.image === "Silviu" && <img className='profile-photo' src={Silviu}></img>}
+                    {member.image === "Andrea" && <img className='profile-photo' src={Andrea}></img>}
                   </div>
                   <div className='row' style={{ paddingTop: '1rem' }}>
                     <div className='col'>

@@ -25,9 +25,10 @@
 
 .pricingTitle {
     color: #100024;
+    font-family: SohneBreit-Buch;
     padding-bottom: 15px;
     text-align: center;
-    font-size: 4rem;
+    font-size: 38px;
 }
 
 .pricingSubtitle {
@@ -152,12 +153,6 @@
 .pricingTable li:before {
     content: "✓";
     padding-right: 8px;
-}
-
-.pricingTitle {
-    font-family: SohneBreit-Buch;
-    text-align: center;
-    font-size: 38px;
 }
 
 .pricingText {
