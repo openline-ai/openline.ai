@@ -69,7 +69,7 @@ In the same way, now find and enable four more API sets for the service account:
 
 ![guide](@site/static/img/guides/google-workspace/google-6-create-service-account.png)
 
-8. Enter a name to identify the service account and fill in the Service account description field, then click `Create and continue`. **Copy the email address of the service account, as it will be used later.**
+8. Enter a name to identify the service account and fill in the Service account description field, then click `Create and continue`. **Copy the email address and Client ID of the service account, as it will be used later.**
 
 ![guide](@site/static/img/guides/google-workspace/google-7-service-account.png)
 
@@ -95,6 +95,15 @@ In the same way, now find and enable four more API sets for the service account:
 
 14. The JSON file will be downloaded to your computer; store the Key file securely, as it has access to your Gmail resources. This file will be used at a later step. Close the download notification to proceed.
 
+<!--- TODO: JSON contains \n breaks, so use echo to get the correct output, alternative is to download the PK12 not the JSON
+
+echo “-----BEGIN PRIVATE KEY-----\nMxxxxx\n-----END PRIVATE KEY-----\n”
+
+then you get an output like
+-----BEGIN PRIVATE KEY-----
+Mxxxxx
+-----END PRIVATE KEY----- ---->
+
 ![guide](@site/static/img/guides/google-workspace/google-12-download-notification.png)
 
 15. We now need to setup Domain Delegation. To do this return to Gmail Admin Console’s `Security` tab, then go to `Access and data control > API controls`
@@ -109,9 +118,9 @@ In the same way, now find and enable four more API sets for the service account:
 
 ![guide](@site/static/img/guides/google-workspace/google-14-add-api-client.png)
 
-18. On the opened page we need to enter the Client form using the JSON downloaded in step 14. We also need to populate the OAuth scopes field with the following comma-separated values and click `Authorize`:
+18. On the opened page we need to enter the Client ID related to the service account created in step 8. We need to populate the OAuth scopes field with the following value and click `Authorize`:
 
-"https://mail.google.com/"
+- https://mail.google.com/
 
 <!--- TODO: @xvasi update with screenshot ---->
 
