@@ -2,7 +2,7 @@
 slug: pipedrive-integration-customer-os
 title: Keep your Customer Success teams in the loop with new customerOS Pipedrive integration
 description: Discover the benefits of our Pipedrive integration for customer success, account management, and customer service teams. Schedule a demo today to experience seamless data synchronization and improved collaboration.
-date: 2023-04-16
+date: 2023-05-09
 image: ./images/hero/pipedrive-integration-customer-os-hero.webp
 authors: [jonty]
 tags: [customerOS, Pipedrive integration]
