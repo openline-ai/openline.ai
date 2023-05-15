@@ -29,7 +29,7 @@ const config = {
     locales: ['en'],
   },
 
-  scripts: [{src: '/stats/js/script.js', defer: true, 'data-api': '/stats/api/event', 'data-domain': 'openline.ai'}],
+  scripts: [{src: '/stats/js/script.js', defer: true, 'data-api': '/stats/api/event', 'data-domain': 'getopenline.com'}],
 
   presets: [
     [
@@ -186,7 +186,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<a href="https://spaces.getopenline.com" class="button-18" style="text-decoration:none;">Login</a>',
+            value: '<a href="https://spaces.getopenline.com/login?return_to=https://spaces.getopenline.com" class="button-18" style="text-decoration:none;">Login</a>',
           },
         ],
       },
