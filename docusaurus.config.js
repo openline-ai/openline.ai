@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/vsDark');
 const config = {
   title: 'Openline',
   tagline: 'Eliminate customer data sprawl',
-  url: 'https://www.getopenline.com',
+  url: 'https://www.openline.ai',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -29,7 +29,7 @@ const config = {
     locales: ['en'],
   },
 
-  scripts: [{src: '/stats/js/script.js', defer: true, 'data-api': '/stats/api/event', 'data-domain': 'getopenline.com'}],
+  scripts: [{src: '/stats/js/script.js', defer: true, 'data-api': '/stats/api/event', 'data-domain': 'openline.ai'}],
 
   presets: [
     [
@@ -186,7 +186,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<a href="https://spaces.getopenline.com/login?return_to=https://spaces.getopenline.com" class="button-18" style="text-decoration:none;">Login</a>',
+            value: '<a href="https://spaces.openline.ai/login?return_to=https://spaces.openline.ai" class="button-18" style="text-decoration:none;">Login</a>',
           },
         ],
       },
