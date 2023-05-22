@@ -239,6 +239,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      algolia: {
+        appId: 'ZP9RKP00LB',
+        apiKey: '6e9726a151f778e76c05baa495c27895',
+        indexName: 'openline',
+        contextualSearch: true,
+      },
     }),
   customFields: {
     'REACT_APP_SP_API_KEY': process.env.REACT_APP_SP_API_KEY,
