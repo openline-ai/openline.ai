@@ -33,10 +33,10 @@ function Careers() {
         <h2 style={{textAlign: 'center'}}>Current Openings</h2>
           <div className={styles.careersRow}>
             <div className={styles.careersTable}>
-              <h3>Front-End Engineer</h3>
+              <h3>Applications of interest</h3>
               <p><i>Remote, World</i></p>
-              <p>Openline is looking for a front-end engineer to join our team. You will be responsible for building the next generation of customer engagement tools. You will work closely with our product and design teams to build a product that our customers love.</p>
-              <Link className="button button--secondary" to="/careers/front-end-engineer/">Read it here</Link>
+              <p>We might not have a role open right now that fits your profile, but we are always looking for talented people who believe in what we are building. If you are interested in working with us, please get in touch!</p>
+              <Link className="button button--secondary" to="/careers/expressions-of-interest/">Read it here</Link>
             </div>
           </div>
         </div>
