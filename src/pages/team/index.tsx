@@ -19,6 +19,8 @@ import Torrey from '@site/static/img/team/torrey.png';
 import Kasia from '@site/static/img/team/kasia.png';
 import Silviu from '@site/static/img/team/silviu.png';
 import Andrea from '@site/static/img/team/andrea.png';
+import Steyn from '@site/static/img/team/steyn.png';
+import Alexandru from '@site/static/img/team/alexandru.png';
 import Outline from '@site/static/img/team/outline.png';
 
 function TeamHero() {
@@ -136,6 +138,23 @@ function Team() {
       "title": "UX/UI Designer",
       "linkedin": "https://www.linkedin.com/in/andrea-garretta/",
     },
+    {
+      "id": "012",
+      "image": "Steyn",
+      "firstName": "Steyn",
+      "lastName": "Viljoen",
+      "title": "UX/UI Senior Designer",
+      "linkedin": "https://www.linkedin.com/in/steynviljoen/",
+      "twitter": "https://twitter.com/steynviljoen",
+    },
+    {
+      "id": "013",
+      "image": "Alexandru",
+      "firstName": "Alexandru",
+      "lastName": "Călinică",
+      "title": "Senior Engineer",
+      "linkedin": "https://www.linkedin.com/in/calinicaalexandru/",
+    },
   ]);
 
   return (
@@ -160,6 +179,8 @@ function Team() {
                     {member.image === "Kasia" && <img className='profile-photo' src={Kasia}></img>}
                     {member.image === "Silviu" && <img className='profile-photo' src={Silviu}></img>}
                     {member.image === "Andrea" && <img className='profile-photo' src={Andrea}></img>}
+                    {member.image === "Steyn" && <img className='profile-photo' src={Steyn}></img>}
+                    {member.image === "Alexandru" && <img className='profile-photo' src={Alexandru}></img>}
                   </div>
                   <div className='row' style={{ paddingTop: '1rem' }}>
                     <div className='col'>
