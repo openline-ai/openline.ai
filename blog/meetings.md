@@ -16,9 +16,17 @@ Customer meetings are at the heart of every organization.  Whether in-person or 
 
 By automating and optimizing meeting management, Meetings (built on customerOS) can give back each team member [4 hours a week][atlassian], allowing them 10% more time to focus on your business' core assets--the customers!
 
-## A new era of meeting management
+<!---References--->
+
+[atlassian]: https://www.atlassian.com/time-wasting-at-work-infographic
+[collab]: https://blog.gitnux.com/communication-skills-statistics/
+[demo]: /
+[hbr]: https://hbr.org/2014/10/the-value-of-keeping-the-right-customers
+[noty]: https://blog.noty.ai/how-to-stop-wasting-time-in-meetings-do-your-meetings-kill-your-productivity-47115538a11d
 
 <!--truncate-->
+
+## A new era of meeting management
 
 Traditionally, meetings belong to the people who call them. Invitations, agendas, and minutes live wherever the host decides to store them. If the host didn't share them with you, finding them later can be a challenge.
 
@@ -57,11 +65,3 @@ Make your customer interactions count with Meetings:
 Say goodbye to messy spreadsheets and disorganized notes. With Meetings, you can enhance collaboration, communication, and customer satisfaction. Ready to give it a try?
 
 Click here to [schedule a demo][demo] and experience the true power of collaborative meeting management!
-
-<!---References--->
-
-[atlassian]: https://www.atlassian.com/time-wasting-at-work-infographic
-[collab]: https://blog.gitnux.com/communication-skills-statistics/
-[demo]: /
-[hbr]: https://hbr.org/2014/10/the-value-of-keeping-the-right-customers
-[noty]: https://blog.noty.ai/how-to-stop-wasting-time-in-meetings-do-your-meetings-kill-your-productivity-47115538a11d
