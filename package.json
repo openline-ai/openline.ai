@@ -52,5 +52,8 @@
   },
   "engines": {
     "node": ">=16.14"
+  },
+  "resolutions": {
+    "trim": "0.0.3"
   }
 }
