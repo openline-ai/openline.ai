@@ -145,7 +145,7 @@ const config = {
                 label: 'Getting Started',
               },
               {
-                to: 'docs/reference',
+                to: 'docs/api',
                 label: 'API reference',
               },
               {

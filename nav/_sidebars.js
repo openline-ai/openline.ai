@@ -47,10 +47,22 @@ const guides = [
   },
 ]
 
-const reference = [
+const api = [
   {
     type: 'doc',
-    id: 'reference/index'
+    id: 'api/index'
+  },
+  {
+    type: 'doc',
+    id: 'api/customer-os-api'
+  },
+  {
+    type: 'doc',
+    id: 'api/domain-scraper'
+  },
+  {
+    type: 'doc',
+    id: 'api/email-validation'
   },
 ]
 
@@ -85,6 +97,6 @@ const contribute = [
 
 module.exports = {
   guides,
-  reference,
+  api,
   contribute
 }
