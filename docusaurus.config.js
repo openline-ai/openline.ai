@@ -145,7 +145,7 @@ const config = {
                 label: 'Getting Started',
               },
               {
-                to: 'docs/reference',
+                to: 'docs/api',
                 label: 'API reference',
               },
               {
@@ -238,6 +238,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ['bash'],
       },
       algolia: {
         appId: 'ZP9RKP00LB',
