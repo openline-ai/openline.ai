@@ -39,7 +39,7 @@ curl \
 -X POST \
 -H "X-OPENLINE-TENANT-KEY: your-api-key" \
 -H "Content-Type: application/json" \
--d '{"query":"query getContact() { contact(id: \"CONTACT-ID-HERE\") { id emails{id emailValidationDetails {validated isReachable isValidSyntax canConnectSmtp acceptsMail hasFullInbox isCatchAll isDeliverable isDisabled}}}} "}' \
+-d '{"query":"query { contact(id: \"CONTACT-ID-HERE\") { id emails{id emailValidationDetails {validated isReachable isValidSyntax canConnectSmtp acceptsMail hasFullInbox isCatchAll isDeliverable isDisabled}}} "}' \
 https://api.openline.ai/query
 ```
 
@@ -50,6 +50,6 @@ curl \
 -X POST \
 -H "X-OPENLINE-TENANT-KEY: your-api-key" \
 -H "Content-Type: application/json" \
--d '{"query": "mutation CreateContactMin() { customer_contact_Create(input: {prefix: \"Ms.\", firstName: \"X\", lastName: \"Y\", appSource:\"YOUR-APP\", email: {primary:true, email:\"someone@somedomain.com\", label: WORK, appSource:\"YOUR-APP\"}}) { id, email {id}}}"}' \
+-d '{"query": "mutation { customer_contact_Create(input: {prefix: \"Ms.\", firstName: \"X\", lastName: \"Y\", appSource:\"YOUR-APP\", email: {primary:true, email:\"someone@somedomain.com\", label: WORK, appSource:\"YOUR-APP\"}}) { id, email {id}}}"}' \
 https://api.openline.ai/query
 ```
