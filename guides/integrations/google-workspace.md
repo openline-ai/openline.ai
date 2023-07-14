@@ -151,4 +151,4 @@ For more information about scopes you can read here: https://developers.google.c
 
 [google-workspace]: https://workspace.google.com/
 [google-console]: https://console.cloud.google.com/
-[openline]: https://spaces.openline.ai/
+[openline]: https://app.customeros.ai/

@@ -38,4 +38,4 @@ For example, if your account URL is `https://openline.zendesk.com/`, then `openl
 
 [zendesk]: https://www.zendesk.co.uk/service/
 [zendesk-api-guide]: https://support.zendesk.com/hc/en-us/articles/4408889192858-Generating-a-new-API-token
-[openline]: https://spaces.openline.ai
+[openline]: https://app.customeros.ai

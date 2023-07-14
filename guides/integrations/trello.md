@@ -52,6 +52,6 @@ To create an API key in Trello, you'll need Trello admin privileges.
 
 [trello]: https://trello.com/
 [trello-api-key-management]: https://trello.com/app-key/
-[openline]: https://spaces.openline.ai
+[openline]: https://app.customeros.ai
 [help]: mailto:help@openline.ai
 

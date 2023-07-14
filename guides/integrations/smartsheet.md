@@ -38,5 +38,5 @@ To create an API key in Smartsheet, you'll need Smartsheet admin privileges.
 [smartsheet]: https://www.smartsheet.com/
 [smartsheet-api-guide]: https://help.smartsheet.com/articles/2482389-generate-API-key
 [smartsheet-id-guide]: https://help.smartsheet.com/articles/2482711-get-smartsheet-ids
-[openline]: https://spaces.openline.ai/
+[openline]: https://app.customeros.ai/
 
