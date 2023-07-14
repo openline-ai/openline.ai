@@ -186,7 +186,7 @@ const config = {
           {
             type: 'html',
             position: 'right',
-            value: '<a href="https://spaces.openline.ai/login?return_to=https://spaces.openline.ai" class="button-18" style="text-decoration:none;">Login</a>',
+            value: '<a href="https://app.customeros.ai/" class="button-18" style="text-decoration:none;">Login</a>',
           },
         ],
       },
